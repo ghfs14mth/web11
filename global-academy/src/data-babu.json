@@ -1,0 +1,90 @@
+{
+    "trendingSection": {
+        "1": {
+            "category": "NCAAF",
+            "headline": "Complete college football bowl schedule for 2024-25: Games, matchups, times, dates"
+        },
+        "2": {
+            "category": "MLB",
+            "headline": "Juan Soto and the Mets reset the market for truly elite MLB talent"
+        },
+        "3": {
+            "category": "NFL",
+            "headline": "NFL playoff picture: Jets eliminated from postseason after loss to Dolphins"
+        },
+        "4": {
+            "category": "NBA",
+            "headline": "Chris Paul passes Jason Kidd for 2nd all-time in NBA assists"
+        },
+        "5": {
+            "category": "NFL",
+            "headline": "Rams hold off Bills, who take big step back in race with Chiefs for AFC's No. 1 seed"
+        },
+        "6": {
+            "category": "NFL",
+            "headline": "MNF: How to watch the Bengals vs. Cowboys, plus 'The Simpsons' alt-cast info"
+        },
+        "7": {
+            "category": "NHL",
+            "headline": "Maple Leafs secure victory with overtime thriller against the Bruins"
+        },
+        "8": {
+            "category": "Tennis",
+            "headline": "Nadal hints at retirement after Australian Open 2025"
+        },
+        "9": {
+            "category": "Cricket",
+            "headline": "India sets world record for highest score in a World Cup match"
+        },
+        "10": {
+            "category": "Formula 1",
+            "headline": "Hamilton dominates final race of the season in Abu Dhabi"
+        }
+    },
+    "middleSection": {
+        "content": "This is the middle section content. Replace it with dynamic content as needed."
+    },
+    "blogsSection": {
+        "1": {
+            "title": "Diddy Lawsuit Accuser Revealed as Anna Kane, Ex-Wife of NHL Star",
+            "date": "12/06/24",
+            "image": "/images/blog1.jpg",
+            "link": "/blogs/1"
+        },
+        "2": {
+            "title": "Brandi Glanville Sparks Concern With New Selfie on Social Media",
+            "date": "12/08/24",
+            "image": "/images/blog2.jpg",
+            "link": "/blogs/2"
+        },
+        "3": {
+            "title": "Mark Withers, 'Stranger Things' Actor, Dead at 77",
+            "date": "12/07/24",
+            "image": "/images/blog3.jpg",
+            "link": "/blogs/3"
+        },
+        "4": {
+            "title": "UnitedHealthcare CEO Shooter's Possible Jacket Flying Off Shelves",
+            "date": "12/07/24",
+            "image": "/images/blog4.jpg",
+            "link": "/blogs/4"
+        }
+    },
+    "carouselImages": [
+    {
+      "id": 1,
+      "image": "https://i.imgur.com/ZXPs5PL.jpg",
+      "caption": "Welcome to Global Academy"
+    },
+    {
+      "id": 2,
+      "image": "https://i.imgur.com/riUUiLA.jpg",
+      "caption": "Empowering Students for the Future"
+    },
+    {
+      "id": 3,
+      "image": "https://i.imgur.com/lWU0frv.jpg",
+      "caption": "A Journey Towards Excellence"
+    }
+  ]
+}

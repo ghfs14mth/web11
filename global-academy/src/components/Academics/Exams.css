@@ -1,0 +1,58 @@
+.exams-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-size: 1rem;
+    color: #5a5a5a;
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 5px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .exam-table-container {
+    margin-top: 20px;
+  }
+  
+  .exam-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .exam-table th,
+  .exam-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .exam-table th {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .exam-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .exam-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .exam-table td[colspan="3"] {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+  }
+  

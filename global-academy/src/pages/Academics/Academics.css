@@ -1,0 +1,164 @@
+/* Academics container layout */
+.academics-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+  min-height: 490px;
+}
+
+/* Left content section */
+.academics-content {
+  flex: 3;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Overview section (when no option is clicked) */
+.academics-overview h1 {
+  font-size: 2rem;
+  color: #003d1a; /* Dark green for headings */
+  margin-bottom: 10px;
+}
+
+.academics-overview p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444444;
+  text-align: justify;
+}
+
+/* Sidebar section */
+.academics-sidebar {
+  flex: 1;
+  background-color: #004225; /* Sidebar green color */
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar header */
+.academics-sidebar h2 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+/* Sidebar links */
+.academics-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.academics-sidebar li {
+  margin: 10px 0;
+}
+
+.academics-sidebar .sidebar-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 15px;
+  display: block;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.academics-sidebar .sidebar-link:hover {
+  background-color: #00573f; /* Slightly lighter green for hover */
+}
+
+.academics-sidebar .sidebar-link.active {
+  color: goldenrod; /* Highlight the active tab */
+  background-color: rgba(255, 255, 255, 0.2); /* Optional: Slight background for active tab */
+  border-left: 3px solid goldenrod; /* Left border for active tab */
+}
+
+/* Subsection option styles */
+.academics-option h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #003d1a;
+}
+
+.academics-option p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #444444;
+}
+
+/* Table styling for components like Exams */
+.table-container {
+  margin-top: 20px;
+}
+
+.academics-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.academics-table thead tr {
+  background-color: #004225;
+  color: white;
+}
+
+.academics-table th,
+.academics-table td {
+  border: 1px solid #dddddd;
+  padding: 8px 12px;
+}
+
+.academics-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.academics-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .academics-container {
+    flex-direction: column;
+    padding: 0 15px;
+  }
+
+  .academics-sidebar {
+    margin-bottom: 20px;
+  }
+
+  .academics-content {
+    padding: 15px;
+  }
+
+  .academics-table th,
+  .academics-table td {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .academics-sidebar h2 {
+    font-size: 1.3rem;
+  }
+
+  .academics-sidebar .sidebar-link {
+    font-size: 0.9rem;
+    padding: 8px 10px;
+  }
+
+  .academics-overview h1 {
+    font-size: 1.5rem;
+  }
+
+  .academics-option h2 {
+    font-size: 1.5rem;
+  }
+}

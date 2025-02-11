@@ -1,0 +1,72 @@
+.students-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+
+.students-content {
+    flex: 3;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.students-sidebar {
+    flex: 1;
+    background-color: #144734;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.students-sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.students-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    padding-left: 10px;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transition: color 0.3s;
+}
+
+.sidebar-link:hover {
+    color: goldenrod;
+}
+
+.sidebar-link.active {
+    color: goldenrod;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-left: 3px solid goldenrod;
+}
+
+.students-overview h1 {
+    color: #004225;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.students-overview p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.student-option h2 {
+    color: #144734;
+}
+
+.student-option p {
+    font-size: 16px;
+    line-height: 1.5;
+}

@@ -1,0 +1,61 @@
+.accreditation-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  .accreditation-container h2 {
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .accreditation-container p {
+    font-size: 1rem;
+    color: #5a5a5a;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .accreditation-list {
+    margin-top: 20px;
+  }
+  
+  .accreditation-item {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .accreditation-item h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .accreditation-item p {
+    font-size: 1rem;
+    color: #5a5a5a;
+  }
+  
+  .certificate-section {
+    margin-top: 30px;
+  }
+  
+  .certificate-section h3 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .certificate-images img {
+    width: 150px;
+    height: auto;
+    margin-right: 10px;
+    border: 2px solid #e0e0e0;
+    border-radius: 5px;
+  }
+  

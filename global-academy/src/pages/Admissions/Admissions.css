@@ -1,0 +1,93 @@
+.admissions-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+    min-height: 450px;
+}
+
+.admissions-content {
+    flex: 3;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.admissions-sidebar {
+    flex: 1;
+    background-color: #144734;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.admissions-sidebar h2 {
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+.admissions-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    padding-left: 10px;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transition: color 0.3s;
+}
+
+.sidebar-link:hover {
+    color: goldenrod;
+}
+
+.sidebar-link.active {
+    color: goldenrod;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-left: 3px solid goldenrod;
+}
+
+.admissions-overview h1 {
+    color: #004225;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.admissions-overview p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.admissions-carousel {
+    margin-bottom: 20px;
+}
+
+.carousel-slide img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.admissions-brochure {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.brochure-download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #004225;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.brochure-download-link:hover {
+    background-color: goldenrod;
+}

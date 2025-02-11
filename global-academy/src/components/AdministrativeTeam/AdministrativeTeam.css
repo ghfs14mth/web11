@@ -1,0 +1,125 @@
+.administrative-team {
+    padding: 20px;
+  }
+  
+  .section-title {
+    font-size: 28px;
+    color: #1d5f2c; /* Green */
+    margin-bottom: 10px;
+  }
+  
+  .section-description {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .tab-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #f3f3f3;
+    color: #333;
+    font-weight: bold;
+    border: 0.5px solid #333;
+    cursor: pointer;
+  }
+  
+  .tab-button.active {
+    background-color: #1d5f2c;
+    color: #fff;
+  }
+  .tab-button.active:hover {
+    background-color: #1d5f2c;
+    color: #fff;
+  }
+  .tab-button:hover{
+    background-color: goldenrod;
+    color: white;
+    transition: 0.5s;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .team-member {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .team-member img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  .team-member-details {
+    flex-grow: 1;
+  }
+  
+  .team-member-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .team-member-title {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .team-member-email a {
+    text-decoration: none;
+    color: #1d5f2c;
+  }
+  
+  .team-member-phone {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .learn-more-link {
+    color: #1d5f2c;
+    text-decoration: underline;
+  }
+  .member-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Reduced gap between details */
+  }
+  
+  .member-details h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  .member-details p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #34495e;
+  }
+  
+  .member-details a {
+    font-size: 0.9rem;
+    color: #2c7f7b;
+    text-decoration: underline;
+  }
+  
+  .member-details a:hover {
+    color: #1b5e57;
+    text-decoration: none;
+  }

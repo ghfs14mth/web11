@@ -1,0 +1,12 @@
+.auto-scroll-container {
+    height: 500px; /* Height of the visible area */
+    overflow: hidden; /* Hide the scrollbars */
+    position: relative;
+    scroll-behavior: smooth; /* Smooth scrolling effect */
+  }
+  
+  .auto-scroll-content {
+    position: absolute;
+    width: 100%; /* Ensure the content takes up full width */
+  }
+  

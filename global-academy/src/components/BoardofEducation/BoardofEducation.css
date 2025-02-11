@@ -1,0 +1,96 @@
+.board-education-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .board-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2c3e50;
+  }
+  
+  .board-image-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .board-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .board-description {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #34495e;
+    margin-bottom: 30px;
+  }
+  
+  .board-icon-section {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 50px 0;
+  }
+  
+  .icon-card {
+    text-align: center;
+    width: 150px;
+  }
+  
+  .icon {
+    margin-bottom: 10px;
+  }
+  
+  .icon img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .icon-link {
+    font-size: 1rem;
+    color: #1d5f2c;
+    text-decoration: none;
+  }
+  
+  .icon-link:hover {
+    text-decoration: underline;
+  }
+  
+  .board-tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 50px 0;
+  }
+  
+  .tab-button {
+    padding: 10px 20px; 
+    color: #333;
+    border: 0.5px solid #333;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .tab-button:hover {
+    background-color: #1d5f2c;
+  }
+  
+  .tab-button.active {
+    background-color: #1d5f2c;
+  }
+  
+  .board-detailed-content {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 1.1rem;
+    color: #34495e;
+  }
+  

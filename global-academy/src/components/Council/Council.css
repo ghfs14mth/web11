@@ -1,0 +1,81 @@
+.council-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .council-level {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    position: relative;
+  }
+  
+  .council-level:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #ddd;
+    z-index: 0;
+  }
+  
+  .council-item {
+    position: relative;
+    z-index: 1;
+    margin: 0 15px;
+    text-align: center;
+  }
+  
+  .hexagon {
+    position: relative;
+    width: 100px;
+    height: 115px;
+    background: linear-gradient(135deg, goldenrod, #feb47b);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hexagon img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .hexagon-title {
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .hexagon-subtitle {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .link-line {
+    position: absolute;
+    width: 2px;
+    background: #ddd;
+    z-index: 0;
+  }
+  
+  .link-line.vertical {
+    height: 50px;
+    left: 50%;
+    top: 100%;
+  }
+  
+  .link-line.horizontal {
+    width: 60px;
+    top: 50%;
+  }
+  

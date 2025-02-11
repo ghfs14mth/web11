@@ -1,0 +1,75 @@
+.incidents-page {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.incidents-carousel-container {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.incidents-carousel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.incidents-carousel-slide {
+  text-align: center;
+  flex: 1;
+}
+
+.incidents-carousel img {
+  max-width: 100%;
+  max-height: 400px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.carousel-placeholder {
+  background-color: #f0f0f0;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.incidents-carousel-description {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.incidents-carousel-control {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #555;
+}
+
+.incidents-tabs {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #f8f8f8;
+}
+
+.tab-button.active-tab {
+  background-color: #1d5f2c;
+  color: white;
+}
+
+.tab-content {
+  text-align: center;
+  margin-top: 20px;
+}

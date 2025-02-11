@@ -1,0 +1,33 @@
+.overview-container {
+    padding: 20px;
+    line-height: 1.6;
+  }
+  
+  .overview-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #054a29; /* Theme color */
+  }
+  
+  .overview-section {
+    margin-bottom: 40px;
+  }
+  
+  .overview-section h2 {
+    color: #054a29;
+    margin-bottom: 10px;
+  }
+  
+  .overview-section p {
+    margin-bottom: 20px;
+  }
+  
+  .overview-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 10px auto;
+  }
+  

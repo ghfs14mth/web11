@@ -1,0 +1,113 @@
+.home-container {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid black;
+}
+
+.left-section {
+  width: 20%;
+  overflow-y: scroll;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+.left-section::-webkit-scrollbar {
+width: 10px;
+}
+
+/* Track */
+.left-section::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+/* Handle */
+.left-section::-webkit-scrollbar-thumb {
+background: #888; 
+}
+
+/* Handle on hover */
+.left-section::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+
+.right-section {
+    width: 20%;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+.right-section::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.right-section::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.right-section::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+.right-section::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.middle-section {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.middle-section {
+    width: 60%;
+    
+    /* Light gray */
+}
+
+
+.home-page-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8; /* Light grey background */
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    color: #555;
+    border-top: 1px solid #ddd; /* Subtle top border */
+  }
+  
+  .footer-links {
+    display: flex;
+    gap: 15px; /* Spacing between links */
+  }
+  
+  .footer-links a {
+    color: #555;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+    color: #000;
+  }
+  
+  .footer-powered {
+    font-size: 0.85rem;
+    font-style: italic;
+    color: #888;
+  }
+  
+  .footer-language select {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    color: #555;
+  }
+  

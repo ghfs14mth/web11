@@ -1,0 +1,61 @@
+.banner-section {
+    position: relative;
+    height: 400px; /* Adjust the height as needed */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-start; /* Align items at the top */
+    justify-content: center;
+  }
+  
+  .gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px; /* Gradient overlay height is 40% of the image */
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.0)
+    ); /* Gradient from dark to transparent */
+    z-index: 1;
+  }
+  
+  .overlay-text {
+    position: relative;
+    z-index: 2; /* Ensure it appears above the overlay */
+    margin-top: 50px; /* Position text 30px from the top */
+    color: white;
+    font-size: 3rem; /* Adjust font size to match the design */
+    font-weight: bold;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8); /* Add shadow for visibility */
+    display: flex;
+    gap: 20px; /* Space between words and dots */
+  }
+  
+  .overlay-text span {
+    font-family: 'Pacifico', cursive; /* Use a cursive font like Pacifico */
+    white-space: nowrap; /* Prevent wrapping */
+  }
+  
+  .overlay-text span:nth-child(even) {
+    color: orange; /* Highlight the dots */
+    font-size: 3.2rem; /* Slightly larger size for the dots */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .banner-section {
+      height: 300px; /* Adjust height for smaller screens */
+    }
+  
+    .overlay-text {
+      font-size: 2rem;
+      gap: 10px;
+    }
+  
+    .overlay-text span:nth-child(even) {
+      font-size: 2.2rem; /* Adjust dot size */
+    }
+  }
+  

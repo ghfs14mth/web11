@@ -1,0 +1,29 @@
+.trending-section {
+    background-color: whitesmoke;
+    border-right: 1px solid #ccc;
+    padding: 10px;
+    height: 100%;
+    
+  }
+  
+  .trending-header {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .news-item {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .news-category {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: rgba(20, 71, 52, 1);
+  }
+  
+  .news-headline {
+    font-size: 1rem;
+    color: #100b0b;
+  }
+  

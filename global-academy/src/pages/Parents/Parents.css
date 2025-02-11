@@ -1,0 +1,64 @@
+.parents-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+    min-height: 450px;
+}
+
+.parents-content {
+    flex: 3;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.parents-sidebar {
+    flex: 1;
+    background-color: #144734; /* Dark green color */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.parents-sidebar h2 {
+    margin-bottom: 20px;
+}
+
+.parents-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+    padding-left: 10px;
+    font-weight: 400;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    transition: color 0.3s;
+}
+
+.sidebar-link:hover {
+    color: goldenrod;
+}
+
+.sidebar-link.active {
+    color: goldenrod; /* Highlight the active tab */
+    background-color: rgba(255, 255, 255, 0.2); /* Optional: Slight background for active tab */
+    border-left: 3px solid goldenrod; /* Left border for active tab */
+}
+
+.parents-overview h1 {
+    color: #004225;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.parents-overview p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
