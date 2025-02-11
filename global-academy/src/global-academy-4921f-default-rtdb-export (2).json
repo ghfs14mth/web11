@@ -586,58 +586,58 @@
     "blog1": {
       "date": "Oct 2 2024 9:52 AM",
       "fullDescription": "Stevenson Students have been named National Merit Scholarship Semifinalists. This honor recognizes students' academic excellence and outstanding performance.",
-      "image": "https://i.imgur.com/4xYhHlw.jpg",
+      "image": "https://i.imgur.com/uZiRrZf.jpg",
       "shortDescription": "GAPS students met the team that won National Women's Kabbadi ",
       "title": "GAPS students win medals at International Karate Championship"
-    },
-    "blog8": {
-      "date": "Oct 2 2024 9:25 AM",
-      "fullDescription": "Kayla Zisman has shown exemplary performance in her academics and extracurricular activities, making her a role model for all students at Stevenson.",
-      "image": "https://i.imgur.com/DpQ8peu.jpg",
-      "shortDescription": "Kayla's story is part of Stories of Stevenson, a series featuring students who inspire us every day.",
-      "title": "GAPS welcomes National Women's Kabbadi winners"
     },
     "blog2": {
       "date": "Oct 5 2024 11:30 AM",
       "fullDescription": "Global Academy students showcased their coding prowess at the National AI Hackathon, securing top positions with their innovative machine learning projects.",
-      "image": "https://i.imgur.com/DpQ8peu.jpg",
+      "image": "https://i.imgur.com/VhzvuTR.jpg",
       "shortDescription": "Students shine at AI Hackathon with breakthrough projects.",
       "title": "GAPS students excel at National AI Hackathon"
     },
     "blog3": {
       "date": "Oct 10 2024 3:15 PM",
       "fullDescription": "Global Academy launched its new Space Science Initiative, featuring guest lectures from ISRO scientists and hands-on projects on satellite modeling.",
-      "image": "https://i.imgur.com/DpQ8peu.jpg",
+      "image": "https://i.imgur.com/65ro3sb.jpg",
       "shortDescription": "School kicks off ISRO-backed Space Science Initiative.",
       "title": "Global Academy introduces Space Science Program"
     },
     "blog4": {
       "date": "Oct 15 2024 1:45 PM",
       "fullDescription": "GAPS students won multiple gold medals at the International Mathematics Olympiad, demonstrating their exceptional problem-solving skills and logical thinking.",
-      "image": "https://i.imgur.com/DpQ8peu.jpg",
+      "image": "https://i.imgur.com/VhzvuTR.jpg",
       "shortDescription": "Math geniuses at GAPS secure top ranks worldwide.",
       "title": "GAPS students triumph at International Math Olympiad"
     },
     "blog5": {
       "date": "Oct 20 2024 10:00 AM",
       "fullDescription": "The school hosted an exclusive AI & Robotics Workshop, where students built and programmed their own autonomous bots under expert guidance.",
-      "image": "https://i.imgur.com/DpQ8peu.jpg",
+      "image": "https://i.imgur.com/UrYEKQC.jpg",
       "shortDescription": "AI & Robotics Workshop empowers students with future skills.",
       "title": "GAPS hosts AI & Robotics Workshop for students"
     },
     "blog6": {
       "date": "Oct 25 2024 2:30 PM",
       "fullDescription": "Global Academy's science club developed a prototype for an AI-powered drone, which impressed judges at the National Innovation Fair.",
-      "image": "https://i.imgur.com/DpQ8peu.jpg",
+      "image": "https://i.imgur.com/NWhfy7g.jpg",
       "shortDescription": "Students showcase AI drone prototype at tech fair.",
       "title": "GAPS students develop AI-powered drone for Innovation Fair"
     },
     "blog7": {
       "date": "Oct 30 2024 12:00 PM",
       "fullDescription": "GAPS hosted a career counseling session with ISRO scientists, guiding students on pathways to join India's leading space research organization.",
-      "image": "https://i.imgur.com/DpQ8peu.jpg",
+      "image": "https://i.imgur.com/65ro3sb.jpg",
       "shortDescription": "ISRO experts inspire students on space career paths.",
       "title": "GAPS collaborates with ISRO for Career Guidance"
+    },
+    "blog8": {
+      "date": "Oct 2 2024 9:25 AM",
+      "fullDescription": "Kayla Zisman has shown exemplary performance in her academics and extracurricular activities, making her a role model for all students at Stevenson.",
+      "image": "https://i.imgur.com/XiN6TwU.jpg",
+      "shortDescription": "Kayla's story is part of Stories of Stevenson, a series featuring students who inspire us every day.",
+      "title": "GAPS works towards reducing academics pressure on students"
     }
   },
   "operationsSection": [
