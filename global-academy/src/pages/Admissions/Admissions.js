@@ -8,6 +8,7 @@ const Admissions = () => {
     const menuOptions = [
         { name: "Admission Rules", link: "admission-rules" },
         { name: "Admission Updates", link: "admission-updates" },
+        { name: "Admission Form", link: "admission-form" },
     ];
 
     const isAdmissionsPage = location.pathname === "/admissions";
@@ -20,14 +21,6 @@ const Admissions = () => {
                     {isAdmissionsPage ? (
                         <div className="admissions-overview">
                             {/* Carousel */}
-                            <div className="admissions-carousel">
-                                <div className="carousel-slide">
-                                    <img
-                                        src="https://via.placeholder.com/800x300"
-                                        alt="Admission Banner"
-                                    />
-                                </div>
-                            </div>
 
                             <h1>Admission Overview</h1>
                             <p>
@@ -38,9 +31,9 @@ const Admissions = () => {
                                 every student with an equal opportunity to join our
                                 institution.
                             </p>
-                            <p>
+                            <p><b>
                                 Navigate the sidebar to explore more about our
-                                admission process, updates, and guidelines.
+                                admission process, updates, and guidelines.</b>
                             </p>
                             {/* Download Admission Brochure */}
                             <div className="admissions-brochure">

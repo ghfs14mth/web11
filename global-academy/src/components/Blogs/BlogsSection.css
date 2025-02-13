@@ -19,9 +19,8 @@
   
   .blog-item {
     display: flex;
-    
     text-decoration: none;
-    color: black;
+    color: var(--text-color2);
   }
   
   .blog-item:hover .blog-title {
@@ -38,14 +37,13 @@
   .blog-details {
     display: flex;
     flex-direction: column;
-    
-    width: 400px;
+    margin-left: 20px;
+    width: 390px;
   }
   
   .blog-title {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: bold;
-    
     margin-bottom: 5px;
   }
   

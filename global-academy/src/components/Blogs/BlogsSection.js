@@ -27,7 +27,6 @@ const BlogsSection = () => {
       <h2 className="blogs-heading">Recently</h2>
       {blogs.map((blog, index) => (
         <Link to={`/about/news/${blog.id}`} className="blog-item" key={index}>
-          {console.log(blog)}
           <div className="blog-image">
             <img src={blog.image} alt={blog.title} />
           </div>

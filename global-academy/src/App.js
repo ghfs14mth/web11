@@ -18,6 +18,7 @@ import NotFoundPage from "./pages/NotFound/NotFound";
 import Parents from "./pages/Parents/Parents";
 import ParentsOption from "./pages/Parents/ParentsOption";
 import AccessibilityPage from "./pages/Accessibility/Accessibility";
+import Volunteer from "./pages/Volunteer/Volunteer";
 
 const App = () => {
   return (
@@ -56,6 +57,7 @@ const App = () => {
         <Route path="/events" element={<Events />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/accessibility" element={<AccessibilityPage />} />
+        <Route path="/volunteer" element={<Volunteer />} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </Router>

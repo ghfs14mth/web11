@@ -4,6 +4,7 @@ import "./BlogDetails.css"; // Add styles for full blog page
 import { getDatabase, ref, onValue } from "firebase/database";
 import QueryForm from "../../components/QueryForm/QueryForm";
 import { Link } from "react-router-dom";
+import BlogsSection from "../../components/Blogs/BlogsSection";
 const BlogDetails = () => {
   const { blogId } = useParams();
   const [blog, setBlog] = useState(null);
@@ -20,11 +21,16 @@ const BlogDetails = () => {
 
   return (
     <div>
-      <div className="blog-details-container">
-        <h1>{blog.title}</h1>
-        <p>{blog.date}</p>
-        <img src={blog.image} alt={blog.title} className="blog-image" />
-        <p>{blog.fullDescription}</p>
+      <div className="blog-details-mainbox">
+        <div className="blog-details-blog-section">
+          <BlogsSection/>
+        </div>
+        <div className="blog-details-container">
+          <h1>{blog.title}</h1>
+          <p>{blog.date}</p>
+          <img src={blog.image} alt={blog.title} className="blog-image" />
+          <p>{blog.fullDescription}</p>
+        </div>
       </div>
       <div className="home-page-footer">
         <div className="footer-links">

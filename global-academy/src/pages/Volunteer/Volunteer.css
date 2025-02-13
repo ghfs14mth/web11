@@ -1,0 +1,141 @@
+.volunteer-container {
+  text-align: center;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Banner Section */
+.volunteer-banner {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.volunteer-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+.banner-text h1{
+  color: var(--text-color);
+}
+
+/* Volunteer Opportunities */
+.volunteer-opportunities h2 {
+  margin-top: 20px;
+  color: #144734;
+}
+
+.opportunity-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+  padding: 10px;
+}
+
+.opportunity-card {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  transition: transform 0.3s ease, background 0.3s ease;
+  cursor: pointer;
+}
+
+.opportunity-card:hover {
+  transform: scale(1.1);
+  background: #144734;
+  color: white;
+}
+
+/* Testimonials Section */
+.volunteer-testimonials {
+  margin-top: 30px;
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.volunteer-testimonials h2 {
+  color: #144734;
+}
+
+.testimonial-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-card p {
+  font-style: italic;
+}
+
+.testimonial-card h4 {
+  margin-top: 10px;
+  color: #144734;
+}
+
+/* Sign-Up Form */
+.volunteer-form {
+  margin-top: 30px;
+}
+
+.volunteer-form h2 {
+  color: #144734;
+}
+
+.volunteer-form input,
+.volunteer-form select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.volunteer-btn {
+  background: #144734;
+  color: white;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.volunteer-btn:hover {
+  background: goldenrod;
+}
+
+/* Thank You Message */
+.thank-you-msg {
+  font-size: 1.2rem;
+  color: green;
+}

@@ -53,7 +53,7 @@ const Registration = () => {
       return;
     }
 
-    const studentsRef = ref(database, "students/registrations");
+    const studentsRef = ref(database, "parents/registrations");
     push(studentsRef, formData)
       .then(() => {
         setSuccessMessage("Registration submitted successfully!");

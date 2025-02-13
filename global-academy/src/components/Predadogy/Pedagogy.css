@@ -1,0 +1,86 @@
+.pedagogy-container {
+  text-align: center;
+  padding: 40px;
+  background: #0f172a;
+  color: white;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  padding: 50px;
+  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+  border-radius: 20px;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.hero-title span {
+  color: #ffcc00;
+}
+
+.hero-subtitle {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #cbd5e1;
+}
+
+/* AI Animation */
+.ai-animation {
+  width: 250px;
+  margin: 20px auto;
+}
+
+/* Pedagogy Cards */
+.pedagogy-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 40px 0;
+}
+
+.pedagogy-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+.pedagogy-card:hover {
+  transform: scale(1.05);
+}
+
+.pedagogy-card h3 {
+  font-size: 1.5rem;
+  color: #facc15;
+}
+
+.pedagogy-card p {
+  font-size: 1rem;
+  color: #d1d5db;
+  margin-top: 10px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+}

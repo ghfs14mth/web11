@@ -4,6 +4,7 @@ import AcademicCalendar from "../../components/Academics/Calendar";
 import Accreditation from "../../components/Academics/Accreditation";
 import Exams from "../../components/Academics/Exams";
 import "./Academics.css";
+import Pedagogy from "../../components/Predadogy/Pedagogy";
 
 const AcademicsOption = () => {
     const { option } = useParams();
@@ -31,6 +32,13 @@ const AcademicsOption = () => {
         return (
             <div className="academics-option">
                 <Exams />
+            </div>
+        );
+    }
+    if (option === "pedagogy") {
+        return (
+            <div className="academics-option">
+                <Pedagogy />
             </div>
         );
     }

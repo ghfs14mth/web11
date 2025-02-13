@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom";
 import "./Parents.css";
 import Registration from "../../components/Registration/Registration";
 import Notices from "../../components/Notices/Notices";
+import Transportation from "../../components/Transportation/Transportation";
 
 const ParentsOption = () => {
     const { option } = useParams();
@@ -18,6 +19,11 @@ const ParentsOption = () => {
                 <Notices />
             </div>
         ),
+        transportation: (
+            <div>
+                <Transportation />
+            </div>
+        )
     };
 
     return (

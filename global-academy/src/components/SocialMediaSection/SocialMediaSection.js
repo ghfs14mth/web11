@@ -6,14 +6,14 @@ import { database } from "../../firebase";
 const SocialMediaSection = () => {
   const [posts, setPosts] = useState([]);
   const [mediaTypes, setMediaTypes] = useState({});
-  
+
 
   useEffect(() => {
     // Fetching Instagram posts from API
     const fetchInstagramPosts = async () => {
       try {
         const response = await fetch(
-          `https://graph.instagram.com/me/media?fields=id,caption,media_url,permalink,timestamp&access_token=IGQWRPM0hYZATJ6aWE2WnozUnB6ZAnRSWDNabHZAkb2dJQlFienJEN0NXYnBDTVZAKYXlveUhYQUxzeEJ1bXNlckQ0UWJ5d1JEdmRxeG1ObFFSaEJIZATU1WlpLZAXVMRTZAHeXpjT3ItSG9wTUNLMHFGSkJjWGtYYlh6S00ZD`
+          `https://graph.instagram.com/me/media?fields=id,caption,media_url,permalink,timestamp&access_token=IGAAH5RdCSNAxBZAE5ETDN2RWh3aTJ3SGZAQdi1jLVFRNDFaUVhPNWdLUmZA6TnNNbW85YXN2V2YycmYxN3VYUFAxdFVWU3Vhb3hHdmF0R0NpQndWLVFZAYWM2ck5mSWo2QTF0TU9FUVowM0NXWjBHa00waUdMVk1aaXZAGWmFPQ29wQQZDZD`
         );
         const data = await response.json();
         if (data && data.data && mediaTypes) {
@@ -21,7 +21,7 @@ const SocialMediaSection = () => {
           // Attaching media types fetched from Firebase
           const postsWithMediaType = data.data.map((post, index) => ({
             ...post,
-            mediaType: mediaTypes[numberOfPosts-index] || "unknown", // Match post ID with media type from Firebase
+            mediaType: mediaTypes[numberOfPosts - index] || "unknown", // Match post ID with media type from Firebase
           }));
           setPosts(postsWithMediaType);
         }
@@ -47,7 +47,7 @@ const SocialMediaSection = () => {
       <h2 className="section-title">Stay Connected</h2>
       <h3 className="social-title">Instagram</h3>
       <div className="posts">
-        {posts.map((post, index) => (
+        {posts.slice(0, 8).map((post, index) => (
           <a
             href={post.permalink}
             target="_blank"
@@ -62,9 +62,10 @@ const SocialMediaSection = () => {
             ) : (
               <div className="placeholder">Media type not supported</div>
             )}
-            <p className="caption">{post.caption || "No caption available"}</p>
+            {post.caption ? (post.caption.length > 40 ? post.caption.substring(0, 100) + "..." : post.caption) : "No caption available"}
           </a>
         ))}
+
       </div>
     </div>
   );

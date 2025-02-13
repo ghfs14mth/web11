@@ -10,22 +10,26 @@ import BannerSection from "../../components/BannerSection/BannerSection";
 import FooterSection from "../../components/FooterSection/FooterSection";
 import QueryForm from "../../components/QueryForm/QueryForm";
 import { Link } from "react-router-dom";
+import RebrandingSection from "../../components/RebrandingSection/RebrandingSection";
+import AICodingHub from "../../components/CodingHub/AICodingHub";
 
 const Home = () => {
     return (
         <div>
+            <RebrandingSection />
             <div className="home-container">
                 <div className="left-section">
                     <TrendingSection />
                 </div>
                 <div className="middle-section">
-                    <Carousel />
+                    <Carousel databaseName={"carouselImages"} />
                 </div>
                 <div className="right-section">
                     <BlogsSection />
                 </div>
             </div>
             <OperationsSection />
+            <AICodingHub />
             <EventsCarousel />
             <SocialMediaSection />
             <BannerSection />

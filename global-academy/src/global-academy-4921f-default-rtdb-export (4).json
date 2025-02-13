@@ -13,80 +13,52 @@
         "description": "Discover opportunities for your child.",
         "url": "https://via.placeholder.com/800x300"
       }
-    ]
+    ],
+    "updates": {
+      "imageUrl": "https://i.imgur.com/SsZ1v3Y.jpg",
+      "list": [
+        null,
+        {
+          "date": "2025-03-05",
+          "description": "The last date for admission form submission has been extended to March 15, 2025.",
+          "title": "Admission Form Submission Deadline Extended!"
+        },
+        {
+          "date": "2025-02-28",
+          "description": "We are excited to introduce new scholarship opportunities for deserving students.",
+          "title": "New Scholarship Programs Available"
+        },
+        {
+          "date": "2025-02-20",
+          "description": "Join us for an in-person or virtual campus tour to explore our school.",
+          "title": "Campus Tour Dates Announced"
+        }
+      ]
+    }
   },
-  "transportation": {
-    "routes": [
-      {
-        "id": "routeA",
-        "name": "Route A - City Center",
-        "color": "#FFD700",
-        "stops": [
-          {
-            "name": "Main Gate",
-            "time": "7:00 AM"
-          },
-          {
-            "name": "Central Library",
-            "time": "7:15 AM"
-          },
-          {
-            "name": "Downtown",
-            "time": "7:30 AM"
-          },
-          {
-            "name": "School Arrival",
-            "time": "8:00 AM"
-          }
-        ]
-      },
-      {
-        "id": "routeB",
-        "name": "Route B - Suburban Express",
-        "color": "#32CD32",
-        "stops": [
-          {
-            "name": "Greenwood Apartments",
-            "time": "6:45 AM"
-          },
-          {
-            "name": "West Street",
-            "time": "7:05 AM"
-          },
-          {
-            "name": "Park View",
-            "time": "7:20 AM"
-          },
-          {
-            "name": "School Arrival",
-            "time": "8:00 AM"
-          }
-        ]
-      },
-      {
-        "id": "routeC",
-        "name": "Route C - Riverside",
-        "color": "#1E90FF",
-        "stops": [
-          {
-            "name": "Riverside Colony",
-            "time": "6:50 AM"
-          },
-          {
-            "name": "North Square",
-            "time": "7:10 AM"
-          },
-          {
-            "name": "South Avenue",
-            "time": "7:30 AM"
-          },
-          {
-            "name": "School Arrival",
-            "time": "8:00 AM"
-          }
-        ]
-      }
-    ]
+  "testimonials": {
+    "testimonial1": {
+      "name": "John Doe",
+      "feedback": "Volunteering at the school event was a great experience! I loved being part of the community."
+    },
+    "testimonial2": {
+      "name": "Jane Smith",
+      "feedback": "Helping organize the fundraiser was fulfilling. Can't wait for the next one!"
+    }
+  },
+  "volunteers": {
+    "volunteer1": {
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "phone": "123-456-7890",
+      "interest": "Event Planning"
+    },
+    "volunteer2": {
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "phone": "987-654-3210",
+      "interest": "Student Tutoring"
+    }
   },
   "blogsSection": [
     null,
@@ -818,7 +790,7 @@
     {
       "icon": "/icons/transport-icon.svg",
       "id": 5,
-      "link": "/operations/transportation",
+      "link": "/parents/transportation",
       "title": "Transportation"
     },
     {
@@ -1515,6 +1487,79 @@
           "wednesday": "Gaelic"
         }
       ]
+    ]
+  },
+  "transportation": {
+    "routes": [
+      {
+        "color": "#FFD700",
+        "id": "routeA",
+        "name": "Route A ",
+        "stops": [
+          {
+            "name": "Majra",
+            "time": "7:00 AM"
+          },
+          {
+            "name": "Puruwala",
+            "time": "7:15 AM"
+          },
+          {
+            "name": "Badripur",
+            "time": "7:30 AM"
+          },
+          {
+            "name": "School Arrival",
+            "time": "8:00 AM"
+          }
+        ]
+      },
+      {
+        "color": "#32CD32",
+        "id": "routeB",
+        "name": "Route B ",
+        "stops": [
+          {
+            "name": "Vikasnagar",
+            "time": "6:45 AM"
+          },
+          {
+            "name": "Herbetpur",
+            "time": "7:05 AM"
+          },
+          {
+            "name": "Kunja Grant",
+            "time": "7:20 AM"
+          },
+          {
+            "name": "School Arrival",
+            "time": "8:00 AM"
+          }
+        ]
+      },
+      {
+        "color": "#1E90FF",
+        "id": "routeC",
+        "name": "Route C ",
+        "stops": [
+          {
+            "name": "Kishan Kot",
+            "time": "6:50 AM"
+          },
+          {
+            "name": "Jawalpur",
+            "time": "7:10 AM"
+          },
+          {
+            "name": "Gondpur",
+            "time": "7:30 AM"
+          },
+          {
+            "name": "School Arrival",
+            "time": "8:00 AM"
+          }
+        ]
+      }
     ]
   },
   "trendingSection": [

@@ -2,6 +2,25 @@
   text-align: center;
 }
 
+:root {
+  --primary-color: #1d5f2c;
+  /* Neon Blue */
+  --secondary-color: #facc15;
+  /* Yellow */
+  --background-color: black;
+  --text-color1: white;
+  --text-color2: rgba(20, 71, 52, 1);
+  --text-color3: gold;
+  --highlight-color1: black;
+  --highlight-color2: goldenrod;
+  --highlight-color3: rgb(45, 199, 143);
+  --box-shadow-color: rgba(255, 255, 255, 0.2);
+  --outline-color: red;
+  --text-shadow: 0px 0px 10px rgba(45, 199, 143, 0.9),
+    0px 0px 20px rgba(45, 199, 143, 0.8),
+    0px 0px 30px rgba(45, 199, 143, 0.7);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -32,6 +51,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

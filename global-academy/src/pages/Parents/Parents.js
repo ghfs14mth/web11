@@ -8,6 +8,7 @@ const Parents = () => {
     const menuOptions = [
         { name: "Registration", link: "registration" },
         { name: "Notices", link: "notices" },
+        { name: "Transportation", link: "transportation" },
     ];
 
     const isParentsPage = location.pathname === "/parents"; // Check if on the /parents page

@@ -4,18 +4,18 @@ import { ref, onValue } from "firebase/database";
 import { database } from "../../firebase";
 import "./Carousel.css";
 
-const Carousel = () => {
+const Carousel = ({ databaseName }) => {
   const [carouselImages, setCarouselImages] = useState([]);
 
   useEffect(() => {
-    const carouselRef = ref(database, "carouselImages");
+    const carouselRef = ref(database, databaseName);
     onValue(carouselRef, (snapshot) => {
       const data = snapshot.val();
       if (data) {
         setCarouselImages(Object.values(data));
       }
     });
-  }, []);
+  }, [databaseName]);
 
   const settings = {
     dots: true,

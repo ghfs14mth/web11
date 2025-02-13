@@ -9,6 +9,7 @@ const Academics = () => {
         { name: "Calendar", link: "calendar" },
         { name: "Accreditation", link: "accreditation" },
         { name: "Exams", link: "exams" },
+        { name: "Pedadogy", link: "pedagogy" },
     ];
 
     const isAcademicsPage = location.pathname === "/academics"; // Check if on the /academics page

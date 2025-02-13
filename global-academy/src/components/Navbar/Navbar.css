@@ -6,6 +6,7 @@
   background-color: rgba(20, 71, 52, 1);
   color: white;
   position: relative;
+  height: 60px;
 }
 
 .navbar-left {
@@ -15,12 +16,28 @@
 
 .navbar-logo {
   height: 50px;
-  margin-right: 10px;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+.navbar-title-container {
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar-title {
   font-size: 1.5rem;
   color: whitesmoke;
+  margin-bottom: 2px;
+}
+
+.navbar-tagline {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: white;
+  opacity: 0.8;
+  margin-top: -5px;
+  margin-left: 35px;
 }
 
 .navbar-right {
@@ -97,10 +114,12 @@
       display: none;
       width: 120px;
   }
-  .navbar-title{
-    display:none;
+  .navbar-title {
+    display: none;
   }
-
+  .navbar-tagline {
+    display: none;
+  }
   .navbar-menu-icon {
       display: block;
       color: white;

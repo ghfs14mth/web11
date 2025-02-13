@@ -20,7 +20,10 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-left">
         <img src={logo} alt="Global Academy Logo" className="navbar-logo" />
-        <h1 className="navbar-title">Global Academy</h1>
+        <div className="navbar-title-container">
+          <h1 className="navbar-title">Global Academy</h1>
+          <p className="navbar-tagline">"Future Ready with AI & Maths"</p>
+        </div>
       </div>
       <div className={`navbar-right ${showMenu ? "show-menu" : ""}`}>
         <Link to="/" className={`navbar-link ${isActive("/") ? "active" : ""}`}>
