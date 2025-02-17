@@ -1,86 +1,180 @@
-.pedagogy-container {
-  text-align: center;
-  padding: 40px;
-  background: #0f172a;
-  color: white;
+/* Global Styling */
+.pedagogy-page {
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+  line-height: 1.6;
 }
 
 /* Hero Section */
 .hero-section {
-  position: relative;
-  padding: 50px;
-  background: linear-gradient(135deg, #1e3a8a, #3b82f6);
-  border-radius: 20px;
+  background: url('https://source.unsplash.com/1600x900/?technology,education') no-repeat center center/cover;
+  color: white;
   text-align: center;
+  padding: 80px 20px;
+  position: relative;
 }
 
-.hero-title {
-  font-size: 2.5rem;
-  font-weight: bold;
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  z-index: 1;
 }
 
-.hero-title span {
-  color: #ffcc00;
+.hero-text {
+  position: relative;
+  z-index: 2;
 }
 
-.hero-subtitle {
-  margin-top: 10px;
+.hero-text h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.hero-text p {
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 14px 30px;
   font-size: 1.2rem;
-  color: #cbd5e1;
-}
-
-/* AI Animation */
-.ai-animation {
-  width: 250px;
-  margin: 20px auto;
-}
-
-/* Pedagogy Cards */
-.pedagogy-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 40px 0;
-}
-
-.pedagogy-card {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 20px;
-  border-radius: 15px;
-  transition: transform 0.3s ease;
   cursor: pointer;
-  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  transition: 0.3s;
+  margin: 10px;
 }
 
-.pedagogy-card:hover {
+.cta-btn:hover {
+  background-color: #e68900;
   transform: scale(1.05);
 }
 
-.pedagogy-card h3 {
-  font-size: 1.5rem;
-  color: #facc15;
+/* Pedagogy Sections */
+.pedagogy-section {
+  padding: 60px 10%;
+  background: white;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: 40px auto;
 }
 
-.pedagogy-card p {
-  font-size: 1rem;
-  color: #d1d5db;
-  margin-top: 10px;
+.pedagogy-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #1e3a8a;
+  font-weight: 700;
+  position: relative;
 }
 
-.icon {
-  width: 40px;
-  height: 40px;
-  color: #ffcc00;
-  margin-bottom: 10px;
+.pedagogy-section h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background: #ff9800;
+  margin: 10px auto;
+  border-radius: 2px;
 }
 
-/* Responsive */
+.pedagogy-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pedagogy-section ul li {
+  font-size: 1.2rem;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pedagogy-section ul li::before {
+  content: "✔️";
+  color: #ff9800;
+  font-size: 1.4rem;
+}
+
+.pedagogy-section p {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 20px;
+  font-style: italic;
+}
+
+/* Call to Action Section */
+.cta-section {
+  text-align: center;
+  padding: 50px 10%;
+  color: white;
+  border-radius: 10px;
+  margin: 40px auto;
+}
+
+.cta-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.cta-section .cta-btn {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.cta-section .cta-btn:hover {
+  background-color: #e68900;
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
 @media (max-width: 768px) {
-  .hero-title {
-    font-size: 2rem;
+  .hero-section {
+    padding: 50px 20px;
   }
 
-  .hero-subtitle {
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1.2rem;
+  }
+
+  .cta-btn {
     font-size: 1rem;
+    padding: 12px 20px;
+  }
+
+  .pedagogy-section {
+    padding: 40px 8%;
+  }
+
+  .pedagogy-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .pedagogy-section ul li {
+    font-size: 1rem;
+  }
+
+  .cta-section h2 {
+    font-size: 2rem;
   }
 }

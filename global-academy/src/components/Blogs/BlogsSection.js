@@ -24,7 +24,9 @@ const BlogsSection = () => {
 
   return (
     <div className="blogs-section">
-      <h2 className="blogs-heading">Recently</h2>
+      <Link to={"/about/news"} className="blogs-header-link">
+        <h2 className="blogs-heading">Recently</h2>
+      </Link>
       {blogs.map((blog, index) => (
         <Link to={`/about/news/${blog.id}`} className="blog-item" key={index}>
           <div className="blog-image">
