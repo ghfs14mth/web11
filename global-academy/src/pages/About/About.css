@@ -1,82 +1,173 @@
 .about-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  gap: 20px;
+}
+
+.about-content {
+  flex: 3;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.about-sidebar {
+  flex: 1;
+  background-color: #144734;
+  /* Dark green color */
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+
+}
+
+.sidebar-toggle-open {
+  display: none;
+}
+
+.about-sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.about-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-link {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px 0;
+  padding-left: 10px;
+  font-weight: 400;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  transition: color 0.3s;
+}
+
+.sidebar-link:hover {
+  color: goldenrod;
+}
+
+.sidebar-link.active {
+  color: goldenrod;
+  /* Highlight the active tab */
+  background-color: rgba(255, 255, 255, 0.2);
+  /* Optional: Slight background for active tab */
+
+  border-left: 3px solid goldenrod;
+  /* Left border for active tab */
+}
+
+.about-option h2 {
+  color: #144734;
+}
+
+.about-option p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.about-overview {
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+}
+
+.about-overview h1 {
+  color: #004225;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-overview p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+.sidebar-toggle{
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    padding: 10px;
     gap: 20px;
   }
-  
   .about-content {
     flex: 3;
     background-color: whitesmoke;
-    padding: 20px;
+    padding: 5px;
     border-radius: 8px;
   }
-  
-  .about-sidebar {
-    flex: 1;
-    background-color: #144734; /* Dark green color */
-    color: white;
-    padding: 20px;
-    border-radius: 8px;
-
+  .about-overview{
+    padding: 10px;
   }
-  
-  .about-sidebar h2 {
-    margin-bottom: 20px;
-  }
-  
-  .about-sidebar ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .sidebar-link {
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 10px 0;
-    padding-left: 10px;
-    font-weight: 400;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    transition: color 0.3s;
-  }
-  
-  .sidebar-link:hover {
-    color: goldenrod;
-  }
-  
-  .sidebar-link.active {
-    color: goldenrod; /* Highlight the active tab */
-    background-color: rgba(255, 255, 255, 0.2); /* Optional: Slight background for active tab */
-    
-    border-left: 3px solid goldenrod; /* Left border for active tab */
-  }
-  
-  .about-option h2 {
-    color: #144734;
-  }
-  
-  .about-option p {
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  .about-overview {
-    padding: 20px;
-    background-color: #f5f5f5;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: justify;
-  }
-  
   .about-overview h1 {
     color: #004225;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
-  
-  .about-overview p {
-    font-size: 16px;
-    color: #333;
-    line-height: 1.6;
+  .about-overview p{
+    font-size: 12px;
   }
-  
+  .about-sidebar {
+    position: fixed;
+    top: 0;
+    right: -120%;
+    width: 100%;
+    height: 100vh;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .about-sidebar.sidebar-open {
+    transform: translateX(-80%);
+  }
+
+  /* Sidebar Toggle Button */
+  .sidebar-toggle {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    background-color: #144734;
+    color: white;
+    padding: 8px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .sidebar-toggle:hover {
+    background-color: #11642e;
+  }
+
+  /* Arrow Animation */
+  .sidebar-toggle .arrow {
+    font-size: 16px;
+    animation: arrowMove 1s infinite alternate ease-in-out;
+  }
+
+  /* Reverse Arrow When Open */
+  .sidebar-toggle-open .arrow.flip {
+    transform: rotate(180deg);
+  }
+
+  @keyframes arrowMove {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-5px);
+    }
+  }
+}

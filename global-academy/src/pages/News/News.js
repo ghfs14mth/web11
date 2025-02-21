@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./News.css"; // Add styles for the blog layout
 import { getDatabase, ref, onValue } from "firebase/database";
 import QueryForm from "../../components/QueryForm/QueryForm";
+import Footer from "../../components/Footer/Footer";
 const News = () => {
   const [blogs, setBlogs] = useState([]);
 
@@ -24,7 +25,7 @@ const News = () => {
   return (
     <div>
       <div className="news-container">
-        <p style={{ textAlign: 'center', marginBottom: '30px', fontSize: '32px', fontWeight: '700' }}>News</p>
+        <h3 >News</h3>
         <div className="news-grid">
           {blogs.map((blog) => (
             <div className="news-card" key={blog.id}>
@@ -41,24 +42,7 @@ const News = () => {
           ))}
         </div>
       </div>
-      <div className="home-page-footer">
-        <div className="footer-links">
-          <Link to={`/privacy-policy`}>Privacy Policy</Link>
-          <Link to={`/about/visit-us`}>Site Map</Link>
-          <Link to={`/accessibility`}>Accessibility</Link>
-        </div>
-        <div className="footer-powered">
-          <span>Powered by GHFS</span>
-        </div>
-        <div className="footer-language">
-          <select aria-label="Select language">
-            <option value="en">English</option>
-            <option value="es">Español</option>
-            <option value="fr">Français</option>
-            <option value="de">Deutsch</option>
-          </select>
-        </div>
-      </div>
+      <Footer/>
       <QueryForm />
     </div>
   );

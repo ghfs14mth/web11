@@ -13,17 +13,17 @@ const Alumni = () => {
     {
       name: "Tanisha Bansal",
       year: "2023",
-      image: "https://via.placeholder.com/150", // Replace with actual image URLs
+      image: "https://storage.googleapis.com/web_images_database_gaps/tansh.jpg", // Replace with actual image URLs
     },
     {
       name: "Shaurya Bansal",
       year: "2022",
-      image: "https://via.placeholder.com/150", // Replace with actual image URLs
+      image: "https://storage.googleapis.com/web_images_database_gaps/mansh.jpg", // Replace with actual image URLs
     },
     {
       name: "Vansh Bansal",
       year: "2021",
-      image: "https://via.placeholder.com/150", // Replace with actual image URLs
+      image: "https://storage.googleapis.com/web_images_database_gaps/vansh.jpg", // Replace with actual image URLs
     },
   ];
 

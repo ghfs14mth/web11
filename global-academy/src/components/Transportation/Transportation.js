@@ -36,8 +36,14 @@ const Transportation = () => {
             <ul>
               {bus.stops.map((stop, index) => (
                 <li key={index}>
-                  <FaMapMarkerAlt className="stop-icon" /> {stop.name} - <FaClock /> {stop.time}
+                  <span className="stop-location">
+                    <FaMapMarkerAlt className="stop-icon" /> {stop.name}
+                  </span>
+                  <span className="stop-time">
+                    <FaClock /> {stop.time}
+                  </span>
                 </li>
+
               ))}
             </ul>
           </div>

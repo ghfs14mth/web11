@@ -2,13 +2,16 @@
     padding: 20px;
     font-family: Arial, sans-serif;
   }
-  
-  h2 {
+
+.exams-container h2 {
     font-size: 2rem;
     color: #2c3e50;
     margin-bottom: 10px;
+    margin-top: -30px;
   }
-  
+  .exams-container h3{
+    text-transform: uppercase;
+  }
   label {
     font-size: 1rem;
     color: #5a5a5a;
@@ -23,6 +26,16 @@
   
   .exam-table-container {
     margin-top: 20px;
+  }
+  .exams-school_info{
+    display: flex;
+    color: var(--primary-color);
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+  }
+  .exams-school_info p{
+    margin-top: -10px;
   }
   
   .exam-table {
@@ -50,7 +63,7 @@
     background-color: #f1f1f1;
   }
   
-  .exam-table td[colspan="3"] {
+  .exam-table td[colspan="4"] {
     text-align: center;
     color: #888;
     font-style: italic;

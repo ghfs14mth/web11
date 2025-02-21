@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import "./About.css";
 import QueryForm from "../../components/QueryForm/QueryForm";
@@ -18,7 +18,7 @@ const About = () => {
         { name: "Staff Directory", link: "staff-directory" },
         { name: "Visit Us", link: "visit-us" },
     ];
-
+    const [sidebarOpen, setSidebarOpen] = useState(false);
     const isAboutPage = location.pathname === "/about"; // Check if on the /about page
 
     return (
@@ -28,9 +28,9 @@ const About = () => {
                 <div className="about-content">
                     {isAboutPage ? (
                         <div className="about-overview">
-                            <h1>About Global Academy</h1>
+                            <h1>Global Academy</h1>
                             <p>
-                                Welcome to Global Academy, a place where education meets excellence. At Global Academy, we believe in nurturing the minds of tomorrow by providing a holistic and inclusive learning environment that encourages curiosity, creativity, and critical thinking.
+                                A place where education meets excellence. At Global Academy, we believe in nurturing the minds of tomorrow by providing a holistic and inclusive learning environment that encourages curiosity, creativity, and critical thinking.
 
                                 Our mission is to empower every student with the knowledge, skills, and values needed to succeed in an ever-changing world. We take pride in offering a comprehensive curriculum that balances academic rigor with extracurricular opportunities, fostering personal growth and lifelong learning.</p>
 
@@ -46,15 +46,21 @@ const About = () => {
                         <Outlet />
                     )}
                 </div>
-
+                {/* Mobile Sidebar Toggle Button */}
+                <div
+                    className={`sidebar-toggle ${sidebarOpen ? "sidebar-toggle-open" : ""}`}
+                    onClick={() => setSidebarOpen(!sidebarOpen)}
+                >
+                    <span className={`arrow ${sidebarOpen ? "flip" : ""}`}>&#x276E;</span>
+                </div>
                 {/* Right Sidebar */}
-                <div className="about-sidebar">
+                <div className={`about-sidebar ${sidebarOpen ? "sidebar-open" : ""}`}>
                     <h2 style={{ marginLeft: "10px", color: '#fff' }}>About Us</h2>
                     <ul>
                         {menuOptions.map((option, index) => {
                             const isActive = location.pathname.includes(option.link); // Check if this link is active
                             return (
-                                <li key={index}>
+                                <li key={index} onClick={() => setSidebarOpen(false)}>
                                     <Link
                                         to={`/about/${option.link}`}
                                         className={`sidebar-link ${isActive ? "active" : ""}`} // Add 'active' class if this tab is active

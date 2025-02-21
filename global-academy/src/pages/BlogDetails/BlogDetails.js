@@ -3,8 +3,8 @@ import { useParams } from "react-router-dom";
 import "./BlogDetails.css"; // Add styles for full blog page
 import { getDatabase, ref, onValue } from "firebase/database";
 import QueryForm from "../../components/QueryForm/QueryForm";
-import { Link } from "react-router-dom";
 import BlogsSection from "../../components/Blogs/BlogsSection";
+import Footer from "../../components/Footer/Footer";
 const BlogDetails = () => {
   const { blogId } = useParams();
   const [blog, setBlog] = useState(null);
@@ -32,24 +32,7 @@ const BlogDetails = () => {
           <p>{blog.fullDescription}</p>
         </div>
       </div>
-      <div className="home-page-footer">
-        <div className="footer-links">
-          <Link to={`/privacy-policy`}>Privacy Policy</Link>
-          <Link to={`/about/visit-us`}>Site Map</Link>
-          <Link to={`/accessibility`}>Accessibility</Link>
-        </div>
-        <div className="footer-powered">
-          <span>Powered by GHFS</span>
-        </div>
-        <div className="footer-language">
-          <select aria-label="Select language">
-            <option value="en">English</option>
-            <option value="es">Español</option>
-            <option value="fr">Français</option>
-            <option value="de">Deutsch</option>
-          </select>
-        </div>
-      </div>
+      <Footer/>
       <QueryForm />
     </div>
   );

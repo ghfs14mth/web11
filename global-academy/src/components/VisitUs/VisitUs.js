@@ -35,8 +35,8 @@ const VisitUs = () => {
         <div className="detail-section">
           <h4>If You Are the Parent of a Prospective Student</h4>
           <p>
-            If you would like to tour the school, please contact Dr. Vishwa Jeet at{" "}
-            <a href="mailto:dr.vishwa@gmail.com">dr.vishwa@gmail.com</a>.
+            If you would like to tour the school, please contact Dr. Vishwa Jeet Bansal at{" "}
+            <a href="mailto:vishwajeet224@gmail.com">vishwajeet224@gmail.com</a>.
           </p>
         </div>
 

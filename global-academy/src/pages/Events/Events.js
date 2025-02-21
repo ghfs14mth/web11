@@ -1,17 +1,16 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import "./Events.css";
 import { getDatabase, ref, onValue } from "firebase/database";
 import QueryForm from "../../components/QueryForm/QueryForm";
-import IncidentCalendar from "../../components/IncidentCalendar/IncidentCalendar";
 import PastProductions from "../../components/PastProductions/PastProductions";
 import youtubeIcon from '../../assets/youtube.jpg';
 import vimeoIcon from '../../assets/vimeo.png';
 import ArtGallery from "../../components/ArtGallery/ArtGallery";
+import Footer from "../../components/Footer/Footer";
 const Events = () => {
   const [carouselImages, setCarouselImages] = useState([]);
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [selectedTab, setSelectedTab] = useState("Calendar");
+  const [selectedTab, setSelectedTab] = useState("Gallery");
 
   useEffect(() => {
     // Fetch carousel images from Firebase Realtime Database
@@ -36,11 +35,6 @@ const Events = () => {
   };
 
   const tabsContent = {
-    Calendar: (
-      <div>
-        <IncidentCalendar />
-      </div>
-    ),
     "Past Productions": (
       <div>
         <PastProductions />
@@ -72,7 +66,7 @@ const Events = () => {
         </div>
       </div>
     ),
-    "Visiting Artist Gallery": (
+    "Gallery": (
       <div>
         <ArtGallery />
       </div>
@@ -133,24 +127,7 @@ const Events = () => {
         {/* Tabs Content */}
         <div className="tab-content">{tabsContent[selectedTab]}</div>
       </div>
-      <div className="home-page-footer">
-        <div className="footer-links">
-          <Link to={`/privacy-policy`}>Privacy Policy</Link>
-          <Link to={`/about/visit-us`}>Site Map</Link>
-          <Link to={`/accessibility`}>Accessibility</Link>
-        </div>
-        <div className="footer-powered">
-          <span>Powered by GHFS</span>
-        </div>
-        <div className="footer-language">
-          <select aria-label="Select language">
-            <option value="en">English</option>
-            <option value="es">Español</option>
-            <option value="fr">Français</option>
-            <option value="de">Deutsch</option>
-          </select>
-        </div>
-      </div>
+      <Footer/>
       <QueryForm />
     </div>
   );

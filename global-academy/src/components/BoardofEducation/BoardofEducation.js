@@ -3,7 +3,7 @@ import "./BoardofEducation.css";
 import BOE from '../../assets/BOE.jpg';
 import policyIcon from '../../assets/policy-icon.png';
 import visionIcon from '../../assets/vision-icon.png';
-
+import { Link} from "react-router-dom";
 const BoardOfEducation = () => {
     const [activeTab, setActiveTab] = useState("board-members");
 
@@ -21,22 +21,6 @@ const BoardOfEducation = () => {
                 <h3>Meeting Agendas/Minutes/Bulletin</h3>
                 <p>
                     Stay informed with our comprehensive meeting agendas, minutes, and bulletin updates. Transparency and communication are at the heart of our operations.
-                </p>
-            </div>
-        ),
-        "district-finance": (
-            <div className="board-detailed-content">
-                <h3>District Finance 101</h3>
-                <p>
-                    Learn about the financial strategies and budget planning that drive our district's success while ensuring resources are effectively utilized.
-                </p>
-            </div>
-        ),
-        "faq": (
-            <div className="board-detailed-content">
-                <h3>Frequently Asked Questions</h3>
-                <p>
-                    Find answers to commonly asked questions about the Board of Education and its role in shaping our institution.
                 </p>
             </div>
         ),
@@ -82,7 +66,7 @@ const BoardOfEducation = () => {
                             alt="Policy Manual"
                         />
                     </div>
-                    <a href="/policy-manual" className="icon-link">Policy Manual</a>
+                    <Link to="/privacy-policy" className="icon-link">Policy Manual</Link>
                 </div>
                 <div className="icon-card">
                     <div className="icon">
@@ -108,18 +92,6 @@ const BoardOfEducation = () => {
                     onClick={() => setActiveTab("meeting-agendas")}
                 >
                     Meeting Agendas/Minutes/Bulletin
-                </button>
-                <button
-                    className={`tab-button ${activeTab === "district-finance" ? "active" : ""}`}
-                    onClick={() => setActiveTab("district-finance")}
-                >
-                    District Finance 101
-                </button>
-                <button
-                    className={`tab-button ${activeTab === "faq" ? "active" : ""}`}
-                    onClick={() => setActiveTab("faq")}
-                >
-                    Frequently Asked Questions
                 </button>
                 <button
                     className={`tab-button ${activeTab === "stay-in-touch" ? "active" : ""}`}

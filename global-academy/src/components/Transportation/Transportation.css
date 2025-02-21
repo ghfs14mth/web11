@@ -48,10 +48,25 @@
   
   .bus-card li {
     display: flex;
+    justify-content: space-between; /* Pushes location to left & time to right */
     align-items: center;
-    gap: 8px;
     font-size: 0.95rem;
     margin: 5px 0;
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd; /* Optional: Adds a separator between stops */
+  }
+  
+  .stop-location {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .stop-time {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
   }
   
   .stop-icon {

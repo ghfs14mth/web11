@@ -9,7 +9,7 @@ const RebrandingSection = () => {
 
       {/* Moving Rocket */}
       <img
-        src="https://i.imgur.com/Y3HAOrv.png" /* Replace with a better rocket SVG */
+        src="https://storage.googleapis.com/web_images_database_gaps/rocket.png" /* Replace with a better rocket SVG */
         alt="Rocket"
         className="rocket"
       />

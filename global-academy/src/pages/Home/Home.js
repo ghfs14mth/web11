@@ -9,9 +9,9 @@ import SocialMediaSection from "../../components/SocialMediaSection/SocialMediaS
 import BannerSection from "../../components/BannerSection/BannerSection";
 import FooterSection from "../../components/FooterSection/FooterSection";
 import QueryForm from "../../components/QueryForm/QueryForm";
-import { Link } from "react-router-dom";
 import RebrandingSection from "../../components/RebrandingSection/RebrandingSection";
 import AICodingHub from "../../components/CodingHub/AICodingHub";
+import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
     return (
@@ -34,24 +34,7 @@ const Home = () => {
             <SocialMediaSection />
             <BannerSection />
             <FooterSection />
-            <div className="home-page-footer">
-                <div className="footer-links">
-                    <Link to={`/privacy-policy`}>Privacy Policy</Link>
-                    <Link to={`/about/visit-us`}>Site Map</Link>
-                    <Link to={`/accessibility`}>Accessibility</Link>
-                </div>
-                <div className="footer-powered">
-                    <span>Powered by GHFS</span>
-                </div>
-                <div className="footer-language">
-                    <select aria-label="Select language">
-                        <option value="en">English</option>
-                        <option value="es">Español</option>
-                        <option value="fr">Français</option>
-                        <option value="de">Deutsch</option>
-                    </select>
-                </div>
-            </div>
+            <Footer/>
             <QueryForm />
         </div>
     );

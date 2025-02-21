@@ -1,0 +1,2094 @@
+{
+  "admissions": {
+    "carousel": [
+      {
+        "description": "Welcome to our admissions portal!",
+        "url": "https://via.placeholder.com/800x300"
+      },
+      {
+        "description": "Explore our vibrant learning community.",
+        "url": "https://via.placeholder.com/800x300"
+      },
+      {
+        "description": "Discover opportunities for your child.",
+        "url": "https://via.placeholder.com/800x300"
+      }
+    ],
+    "updates": {
+      "imageUrl": "https://i.imgur.com/SsZ1v3Y.jpg",
+      "list": [
+        null,
+        {
+          "date": "2025-03-05",
+          "description": "The last date for admission form submission has been extended to March 15, 2025.",
+          "title": "Admission Form Submission Deadline Extended!"
+        },
+        {
+          "date": "2025-02-28",
+          "description": "We are excited to introduce new scholarship opportunities for deserving students.",
+          "title": "New Scholarship Programs Available"
+        },
+        {
+          "date": "2025-02-20",
+          "description": "Join us for an in-person or virtual campus tour to explore our school.",
+          "title": "Campus Tour Dates Announced"
+        }
+      ]
+    }
+  },
+  "blogsSection": [
+    null,
+    {
+      "date": "12/06/24",
+      "image": "https://i.imgur.com/SKMZzsj.jpg",
+      "link": "/about/news/blog5",
+      "title": "Diddy Lawsuit Accuser Revealed as Anna Kane, Ex-Wife of NHL Star"
+    },
+    {
+      "date": "12/08/24",
+      "image": "https://i.imgur.com/9sXpl8t.jpg",
+      "link": "/blogs/2",
+      "title": "Brandi Glanville Sparks Concern With New Selfie on Social Media"
+    },
+    {
+      "date": "12/07/24",
+      "image": "https://i.imgur.com/Qt1Eywi.jpg",
+      "link": "/blogs/3",
+      "title": "Mark Withers, 'Stranger Things' Actor, Dead at 77"
+    },
+    {
+      "date": "12/07/24",
+      "image": "https://i.imgur.com/PYbn0nW.jpg",
+      "link": "/blogs/4",
+      "title": "UnitedHealthcare CEO Shooter's Possible Jacket Flying Off Shelves"
+    }
+  ],
+  "calendar": [
+    null,
+    {
+      "date": "2025-01-25",
+      "description": "Celebration of Himachal Pradesh's Statehood.",
+      "title": "Statehood Day"
+    },
+    {
+      "date": "2025-01-26",
+      "description": "Commemorating the adoption of the Constitution of India.",
+      "title": "Republic Day"
+    },
+    {
+      "date": "2025-02-12",
+      "description": "Birth anniversary of Guru Ravidas.",
+      "title": "Guru Ravidas's Birthday"
+    },
+    {
+      "date": "2025-02-26",
+      "description": "Festival honoring Lord Shiva.",
+      "title": "Maha Shivratri"
+    },
+    {
+      "date": "2025-03-14",
+      "description": "Festival of colors celebrated across India.",
+      "title": "Holi"
+    },
+    {
+      "date": "2025-03-31",
+      "description": "Festival marking the end of Ramadan.",
+      "title": "Id-ul-Fitr"
+    },
+    {
+      "date": "2025-04-06",
+      "description": "Festival marking the birth of Lord Ram.",
+      "title": "Ram Navami"
+    },
+    {
+      "date": "2025-04-14",
+      "description": "Birth anniversary of Dr. B.R. Ambedkar.",
+      "title": "Dr. B.R. Ambedkar's Birthday"
+    },
+    {
+      "date": "2025-04-15",
+      "description": "Commemoration of Himachal Pradesh formation.",
+      "title": "Himachal Day"
+    },
+    {
+      "date": "2025-04-18",
+      "description": "Christian holiday observing the crucifixion of Jesus.",
+      "title": "Good Friday"
+    },
+    {
+      "date": "2025-04-29",
+      "description": "Celebration of Sage Parshuram's birth.",
+      "title": "Parshu Ram Jayanti"
+    },
+    {
+      "date": "2025-05-12",
+      "description": "Festival celebrating the birth of Buddha.",
+      "title": "Budha Purnima"
+    },
+    {
+      "date": "2025-05-29",
+      "description": "Commemoration of Maharana Pratap's legacy.",
+      "title": "Maharana Pratap Jayanti"
+    },
+    {
+      "date": "2025-06-07",
+      "description": "Festival marking the sacrifice of Prophet Ibrahim.",
+      "title": "Id-ul-Zuha (Bakrid)"
+    },
+    {
+      "date": "2025-06-11",
+      "description": "Birth anniversary of Sant Kabir.",
+      "title": "Sant Guru Kabir Jayanti (Prakat Diwas)"
+    },
+    {
+      "date": "2025-07-06",
+      "description": "Commemoration of Muharram.",
+      "title": "Muharram"
+    },
+    {
+      "date": "2025-08-15",
+      "description": "Celebration of India's independence.",
+      "title": "Independence Day"
+    },
+    {
+      "date": "2025-08-16",
+      "description": "Celebration of Lord Krishna's birth.",
+      "title": "Janmashtami"
+    },
+    {
+      "date": "2025-10-02",
+      "description": "Birthday of Mahatma Gandhi and Dussehra festival.",
+      "title": "Mahatma Gandhi Birthday / Dussehra"
+    },
+    {
+      "date": "2025-10-07",
+      "description": "Celebration of Maharishi Valmiki's birth.",
+      "title": "Maharishi Valmiki's Birthday"
+    },
+    {
+      "date": "2025-10-20",
+      "description": "Festival of lights celebrated across India.",
+      "title": "Diwali"
+    },
+    {
+      "date": "2025-11-05",
+      "description": "Birth anniversary of Guru Nanak.",
+      "title": "Guru Nanak's Birthday"
+    },
+    {
+      "date": "2025-12-25",
+      "description": "Celebration of the birth of Jesus Christ.",
+      "title": "Christmas Day"
+    },
+    {
+      "date": "2025-01-01",
+      "description": "Celebration of the New Year.",
+      "title": "New Year's Day"
+    },
+    {
+      "date": "2025-01-14",
+      "description": "Hindu festival celebrating the Sun's transition.",
+      "title": "Makar Sankranti"
+    },
+    {
+      "date": "2025-02-02",
+      "description": "Hindu festival marking the arrival of spring.",
+      "title": "Basant Panchami"
+    },
+    {
+      "date": "2025-02-23",
+      "description": "Celebration of Swami Dayanand Saraswati's birth.",
+      "title": "Swami Dayanand Saraswati Jayanti"
+    },
+    {
+      "date": "2025-04-13",
+      "description": "Harvest festival celebrated across India.",
+      "title": "Vaisakhi / Vishu"
+    },
+    {
+      "date": "2025-04-20",
+      "description": "Christian holiday celebrating Jesus' resurrection.",
+      "title": "Easter Sunday"
+    },
+    {
+      "date": "2025-05-09",
+      "description": "Birth anniversary of Guru Rabindranath Tagore.",
+      "title": "Guru Rabindranath's Birthday"
+    },
+    {
+      "date": "2025-08-09",
+      "description": "Festival celebrating sibling bonds.",
+      "title": "Raksha Bandhan"
+    },
+    {
+      "date": "2025-08-27",
+      "description": "Hindu festival honoring Lord Ganesha.",
+      "title": "Ganesh Chaturthi"
+    },
+    {
+      "date": "2025-09-30",
+      "description": "Festival celebrating Goddess Durga.",
+      "title": "Maha Ashtami"
+    },
+    {
+      "date": "2025-10-10",
+      "description": "Hindu festival celebrating women's marital well-being.",
+      "title": "Karva Chauth"
+    },
+    {
+      "date": "2025-10-22",
+      "description": "Festival honoring Lord Krishna and Govardhan Hill.",
+      "title": "Goverdhan Puja"
+    },
+    {
+      "date": "2025-10-23",
+      "description": "Festival celebrating sibling bonds.",
+      "title": "Bhai Duj"
+    },
+    {
+      "date": "2025-11-24",
+      "description": "Observance of Guru Teg Bahadur's martyrdom.",
+      "title": "Guru Teg Bahadur Martyrdom Day"
+    },
+    {
+      "date": "2025-12-24",
+      "description": "The evening before Christmas.",
+      "title": "Christmas Eve"
+    }
+  ],
+  "carouselImages": [
+    {
+      "caption": "Welcome to Global Academy",
+      "id": 1,
+      "image": "https://storage.googleapis.com/web_images_database_gaps/mass_sitting.jpeg"
+    },
+    {
+      "caption": "Empowering Students for the Future",
+      "id": 2,
+      "image": "https://storage.googleapis.com/web_images_database_gaps/pahadi_kids.jpeg"
+    },
+    {
+      "caption": "Dusshera",
+      "id": 3,
+      "image": "https://storage.googleapis.com/web_images_database_gaps/dusshera_2024.jpeg"
+    }
+  ],
+  "employment-teachers": [
+    {
+      "description": "Responsible for teaching English language and literature.",
+      "requirements": [
+        "MA",
+        "TET",
+        "PGT"
+      ],
+      "title": "English Teacher"
+    },
+    {
+      "description": "Responsible for teaching advanced mathematics to high school students.",
+      "requirements": [
+        "MSc",
+        "B.Ed",
+        "TET"
+      ],
+      "title": "Mathematics Teacher"
+    },
+    {
+      "description": "Responsible for teaching physics and preparing lab experiments.",
+      "requirements": [
+        "MSc Physics",
+        "B.Ed",
+        "TET"
+      ],
+      "title": "Physics Teacher"
+    },
+    {
+      "description": "Responsible for teaching chemistry and conducting lab sessions.",
+      "requirements": [
+        "MSc Chemistry",
+        "B.Ed"
+      ],
+      "title": "Chemistry Teacher"
+    },
+    {
+      "description": "Responsible for teaching biology and guiding students in lab work.",
+      "requirements": [
+        "MSc Biology",
+        "B.Ed"
+      ],
+      "title": "Biology Teacher"
+    },
+    {
+      "description": "Responsible for teaching history and social sciences.",
+      "requirements": [
+        "MA History",
+        "TET",
+        "PGT"
+      ],
+      "title": "History Teacher"
+    },
+    {
+      "description": "Responsible for teaching geography and preparing maps.",
+      "requirements": [
+        "MA Geography",
+        "B.Ed"
+      ],
+      "title": "Geography Teacher"
+    },
+    {
+      "description": "Responsible for training students in physical education and sports.",
+      "requirements": [
+        "MPEd",
+        "BPEd"
+      ],
+      "title": "Physical Education Teacher"
+    },
+    {
+      "description": "Responsible for teaching computer programming and IT skills.",
+      "requirements": [
+        "MCA",
+        "B.Ed",
+        "TET"
+      ],
+      "title": "Computer Science Teacher"
+    },
+    {
+      "description": "Responsible for teaching art and craft to students.",
+      "requirements": [
+        "BFA",
+        "MFA"
+      ],
+      "title": "Art Teacher"
+    }
+  ],
+  "events": [
+    {
+      "date": "DEC 9",
+      "id": 1,
+      "location": "Resource Center",
+      "time": "5:00 PM",
+      "title": "School Board Study Session"
+    },
+    {
+      "date": "DEC 9",
+      "id": 2,
+      "location": "Resource Center",
+      "time": "7:00 PM",
+      "title": "School Board Meeting"
+    },
+    {
+      "date": "DEC 18",
+      "id": 3,
+      "location": "Microsoft Teams",
+      "time": "4:30 PM - 5:30 PM",
+      "title": "Information Meeting"
+    },
+    {
+      "date": "DEC 23",
+      "id": 4,
+      "location": "District Wide",
+      "time": "All Day",
+      "title": "No School - Winter Break"
+    },
+    {
+      "date": "JAN 5",
+      "id": 5,
+      "location": "Main Hall",
+      "time": "6:00 PM",
+      "title": "Parent-Teacher Conference"
+    },
+    {
+      "date": "JAN 10",
+      "id": 6,
+      "location": "Auditorium",
+      "time": "9:00 AM - 3:00 PM",
+      "title": "Science Fair"
+    },
+    {
+      "date": "JAN 15",
+      "id": 7,
+      "location": "Room 201",
+      "time": "4:00 PM",
+      "title": "Volunteer Orientation"
+    },
+    {
+      "date": "JAN 20",
+      "id": 8,
+      "location": "Art Gallery",
+      "time": "1:00 PM - 5:00 PM",
+      "title": "Art Exhibition"
+    },
+    {
+      "date": "FEB 2",
+      "id": 9,
+      "location": "Room 105",
+      "time": "10:00 AM - 12:00 PM",
+      "title": "Math Workshop"
+    },
+    {
+      "date": "FEB 14",
+      "id": 10,
+      "location": "Gymnasium",
+      "time": "7:00 PM",
+      "title": "Valentine's Day Dance"
+    }
+  ],
+  "exams": [
+    null,
+    [
+      {
+        "date": "2025-03-04",
+        "title": "Drawing/ Computer(oral)",
+        "day": "Tuesday"
+      },
+      {
+        "date": "2025-03-07",
+        "title": "English",
+        "day": "Friday"
+      },
+      {
+        "date": "2024-03-10",
+        "title": "E.V.S",
+        "day": "Monday"
+      },
+      {
+        "date": "2025-03-13",
+        "title": "Maths",
+        "day": "Thursday"
+      },
+      {
+        "date": "2025-03-15",
+        "title": "Saturday"
+      }
+    ],
+    [
+      {
+        "date": "2025-03-04",
+        "title": "Drawing/ Computer(oral)",
+        "day": "Tuesday"
+      },
+      {
+        "date": "2025-03-07",
+        "title": "Maths",
+        "day": "Friday"
+      },
+      {
+        "date": "2024-03-10",
+        "title": "Hindi",
+        "day": "Monday"
+      },
+      {
+        "date": "2025-03-13",
+        "title": "English",
+        "day": "Thursday"
+      },
+      {
+        "date": "2025-03-15",
+        "title": "E.V.S",
+        "day": "Saturday"
+      }
+    ],
+    [
+      {
+        "date": "2025-03-04",
+        "title": "Drawing/ Computer(oral)",
+        "day": "Tuesday"
+      },
+      {
+        "date": "2025-03-07",
+        "title": "E.V.S",
+        "day": "Friday"
+      },
+      {
+        "date": "2024-03-10",
+        "title": "Maths",
+        "day": "Monday"
+      },
+      {
+        "date": "2025-03-13",
+        "title": "Hindi",
+        "day": "Thursday"
+      },
+      {
+        "date": "2025-03-15",
+        "title": "English",
+        "day": "Saturday"
+      }
+    ],
+    [
+      {
+        "date": "2025-03-04",
+        "title": "Drawing/ Computer(oral)",
+        "day": "Tuesday"
+      },
+      {
+        "date": "2025-03-07",
+        "title": "Hindi",
+        "day": "Friday"
+      },
+      {
+        "date": "2024-03-10",
+        "title": "E.V.S",
+        "day": "Monday"
+      },
+      {
+        "date": "2025-03-13",
+        "title": "Maths",
+        "day": "Thursday"
+      },
+      {
+        "date": "2025-03-15",
+        "title": "English",
+        "day": "Saturday"
+      }
+    ],
+    [
+      {
+        "date": "2025-03-04",
+        "title": "Drawing/ Computer(oral)",
+        "day": "Tuesday"
+      },
+      {
+        "date": "2025-03-07",
+        "title": "E.V.S",
+        "day": "Friday"
+      },
+      {
+        "date": "2024-03-10",
+        "title": "Maths",
+        "day": "Monday"
+      },
+      {
+        "date": "2025-03-13",
+        "title": "English",
+        "day": "Thursday"
+      },
+      {
+        "date": "2025-03-15",
+        "title": "Hindi",
+        "day": "Saturday"
+      }
+    ],
+    [
+      {
+        "date": "2025-03-04",
+        "title": "Maths",
+        "day": "Tuesday"
+      },
+      {
+        "date": "2025-03-05",
+        "title": "Drawing",
+        "day": "Wednesday"
+      },
+      {
+        "date": "2024-03-06",
+        "title": "Science",
+        "day": "Thursday"
+      },
+      {
+        "date": "2025-03-07",
+        "title": "Sanksrit",
+        "day": "Friday"
+      },
+      {
+        "date": "2025-03-10",
+        "title": "English",
+        "day": "Monday"
+      },
+      {
+        "date": "2025-03-12",
+        "title": "Social Studies",
+        "day": "Wednesday"
+      },
+      {
+        "date": "2025-03-15",
+        "title": "Hindi",
+        "day": "Saturday"
+      }
+    ],
+    [
+      {
+        "date": "2025-03-04",
+        "title": "Science",
+        "day": "Tuesday"
+      },
+      {
+        "date": "2025-03-05",
+        "title": "Drawing",
+        "day": "Wednesday"
+      },
+      {
+        "date": "2024-03-06",
+        "title": "English",
+        "day": "Thursday"
+      },
+      {
+        "date": "2025-03-07",
+        "title": "Hindi",
+        "day": "Friday"
+      },
+      {
+        "date": "2025-03-10",
+        "title": "Sanksrit",
+        "day": "Monday"
+      },
+      {
+        "date": "2025-03-12",
+        "title": "Social Studies",
+        "day": "Wednesday"
+      },
+      {
+        "date": "2025-03-15",
+        "title": "Maths",
+        "day": "Saturday"
+      }
+    ],
+    [
+      {
+        "date": "2025-03-04",
+        "title": "Hindi",
+        "day": "Tuesday"
+      },
+      {
+        "date": "2025-03-05",
+        "title": "Lok Sanksriti",
+        "day": "Wednesday"
+      },
+      {
+        "date": "2024-03-06",
+        "title": "Sanksrit",
+        "day": "Thursday"
+      },
+      {
+        "date": "2025-03-07",
+        "title": "Drawing",
+        "day": "Friday"
+      },
+      {
+        "date": "2025-03-10",
+        "title": "Maths",
+        "day": "Monday"
+      },
+      {
+        "date": "2025-03-12",
+        "title": "English",
+        "day": "Wednesday"
+      },
+      {
+        "date": "2025-03-15",
+        "title": "Science",
+        "day": "Saturday"
+      },
+      {
+        "date": "2025-03-17",
+        "title": "Social Studies",
+        "day": "Monday"
+      }
+    ],
+    [
+      {
+        "date": "2025-03-05",
+        "title": "Maths",
+        "day": "Wednesday"
+      },
+      {
+        "date": "2025-03-07",
+        "title": "Social Studies",
+        "day": "Friday"
+      },
+      {
+        "date": "2025-03-10",
+        "title": "English",
+        "day": "Monday"
+      },
+      {
+        "date": "2025-03-12",
+        "title": "Hindi",
+        "day": "Wednesday"
+      },
+      {
+        "date": "2025-03-15",
+        "title": "Sanskrit",
+        "day": "Saturday"
+      },
+      {
+        "date": "2025-03-17",
+        "title": "Science",
+        "day": "Monday"
+      },
+      {
+        "date": "2025-03-19",
+        "title": "Computer",
+        "day": "Wednesday"
+      }
+    ],
+    [
+      {
+        "date": "2025-03-04",
+        "title": "Hindi",
+        "day": "Tuesday"
+      },
+      {
+        "date": "2025-03-07",
+        "title": "English",
+        "day": "Friday"
+      },
+      {
+        "date": "2025-03-10",
+        "title": "Mathematics",
+        "day": "Monday"
+      },
+      {
+        "date": "2025-03-13",
+        "title": "Science and Technology",
+        "day": "Thursday"
+      },
+      {
+        "date": "2025-03-15",
+        "title": "Computer Science",
+        "day": "Saturday"
+      },
+      {
+        "date": "2025-03-19",
+        "title": "Sanskrit",
+        "day": "Wednesday"
+      },
+      {
+        "date": "2025-03-22",
+        "title": "Social Science",
+        "day": "Saturday"
+      }
+    ],
+    [
+      {
+        "date": "2025-03-04",
+        "title": "English",
+        "day": "Tuesday",
+        "category": "science"
+      },
+      {
+        "date": "2025-03-04",
+        "title": "English",
+        "day": "Tuesday",
+        "category": "arts"
+      },
+      {
+        "date": "2025-03-04",
+        "title": "English",
+        "day": "Tuesday",
+        "category": "commerce"
+      },
+      {
+        "date": "2025-03-10",
+        "title": "Physics",
+        "day": "Monday",
+        "category": "science"
+      },
+      {
+        "date": "2025-03-11",
+        "title": "Hindi",
+        "day": "Tuesday",
+        "category": "arts"
+      },
+      {
+        "date": "2025-03-12",
+        "title": "Economics",
+        "day": "Wednesday",
+        "category": "commerce"
+      },
+      {
+        "date": "2025-03-13",
+        "title": "Sociology",
+        "day": "Thursday",
+        "category": "arts"
+      },
+      {
+        "date": "2025-03-15",
+        "title": "Biology",
+        "day": "Saturday",
+        "category": "science"
+      },
+      {
+        "date": "2025-03-15",
+        "title": "Accountancy",
+        "day": "Saturday",
+        "category": "commerce"
+      },
+      {
+        "date": "2025-03-17",
+        "title": "History",
+        "day": "Monday",
+        "category": "arts"
+      },
+      {
+        "date": "2025-03-20",
+        "title": "Chemistry",
+        "day": "Thursday",
+        "category": "science"
+      },
+      {
+        "date": "2025-03-20",
+        "title": "Business Study",
+        "day": "Thursday",
+        "category": "commerce"
+      },
+      {
+        "date": "2025-03-20",
+        "title": "Psychology",
+        "day": "Thursday",
+        "category": "arts"
+      },
+      {
+        "date": "2025-03-21",
+        "title": "Political Science",
+        "day": "Friday",
+        "category": "arts"
+      },
+      {
+        "date": "2025-03-26",
+        "title": "Maths",
+        "day": "Wednesday",
+        "category": "science"
+      },
+      {
+        "date": "2025-03-24",
+        "title": "Physical Education / Computer",
+        "day": "Monday",
+        "category": "commerce"
+      }
+    ],
+    [
+      {
+        "date": "2025-03-04",
+        "title": "Physics",
+        "day": "Tuesday",
+        "category": "science"
+      },
+      {
+        "date": "2025-03-04",
+        "title": "Economics",
+        "day": "Tuesday",
+        "category": "arts"
+      },
+      {
+        "date": "2025-03-08",
+        "title": "English",
+        "day": "Saturday",
+        "category": "science"
+      },
+      {
+        "date": "2025-03-08",
+        "title": "English",
+        "day": "Saturday",
+        "category": "arts"
+      },
+      {
+        "date": "2025-03-12",
+        "title": "Hindi",
+        "day": "Wednesday",
+        "category": "arts"
+      },
+      {
+        "date": "2025-03-17",
+        "title": "Political Science",
+        "day": "Monday",
+        "category": "arts"
+      },
+      {
+        "date": "2025-03-18",
+        "title": "Biology",
+        "day": "Tuesday",
+        "category": "science"
+      },
+      {
+        "date": "2025-03-20",
+        "title": "History",
+        "day": "Thursday",
+        "category": "science"
+      },
+      {
+        "date": "2025-03-24",
+        "title": "Chemistry",
+        "day": "Monday",
+        "category": "science"
+      },
+      {
+        "date": "2025-03-25",
+        "title": "Geography",
+        "day": "Tuesday",
+        "category": "science"
+      },
+      {
+        "date": "2025-03-28",
+        "title": "Physical Education / Computer",
+        "day": "Friday",
+        "category": "science"
+      }
+    ]
+  ],
+  "incidents": {
+    "artGallery": [
+      {
+        "title": "Abstract Colors",
+        "url": "https://via.placeholder.com/300?text=Abstract+Colors"
+      },
+      {
+        "title": "Nature's Beauty",
+        "url": "https://via.placeholder.com/300?text=Nature's+Beauty"
+      },
+      {
+        "title": "City Life",
+        "url": "https://via.placeholder.com/300?text=City+Life"
+      },
+      {
+        "title": "Mountain Serenity",
+        "url": "https://via.placeholder.com/300?text=Mountain+Serenity"
+      },
+      {
+        "title": "Ocean Waves",
+        "url": "https://via.placeholder.com/300?text=Ocean+Waves"
+      },
+      {
+        "title": "Golden Sunset",
+        "url": "https://via.placeholder.com/300?text=Golden+Sunset"
+      },
+      {
+        "title": "Wildlife",
+        "url": "https://via.placeholder.com/300?text=Wildlife"
+      },
+      {
+        "title": "Portrait Study",
+        "url": "https://via.placeholder.com/300?text=Portrait+Study"
+      },
+      {
+        "title": "Night Sky",
+        "url": "https://via.placeholder.com/300?text=Night+Sky"
+      },
+      {
+        "title": "Minimalism",
+        "url": "https://via.placeholder.com/300?text=Minimalism"
+      }
+    ],
+    "calendar": [
+      {
+        "date": "2024-12-12",
+        "image": "https://via.placeholder.com/300x200",
+        "location": "Stevenson High School | Performing Arts Center",
+        "time": "7:00 PM",
+        "title": "December Choir Concert"
+      },
+      {
+        "date": "2024-12-18",
+        "image": "https://via.placeholder.com/300x200",
+        "location": "Main Hall, Stevenson High School",
+        "time": "6:00 PM",
+        "title": "Winter Arts Gala"
+      },
+      {
+        "date": "2024-12-25",
+        "image": "https://via.placeholder.com/300x200",
+        "location": "Campus Grounds",
+        "time": "All Day",
+        "title": "Christmas Celebration"
+      }
+    ],
+    "carousel": [
+      {
+        "description": "Description of Event 1",
+        "url": "https://via.placeholder.com/800x400?text=Event+1"
+      },
+      {
+        "description": "Description of Event 2",
+        "url": "https://via.placeholder.com/800x400?text=Event+2"
+      },
+      {
+        "description": "Description of Event 3",
+        "url": "https://via.placeholder.com/800x400?text=Event+3"
+      }
+    ],
+    "pastProductions": [
+      {
+        "date": "2023-12-01",
+        "description": "A stunning performance of the classic musical.",
+        "image": "https://via.placeholder.com/300x200",
+        "title": "The Phantom of the Opera"
+      },
+      {
+        "date": "2023-11-15",
+        "description": "An unforgettable rendition of the timeless story.",
+        "image": "https://via.placeholder.com/300x200",
+        "title": "Les Misérables"
+      },
+      {
+        "date": "2023-10-10",
+        "description": "A vibrant and powerful performance of the modern classic.",
+        "image": "https://via.placeholder.com/300x200",
+        "title": "Hamilton"
+      },
+      {
+        "date": "2023-09-20",
+        "description": "A dramatic and heartfelt interpretation of Shakespeare's play.",
+        "image": "https://via.placeholder.com/300x200",
+        "title": "Romeo and Juliet"
+      },
+      {
+        "date": "2023-08-15",
+        "description": "A dazzling performance of the musical.",
+        "image": "https://via.placeholder.com/300x200",
+        "title": "West Side Story"
+      },
+      {
+        "date": "2023-07-25",
+        "description": "A majestic and lively performance.",
+        "image": "https://via.placeholder.com/300x200",
+        "title": "The Lion King"
+      },
+      {
+        "date": "2023-06-10",
+        "description": "A magical and enchanting show.",
+        "image": "https://via.placeholder.com/300x200",
+        "title": "Wicked"
+      },
+      {
+        "date": "2023-05-20",
+        "description": "An energetic and fun-filled performance.",
+        "image": "https://via.placeholder.com/300x200",
+        "title": "Mamma Mia!"
+      },
+      {
+        "date": "2023-04-10",
+        "description": "A nostalgic and entertaining performance.",
+        "image": "https://via.placeholder.com/300x200",
+        "title": "Grease"
+      },
+      {
+        "date": "2023-03-25",
+        "description": "A spellbinding production of the beloved musical.",
+        "image": "https://via.placeholder.com/300x200",
+        "title": "Cats"
+      }
+    ]
+  },
+  "instagramPosts": {
+    "mediaTypes": [
+      null,
+      "image",
+      "reel",
+      "reel",
+      "reel",
+      "image",
+      "image",
+      "image",
+      "image",
+      "reel",
+      "reel",
+      "reel",
+      "reel",
+      "reel",
+      "reel"
+    ]
+  },
+  "middleSection": {
+    "content": "This is the middle section content. Replace it with dynamic content as needed."
+  },
+  "news": {
+    "blog1": {
+      "date": "Oct 2 2024 9:52 AM",
+      "fullDescription": "Stevenson Students have been named National Merit Scholarship Semifinalists. This honor recognizes students' academic excellence and outstanding performance.",
+      "image": "https://storage.googleapis.com/web_images_database_gaps/karate.jpg",
+      "shortDescription": "GAPS students met the team that won National Women's Kabbadi ",
+      "title": "GAPS students win medals at International Karate Championship"
+    },
+    "blog2": {
+      "date": "Oct 5 2024 11:30 AM",
+      "fullDescription": "Global Academy students showcased their coding prowess at the National AI Hackathon, securing top positions with their innovative machine learning projects.",
+      "image": "https://storage.googleapis.com/web_images_database_gaps/hackathon.jpg",
+      "shortDescription": "Students shine at AI Hackathon with breakthrough projects.",
+      "title": "GAPS students excel at National AI Hackathon"
+    },
+    "blog3": {
+      "date": "Oct 10 2024 3:15 PM",
+      "fullDescription": "Global Academy launched its new Space Science Initiative, featuring guest lectures from ISRO scientists and hands-on projects on satellite modeling.",
+      "image": "https://storage.googleapis.com/web_images_database_gaps/students.jpg",
+      "shortDescription": "School kicks off ISRO-backed Space Science Initiative.",
+      "title": "Global Academy introduces Space Science Program"
+    },
+    "blog4": {
+      "date": "Oct 15 2024 1:45 PM",
+      "fullDescription": "GAPS students won multiple gold medals at the International Mathematics Olympiad, demonstrating their exceptional problem-solving skills and logical thinking.",
+      "image": "https://storage.googleapis.com/web_images_database_gaps/maths.jpg",
+      "shortDescription": "Math geniuses at GAPS secure top ranks worldwide.",
+      "title": "GAPS students triumph at International Math Olympiad"
+    },
+    "blog5": {
+      "date": "Oct 20 2024 10:00 AM",
+      "fullDescription": "The school hosted an exclusive AI & Robotics Workshop, where students built and programmed their own autonomous bots under expert guidance.",
+      "image": "https://storage.googleapis.com/web_images_database_gaps/club.jpg",
+      "shortDescription": "AI & Robotics Workshop empowers students with future skills.",
+      "title": "GAPS hosts AI & Robotics Workshop for students"
+    },
+    "blog6": {
+      "date": "Oct 25 2024 2:30 PM",
+      "fullDescription": "Global Academy's science club developed a prototype for an AI-powered drone, which impressed judges at the National Innovation Fair.",
+      "image": "https://storage.googleapis.com/web_images_database_gaps/AI%20workshop.avif",
+      "shortDescription": "Students showcase AI drone prototype at tech fair.",
+      "title": "GAPS students develop AI-powered drone for Innovation Fair"
+    },
+    "blog7": {
+      "date": "Oct 30 2024 12:00 PM",
+      "fullDescription": "GAPS hosted a career counseling session with ISRO scientists, guiding students on pathways to join India's leading space research organization.",
+      "image": "https://storage.googleapis.com/web_images_database_gaps/isro.jpg",
+      "shortDescription": "ISRO experts inspire students on space career paths.",
+      "title": "GAPS collaborates with ISRO for Career Guidance"
+    },
+    "blog8": {
+      "date": "Oct 2 2024 9:25 AM",
+      "fullDescription": "Kayla Zisman has shown exemplary performance in her academics and extracurricular activities, making her a role model for all students at Stevenson.",
+      "image": "https://storage.googleapis.com/web_images_database_gaps/school-building.jpg",
+      "shortDescription": "Kayla's story is part of Stories of Stevenson, a series featuring students who inspire us every day.",
+      "title": "GAPS works towards reducing academics pressure on students"
+    }
+  },
+  "operationsSection": [
+    {
+      "icon": "/icons/calendar-icon.svg",
+      "id": 1,
+      "link": "/academics/calendar",
+      "title": "Academic Calendar"
+    },
+    {
+      "icon": "/icons/code-icon.svg",
+      "id": 2,
+      "link": "/students/handbook",
+      "title": "Code of Conduct"
+    },
+    {
+      "icon": "/icons/menu-icon.svg",
+      "id": 3,
+      "link": "/operations/menus",
+      "title": "School Menus"
+    },
+    {
+      "icon": "/icons/login-icon.svg",
+      "id": 4,
+      "link": "/students",
+      "title": "Clever Login"
+    },
+    {
+      "icon": "/icons/transport-icon.svg",
+      "id": 5,
+      "link": "/parents/transportation",
+      "title": "Transportation"
+    },
+    {
+      "icon": "/icons/volunteer-icon.svg",
+      "id": 6,
+      "link": "/volunteer",
+      "title": "Volunteer"
+    }
+  ],
+  "parents": {
+    "notices": [
+      null,
+      {
+        "date": "2024-12-13",
+        "description": "The next Parent-Teacher Meeting will be held on December 20, 2024, at 10:00 AM in the school auditorium.",
+        "title": "Parent-Teacher Meeting Scheduled"
+      },
+      {
+        "date": "2024-12-12",
+        "description": "The school will remain closed from December 25, 2024, to January 1, 2025, for winter break. Classes will resume on January 2, 2025.",
+        "title": "Winter Break Notice"
+      },
+      {
+        "date": "2024-12-10",
+        "description": "The Annual Sports Day will be held on January 15, 2025. Parents are welcome to attend the event.",
+        "title": "Annual Sports Day Announcement"
+      }
+    ]
+  },
+  "queries": {
+    "-OJ9etqV-3zdb8NwUQNM": {
+      "email": "devbansal4521@gmail.com",
+      "name": "Dev Bansal",
+      "query": "What are the school timings?"
+    }
+  },
+  "school-documents": {
+    "categories": [
+      {
+        "category": "Annual Report",
+        "links": [
+          {
+            "name": "2023-24 Annual Report",
+            "url": "link_to_report.pdf"
+          },
+          {
+            "name": "2022-23 Annual Report",
+            "url": "link_to_report.pdf"
+          }
+        ]
+      },
+      {
+        "category": "Academic Reports",
+        "links": [
+          {
+            "name": "2023-24 Student Achievement Report",
+            "url": "link_to_report.pdf"
+          },
+          {
+            "name": "2022-23 Student Achievement Report",
+            "url": "link_to_report.pdf"
+          }
+        ]
+      },
+      {
+        "category": "Student Satisfaction Surveys",
+        "links": [
+          {
+            "name": "2023 Student Satisfaction Survey",
+            "url": "link_to_survey.pdf"
+          },
+          {
+            "name": "2022 Student Satisfaction Survey",
+            "url": "link_to_survey.pdf"
+          }
+        ]
+      },
+      {
+        "category": "Energy Efficiency",
+        "links": [
+          {
+            "name": "2023 Energy Efficiency Report",
+            "url": "link_to_efficiency.pdf"
+          },
+          {
+            "name": "2022 Energy Efficiency Report",
+            "url": "link_to_efficiency.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  "staff-directory": {
+    "staff1": {
+      "name": "Dr. Vishwa Jeet Bansal",
+      "roles": [
+        "Director",
+        "Physics Teacher"
+      ]
+    },
+    "staff10": {
+      "name": "James Wilson",
+      "roles": [
+        "PE Teacher",
+        "Sports Team Coach"
+      ]
+    },
+    "staff2": {
+      "name": "Dr. Kimberly Chambers",
+      "roles": [
+        "Human Resources",
+        "Career Guidance"
+      ]
+    },
+    "staff3": {
+      "name": "Mark Onuscheck",
+      "roles": [
+        "Curriculum Designer",
+        "Mathematics Teacher"
+      ]
+    },
+    "staff4": {
+      "name": "Jamie Oh",
+      "roles": [
+        "Communication Expert",
+        "English Teacher"
+      ]
+    },
+    "staff5": {
+      "name": "Dr. Richard Brown",
+      "roles": [
+        "History Teacher",
+        "Cultural Events Coordinator"
+      ]
+    },
+    "staff6": {
+      "name": "Sophia Anderson",
+      "roles": [
+        "Art Teacher",
+        "Creative Arts Coordinator"
+      ]
+    },
+    "staff7": {
+      "name": "Emily Carter",
+      "roles": [
+        "Biology Teacher",
+        "Science Olympiad Coordinator"
+      ]
+    },
+    "staff8": {
+      "name": "Ethan Clark",
+      "roles": [
+        "Computer Science Teacher",
+        "Tech Club Mentor"
+      ]
+    },
+    "staff9": {
+      "name": "Olivia Lewis",
+      "roles": [
+        "Music Teacher",
+        "Choir Director"
+      ]
+    }
+  },
+  "students": {
+    "council": [
+      {
+        "image": "https://via.placeholder.com/800x300",
+        "level": 1,
+        "name": "Alex Johnson",
+        "position": "President"
+      },
+      {
+        "image": "https://via.placeholder.com/800x300",
+        "level": 2,
+        "name": "Sarah Lee",
+        "position": "Vice President"
+      },
+      {
+        "image": "https://via.placeholder.com/800x300",
+        "level": 2,
+        "name": "Mike Brown",
+        "position": "Treasurer"
+      },
+      {
+        "image": "https://via.placeholder.com/800x300",
+        "level": 3,
+        "name": "Emily Davis",
+        "position": "Secretary"
+      },
+      {
+        "image": "https://via.placeholder.com/800x300",
+        "level": 3,
+        "name": "Chris Smith",
+        "position": "Event Manager"
+      },
+      {
+        "image": "https://via.placeholder.com/800x300",
+        "level": 3,
+        "name": "Anna Wilson",
+        "position": "Sports Coordinator"
+      },
+      {
+        "image": "https://via.placeholder.com/800x300",
+        "level": 4,
+        "name": "David Thompson",
+        "position": "Public Relations"
+      },
+      {
+        "image": "https://via.placeholder.com/800x300",
+        "level": 4,
+        "name": "Sophia Garcia",
+        "position": "Cultural Coordinator"
+      },
+      {
+        "image": "https://via.placeholder.com/800x300",
+        "level": 4,
+        "name": "Liam Martinez",
+        "position": "Technical Head"
+      }
+    ],
+    "studentsLogin": [
+      null,
+      [
+        {
+          "accountActivated": true,
+          "email": "studenta1@gmail.com",
+          "name": "Student A1",
+          "standard": "1",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B1",
+          "standard": "1",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C1",
+          "standard": "1",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D1",
+          "standard": "1",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A2",
+          "standard": "2",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B2",
+          "standard": "2",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C2",
+          "standard": "2",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D2",
+          "standard": "2",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A3",
+          "standard": "3",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B3",
+          "standard": "3",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C3",
+          "standard": "3",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D3",
+          "standard": "3",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A4",
+          "standard": "4",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B4",
+          "standard": "4",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C4",
+          "standard": "4",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D4",
+          "standard": "4",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A5",
+          "standard": "5",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B5",
+          "standard": "5",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C5",
+          "standard": "5",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D5",
+          "standard": "5",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A6",
+          "standard": "6",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B6",
+          "standard": "6",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C6",
+          "standard": "6",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D6",
+          "standard": "6",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A7",
+          "standard": "7",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B7",
+          "standard": "7",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C7",
+          "standard": "7",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D7",
+          "standard": "7",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A8",
+          "standard": "8",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B8",
+          "standard": "8",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C8",
+          "standard": "8",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D8",
+          "standard": "8",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A9",
+          "standard": "9",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B9",
+          "standard": "9",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C9",
+          "standard": "9",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D9",
+          "standard": "9",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A10",
+          "standard": "10",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B10",
+          "standard": "10",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C10",
+          "standard": "10",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D10",
+          "standard": "10",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A11",
+          "standard": "11",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B11",
+          "standard": "11",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C11",
+          "standard": "11",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D11",
+          "standard": "11",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A12",
+          "standard": "12",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B12",
+          "standard": "12",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C12",
+          "standard": "12",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D12",
+          "standard": "12",
+          "verificationCode": "123456"
+        }
+      ]
+    ],
+    "timetable": [
+      null,
+      [
+        {
+          "friday": "Mental Math",
+          "monday": "Mental Math",
+          "saturday": "Mental Math",
+          "sunday": "Holiday",
+          "thursday": "Mental Math",
+          "time": "8:50 - 9:05",
+          "tuesday": "Mental Math",
+          "wednesday": "Mental Math"
+        },
+        {
+          "friday": "Gaelic",
+          "monday": "Arabic",
+          "saturday": "General Knowledge",
+          "sunday": "Holiday",
+          "thursday": "Gaelic",
+          "time": "9:05 - 9:45",
+          "tuesday": "Gaelic",
+          "wednesday": "Roll Call"
+        },
+        {
+          "friday": "English",
+          "monday": "Math",
+          "saturday": "Science",
+          "sunday": "Holiday",
+          "thursday": "Math",
+          "time": "9:45 - 10:30",
+          "tuesday": "English",
+          "wednesday": "Math Groups"
+        },
+        {
+          "friday": "Art",
+          "monday": "English",
+          "saturday": "Physical Education",
+          "sunday": "Holiday",
+          "thursday": "Science",
+          "time": "10:30 - 11:10",
+          "tuesday": "Math",
+          "wednesday": "Social Studies"
+        },
+        {
+          "friday": "Literacy Groups",
+          "monday": "Literacy Groups",
+          "saturday": "Drama",
+          "sunday": "Holiday",
+          "thursday": "Literacy Groups",
+          "time": "11:10 - 12:05",
+          "tuesday": "Literacy Groups",
+          "wednesday": "Literacy Groups"
+        },
+        {
+          "friday": "Math",
+          "monday": "Religion",
+          "saturday": "Physical Education",
+          "sunday": "Holiday",
+          "thursday": "Social Studies",
+          "time": "12:05 - 12:45",
+          "tuesday": "Science",
+          "wednesday": "Art"
+        },
+        {
+          "friday": "Snack Break",
+          "monday": "Snack Break",
+          "saturday": "Snack Break",
+          "sunday": "Holiday",
+          "thursday": "Snack Break",
+          "time": "12:45 - 1:00",
+          "tuesday": "Snack Break",
+          "wednesday": "Snack Break"
+        },
+        {
+          "friday": "Golden Time",
+          "monday": "English",
+          "saturday": "Art",
+          "sunday": "Holiday",
+          "thursday": "Physical Education",
+          "time": "1:00 - 1:45",
+          "tuesday": "Drama",
+          "wednesday": "Gaelic"
+        }
+      ],
+      [
+        {
+          "friday": "Mental Math",
+          "monday": "Mental Math",
+          "saturday": "Mental Math",
+          "sunday": "Holiday",
+          "thursday": "Mental Math",
+          "time": "8:50 - 9:05",
+          "tuesday": "Mental Math",
+          "wednesday": "Mental Math"
+        },
+        {
+          "friday": "Gaelic",
+          "monday": "Gaelic",
+          "saturday": "General Knowledge",
+          "sunday": "Holiday",
+          "thursday": "Gaelic",
+          "time": "9:05 - 9:45",
+          "tuesday": "Gaelic",
+          "wednesday": "Roll Call"
+        },
+        {
+          "friday": "English",
+          "monday": "Math",
+          "saturday": "Science",
+          "sunday": "Holiday",
+          "thursday": "Math",
+          "time": "9:45 - 10:30",
+          "tuesday": "English",
+          "wednesday": "Math Groups"
+        },
+        {
+          "friday": "Art",
+          "monday": "English",
+          "saturday": "Physical Education",
+          "sunday": "Holiday",
+          "thursday": "Science",
+          "time": "10:30 - 11:10",
+          "tuesday": "Math",
+          "wednesday": "Social Studies"
+        },
+        {
+          "friday": "Literacy Groups",
+          "monday": "Literacy Groups",
+          "saturday": "Drama",
+          "sunday": "Holiday",
+          "thursday": "Literacy Groups",
+          "time": "11:10 - 12:05",
+          "tuesday": "Literacy Groups",
+          "wednesday": "Literacy Groups"
+        },
+        {
+          "friday": "Math",
+          "monday": "Religion",
+          "saturday": "Physical Education",
+          "sunday": "Holiday",
+          "thursday": "Social Studies",
+          "time": "12:05 - 12:45",
+          "tuesday": "Science",
+          "wednesday": "Art"
+        },
+        {
+          "friday": "Snack Break",
+          "monday": "Snack Break",
+          "saturday": "Snack Break",
+          "sunday": "Holiday",
+          "thursday": "Snack Break",
+          "time": "12:45 - 1:00",
+          "tuesday": "Snack Break",
+          "wednesday": "Snack Break"
+        },
+        {
+          "friday": "Golden Time",
+          "monday": "English",
+          "saturday": "Art",
+          "sunday": "Holiday",
+          "thursday": "Physical Education",
+          "time": "1:00 - 1:45",
+          "tuesday": "Drama",
+          "wednesday": "Gaelic"
+        }
+      ]
+    ]
+  },
+  "testimonials": {
+    "testimonial1": {
+      "feedback": "Volunteering at the school event was a great experience! I loved being part of the community.",
+      "name": "Vikas Gupta"
+    },
+    "testimonial2": {
+      "feedback": "Helping organize the fundraiser was fulfilling. Can't wait for the next one!",
+      "name": "Rishabh Jangid"
+    }
+  },
+  "transportation": {
+    "routes": [
+      {
+        "color": "#FFD700",
+        "id": "routeA",
+        "name": "Route Jamniwala to Paonta Sahib",
+        "stops": [
+          {
+            "name": "Jamniwala",
+            "time": "6:40 AM"
+          },
+          {
+            "name": "Gondpur",
+            "time": "6:40 AM"
+          },
+          {
+            "name": "Amarkot",
+            "time": "6:45 AM"
+          },
+          {
+            "name": "Kanshipur",
+            "time": "6:55 AM"
+          },
+          {
+            "name": "Shivpur",
+            "time": "7:00 AM"
+          },
+          {
+            "name": "Behrewala (Gurudwara)",
+            "time": "7:15 AM"
+          },
+          {
+            "name": "Behrewala (chowk)",
+            "time": "7:15 AM"
+          },
+          {
+            "name": "Defence Colony",
+            "time": "7:20 AM"
+          },
+          {
+            "name": "Behrewala (main road)",
+            "time": "7:20 AM"
+          },
+          {
+            "name": "Devinagar (Shani Mandir)",
+            "time": "7:40 AM"
+          },
+          {
+            "name": "Devinagar",
+            "time": "7:40 AM"
+          },
+          {
+            "name": "Bikaner",
+            "time": "7:45 AM"
+          },
+          {
+            "name": "Market (civil hospital)",
+            "time": "7:50 AM"
+          },
+          {
+            "name": "Devinagar (Shani Mandir)",
+            "time": "7:50 AM"
+          },
+          {
+            "name": "Ekta Colony",
+            "time": "7:55 AM"
+          },
+          {
+            "name": "Chungi No. 6",
+            "time": "7:55 AM"
+          },
+          {
+            "name": "ShubhKhera",
+            "time": "7:55 AM"
+          }
+        ]
+      },
+      {
+        "color": "#32CD32",
+        "id": "routeB",
+        "name": "Route: Majra to Paonta Sahib ",
+        "stops": [
+          {
+            "name": "Majra/Sainwala",
+            "time": "6:40 AM"
+          },
+          {
+            "name": "Misserwala",
+            "time": "6:45 AM"
+          },
+          {
+            "name": "Misserwala (chowk)",
+            "time": "6:50 AM"
+          },
+          {
+            "name": "Kiratpur/Fatehpur",
+            "time": "7:00 AM"
+          },
+          {
+            "name": "Pipliwala/Puruwala",
+            "time": "7:10 AM"
+          },
+          {
+            "name": "Surajpur/Malwa",
+            "time": "7:15 AM"
+          },
+          {
+            "name": "Ranbaxy chowk/ Bhuppur Gas Agency, ",
+            "time": "7:20 AM"
+          },
+          {
+            "name": "Badripur Chowk",
+            "time": "7:25 AM"
+          },
+          {
+            "name": "Matralion",
+            "time": "7:40 AM"
+          },
+          {
+            "name": "Pahari Colony",
+            "time": "7:40 AM"
+          },
+          {
+            "name": "Near Asha Ram Ashram",
+            "time": "7:45 AM"
+          },
+          {
+            "name": "Near Helipad",
+            "time": "7:45 AM"
+          },
+          {
+            "name": "Shirgul Colony",
+            "time": "7:45 AM"
+          },
+          {
+            "name": "Khehra, Rampur Ghat Road",
+            "time": "7:50 AM"
+          }
+        ]
+      }
+    ]
+  },
+  "trendingSection": [
+    null,
+    {
+      "category": "Career Develeopment",
+      "headline": "GAPS organized career session for students interested in space programs from 11-14feb"
+    },
+    {
+      "category": "Meetup Sessions",
+      "headline": "GAPS congratulated and celebrated the Himachal's team that emerged vicotorious in National Womens Kabbadi"
+    },
+    {
+      "category": "Achievements",
+      "headline": "4 students from GAPS won medals in International Karate Competition"
+    },
+    {
+      "category": "Achievements",
+      "headline": "Vansh Bansal, a 7th class student won 4 matches in state chess championship"
+    },
+    {
+      "category": "Growth",
+      "headline": "GAPS takes the first step in the AI based education by implementing change management"
+    },
+    {
+      "category": "Workshops",
+      "headline": "GAPS to organize 4 Advanced Maths workshops for students"
+    },
+    {
+      "category": "Growth",
+      "headline": "GAPS to open 3 new sports academy under its banner"
+    },
+    {
+      "category": "Meetup Sessions",
+      "headline": "Director of GAPS invited for annual prize distribution ceremony"
+    },
+    {
+      "category": "Awards",
+      "headline": "GAPS gives out 4 scholarships in 2024 to help students advance in their career"
+    },
+    {
+      "category": "Growth",
+      "headline": "GAPS to invest heavily in the AI, coding infrastructure"
+    }
+  ],
+  "volunteers": {
+    "volunteer1": {
+      "email": "johndoe@example.com",
+      "interest": "Event Planning",
+      "name": "John Doe",
+      "phone": "123-456-7890"
+    },
+    "volunteer2": {
+      "email": "janesmith@example.com",
+      "interest": "Student Tutoring",
+      "name": "Jane Smith",
+      "phone": "987-654-3210"
+    }
+  }
+}

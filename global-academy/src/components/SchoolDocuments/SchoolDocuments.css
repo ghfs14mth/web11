@@ -44,6 +44,7 @@
 .category-button:hover {
     background-color: goldenrod;
     color: #fff;
+    transition: background-color 0.4s ease;
 }
 
 .category-button.active {
@@ -74,4 +75,57 @@
 
 .category-content a:hover {
     text-decoration: underline;
+}
+.query-icon-greater-than {
+    margin-right: 10px;
+}
+@media (max-width: 768px) {
+    .documents-container {
+        padding: 10px;
+        font-family: Arial, sans-serif;
+        align-items: center;
+    }
+
+    .documents-title {
+        font-size: 22px;
+        margin-bottom: 30px;
+        margin-top: -10px;
+    }
+
+    .documents-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+
+    .documents-sections {
+        margin-top: 20px;
+    }
+
+    .document-category {
+        margin-bottom: 15px;
+    }
+
+    .category-button {
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+
+    .category-content {
+        padding: 5px;
+    }
+
+    .category-content ul {
+        list-style: none;
+        padding: 0;
+        margin-top: 5px;
+        margin-left: 5px;
+        font-size: 0.79rem;
+    }
+
+    .category-content li {
+        margin-bottom: 5px;
+    }
+
 }
