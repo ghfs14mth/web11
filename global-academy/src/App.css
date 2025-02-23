@@ -8,9 +8,11 @@
   --secondary-color: #facc15;
   /* Yellow */
   --background-color: black;
+  --background-color2: whitesmoke;
   --text-color1: white;
   --text-color2: rgba(20, 71, 52, 1);
   --text-color3: gold;
+  --text-color4: #100b0b;
   --highlight-color1: black;
   --highlight-color2: goldenrod;
   --highlight-color3: rgb(45, 199, 143);

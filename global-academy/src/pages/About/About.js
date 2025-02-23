@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import "./About.css";
 import QueryForm from "../../components/QueryForm/QueryForm";
+import Footer from "../../components/Footer/Footer";
 
 const About = () => {
     const location = useLocation(); // Hook to get the current path
@@ -20,6 +21,24 @@ const About = () => {
     ];
     const [sidebarOpen, setSidebarOpen] = useState(false);
     const isAboutPage = location.pathname === "/about"; // Check if on the /about page
+    const [closing, setClosing] = useState(false);
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (sidebarOpen && !event.target.closest(".about-sidebar") && !event.target.closest(".sidebar-toggle")) {
+                setClosing(true); // Start closing animation
+                setTimeout(() => {
+                    setSidebarOpen(false);
+                    setClosing(false);
+                }, 600); // Slower close (matches 0.6s CSS transition)
+            }
+        };
+
+        document.addEventListener("click", handleClickOutside);
+        return () => {
+            document.removeEventListener("click", handleClickOutside);
+        };
+    }, [sidebarOpen]);
 
     return (
         <div>
@@ -54,8 +73,8 @@ const About = () => {
                     <span className={`arrow ${sidebarOpen ? "flip" : ""}`}>&#x276E;</span>
                 </div>
                 {/* Right Sidebar */}
-                <div className={`about-sidebar ${sidebarOpen ? "sidebar-open" : ""}`}>
-                    <h2 style={{ marginLeft: "10px", color: '#fff' }}>About Us</h2>
+                <div className={`about-sidebar ${sidebarOpen ? "sidebar-open" : ""} ${closing ? "sidebar-closing" : ""}`}>
+                    <h2 >About Us</h2>
                     <ul>
                         {menuOptions.map((option, index) => {
                             const isActive = location.pathname.includes(option.link); // Check if this link is active
@@ -73,24 +92,7 @@ const About = () => {
                     </ul>
                 </div>
             </div>
-            <div className="home-page-footer">
-                <div className="footer-links">
-                    <Link to={`/privacy-policy`}>Privacy Policy</Link>
-                    <Link to={`/about/visit-us`}>Site Map</Link>
-                    <Link to={`/accessibility`}>Accessibility</Link>
-                </div>
-                <div className="footer-powered">
-                    <span>Powered by GHFS</span>
-                </div>
-                <div className="footer-language">
-                    <select aria-label="Select language">
-                        <option value="en">English</option>
-                        <option value="es">Español</option>
-                        <option value="fr">Français</option>
-                        <option value="de">Deutsch</option>
-                    </select>
-                </div>
-            </div>
+            <Footer />
             <QueryForm />
         </div>
     );

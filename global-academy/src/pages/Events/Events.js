@@ -7,6 +7,7 @@ import youtubeIcon from '../../assets/youtube.jpg';
 import vimeoIcon from '../../assets/vimeo.png';
 import ArtGallery from "../../components/ArtGallery/ArtGallery";
 import Footer from "../../components/Footer/Footer";
+import { Link } from "react-router-dom";
 const Events = () => {
   const [carouselImages, setCarouselImages] = useState([]);
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -40,21 +41,21 @@ const Events = () => {
         <PastProductions />
       </div>
     ),
-    "Livestream/Recordings": (
+    "Livestream / Recordings": (
       <div>
         <h3>Livestream and Recordings</h3>
         <p>
           Watch livestreams and recordings of our events on Vimeo and YouTube.
         </p>
         <div className="stream-icons">
-          <a href="https://vimeo.com" target="_blank" rel="noopener noreferrer">
+          <Link to="https://vimeo.com" target="_blank" rel="noopener noreferrer">
             <img style={{ height: '50px', width: '80px', border: '0.5px solid #333' }}
               src={vimeoIcon}
               alt="Vimeo"
             />
-          </a>
-          <a
-            href="https://youtube.com"
+          </Link>
+          <Link
+            to="https://youtube.com"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -62,7 +63,7 @@ const Events = () => {
               src={youtubeIcon}
               alt="YouTube"
             />
-          </a>
+          </Link>
         </div>
       </div>
     ),
@@ -76,7 +77,7 @@ const Events = () => {
   return (
     <div>
       <div className="incidents-page">
-        <h1>Events</h1>
+        <h3>Events</h3>
 
         {/* Carousel */}
         <div className="incidents-carousel-container">

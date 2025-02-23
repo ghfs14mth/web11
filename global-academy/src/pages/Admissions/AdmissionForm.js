@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { database } from "../../firebase"; // Ensure Firebase is properly set up
-import { collection, addDoc } from "firebase/firestore";
+import { ref, push } from "firebase/database";
 import "./AdmissionForm.css";
 
 const AdmissionForm = () => {
@@ -15,9 +15,9 @@ const AdmissionForm = () => {
         previousSchool: "",
         guardianName: "",
         guardianPhone: "",
-    
     });
-
+    
+    const [loading, setLoading] = useState(false);
     const [errors, setErrors] = useState({});
 
     const validateForm = () => {
@@ -53,11 +53,17 @@ const AdmissionForm = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        if (!validateForm()) return;
-
+        
+        if (!validateForm()) return; // ✅ Fix: Stop submission if validation fails
+        
+        setLoading(true);
         try {
-            await addDoc(collection(database, "admissions"), formData);
-            alert("Admission Form Submitted Successfully!");
+            const admissionsRef = ref(database, "admissions/forms"); // ✅ Reference to Realtime DB
+            await push(admissionsRef, formData); // ✅ Push form data to Firebase
+    
+            alert("Form submitted successfully! ✅");
+    
+            // ✅ Clear the form correctly after submission
             setFormData({
                 fullName: "",
                 email: "",
@@ -69,13 +75,16 @@ const AdmissionForm = () => {
                 previousSchool: "",
                 guardianName: "",
                 guardianPhone: "",
-            
             });
-            setErrors({});
+    
         } catch (error) {
-            console.error("Error submitting form: ", error);
+            console.error("Error submitting form:", error);
+            alert("❌ Error submitting form. Please try again.");
+        } finally {
+            setLoading(false);
         }
     };
+
 
     return (
         <div className="admission-form-container">
@@ -146,7 +155,9 @@ const AdmissionForm = () => {
                     {errors.guardianPhone && <span className="error">{errors.guardianPhone}</span>}
                 </div>
 
-                <button type="submit" className="submit-button">Submit</button>
+                <button type="submit" className="submit-button" disabled={loading}>
+                    {loading ? "Submitting..." : "Submit"}
+                </button>
             </form>
         </div>
     );

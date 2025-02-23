@@ -33,7 +33,7 @@ const News = () => {
               <div className="news-content">
                 <h3>{blog.title}</h3>
                 <p>{blog.date}</p>
-                <p>{blog.shortDescription}</p>
+                <p>{blog.shortDescription.length > 60 ? blog.shortDescription.substring(0, 60) + "..." : blog.shortDescription}</p>
                 <Link to={`/about/news/${blog.id}`} className="read-more">
                   Read More
                 </Link>

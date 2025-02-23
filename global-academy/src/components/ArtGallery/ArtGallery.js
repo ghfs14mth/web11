@@ -18,7 +18,7 @@ const ArtGallery = () => {
 
   return (
     <div className="art-gallery-container">
-      <h2 style={{fontSize:'24px'}}>Art Gallery</h2>
+      <h2 >Gallery</h2>
       <div className="art-gallery-grid">
         {galleryImages.map((image, index) => (
           <div

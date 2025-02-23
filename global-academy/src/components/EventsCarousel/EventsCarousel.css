@@ -8,6 +8,7 @@
 .events-header {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   gap: 10px;
   margin-bottom: 30px;
 }
@@ -22,7 +23,7 @@
   font-size: 1.8rem;
   font-weight: bold;
   color: whitesmoke; /* Accent color */
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   margin-top: 20px;
 }
 
@@ -54,6 +55,10 @@
 
 .dark-dd-card>.event-title{
   color: white;
+}
+.dark-dd-card>.event-date{
+  background-color: #d4e6d6;
+  color: #10451d;
 }
 .swiper-slide {
   display: flex;
@@ -99,4 +104,51 @@
   justify-content: center;
   align-items: center;
   font-size: 1.5rem;
+}
+@media (max-width: 768px) {
+  .carousel-wrapper {
+    width: 100%;
+    padding: 0 10px; /* Adjust spacing */
+    margin-left: -10px;
+  }
+  .events-highlight{
+    margin-top: -10px;
+    margin-bottom: -5px;
+    font-size: 22px;
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .events-header{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -8px;
+  }
+  .events-header p{
+    font-size: 0.8rem;
+  }
+
+  .event-dd-card {
+    width: 90%; /* Make cards take more width on mobile */
+    height: auto;
+    padding: 12px;
+    margin: 0 auto; /* Center the cards */
+    text-align: center;
+  }
+
+  .event-title {
+    font-size: 1rem;
+  }
+
+  .event-time-location {
+    font-size: 0.8rem;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    display: none; /* Hide navigation arrows on mobile */
+  }
 }

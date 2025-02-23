@@ -2,7 +2,10 @@
   margin: 20px;
   font-family: Arial, sans-serif;
 }
-
+.incidents-page h3{
+  font-size: 2rem;
+  text-align: center;
+}
 .incidents-carousel-container {
   position: relative;
   width: 80%;
@@ -18,6 +21,12 @@
 .incidents-carousel-slide {
   text-align: center;
   flex: 1;
+}
+
+.incidents-carousel-slide p {
+  text-align: center;
+  flex: 1;
+  font-weight: 600;
 }
 
 .incidents-carousel img {
@@ -37,8 +46,9 @@
 }
 
 .incidents-carousel-description {
-  font-size: 16px;
+  font-size: 18px;
   margin-top: 10px;
+  font-size: 700;
 }
 
 .incidents-carousel-control {
@@ -72,4 +82,74 @@
 .tab-content {
   text-align: center;
   margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .incidents-page {
+    margin: 10px;
+    font-family: Arial, sans-serif;
+  }
+  .incidents-page h3{
+    font-size: 20px;
+    text-align: center;
+  }
+  .incidents-carousel-slide p {
+    font-size: 0.8rem;
+  }
+  
+  .incidents-carousel-container {
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .incidents-carousel {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .incidents-carousel img {
+    max-width: 250px;
+    max-height: 300px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+  }
+
+  .carousel-placeholder {
+    background-color: #f0f0f0;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+
+  .incidents-tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0;
+    align-items: center;
+  }
+
+  .tab-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f8f8f8;
+  }
+
+  .tab-button.active-tab {
+    background-color: #1d5f2c;
+    color: white;
+  }
+
+  .tab-content {
+    text-align: center;
+    margin-top: 20px;
+  }
+
 }

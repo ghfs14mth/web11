@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import "./Admissions.css";
 import QueryForm from "../../components/QueryForm/QueryForm";
 import Footer from "../../components/Footer/Footer";
 const Admissions = () => {
     const location = useLocation();
-
+    const [sidebarOpen, setSidebarOpen] = useState(false);
     const menuOptions = [
         { name: "Admission Rules", link: "admission-rules" },
         { name: "Admission Updates", link: "admission-updates" },
@@ -13,7 +13,32 @@ const Admissions = () => {
     ];
 
     const isAdmissionsPage = location.pathname === "/admissions";
+    const [closing, setClosing] = useState(false);
 
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (sidebarOpen && !event.target.closest(".admissions-sidebar") && !event.target.closest(".sidebar-toggle")) {
+                setClosing(true); // Start closing animation
+                setTimeout(() => {
+                    setSidebarOpen(false);
+                    setClosing(false);
+                }, 300); // Delay to match CSS transition
+            }
+        };
+
+        document.addEventListener("click", handleClickOutside);
+        return () => {
+            document.removeEventListener("click", handleClickOutside);
+        };
+    }, [sidebarOpen]);
+    const downloadBrochure = () => {
+        const link = document.createElement("a");
+        link.href = "https://storage.googleapis.com/web_images_database_gaps/GAPS_Brochure.pdf"; // Ensure this path is correct
+        link.download = "GAPS_Brochure.pdf";
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
     return (
         <div>
             <div className="admissions-container">
@@ -38,28 +63,30 @@ const Admissions = () => {
                             </p>
                             {/* Download Admission Brochure */}
                             <div className="admissions-brochure">
-                                <a
-                                    href="/path-to-admission-brochure.pdf"
-                                    download
-                                    className="brochure-download-link"
-                                >
+                                <button onClick={downloadBrochure} className="brochure-download-link">
                                     Download Admission Brochure
-                                </a>
+                                </button>
                             </div>
                         </div>
                     ) : (
                         <Outlet />
                     )}
                 </div>
-
+                {/* Mobile Sidebar Toggle Button */}
+                <div
+                    className={`sidebar-toggle ${sidebarOpen ? "sidebar-toggle-open" : ""}`}
+                    onClick={() => setSidebarOpen(!sidebarOpen)}
+                >
+                    <span className={`arrow ${sidebarOpen ? "flip" : ""}`}>&#x276E;</span>
+                </div>
                 {/* Right Sidebar */}
-                <div className="admissions-sidebar">
+                <div className={`admissions-sidebar ${sidebarOpen ? "sidebar-open" : ""} ${closing ? "sidebar-closing" : ""}`}>
                     <h2 style={{ color: 'white' }}>Admissions</h2>
                     <ul>
                         {menuOptions.map((option, index) => {
                             const isActive = location.pathname.includes(option.link);
                             return (
-                                <li key={index}>
+                                <li key={index} onClick={() => setSidebarOpen(false)}>
                                     <Link
                                         to={`/admissions/${option.link}`}
                                         className={`sidebar-link ${isActive ? "active" : ""
@@ -73,7 +100,7 @@ const Admissions = () => {
                     </ul>
                 </div>
             </div>
-            <Footer/>
+            <Footer />
             <QueryForm />
         </div>
     );

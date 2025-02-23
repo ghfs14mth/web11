@@ -70,4 +70,33 @@
     color: red;
     margin-top: 10px;
   }
-  
+  @media (max-width:768px){
+    .registration-container {
+      margin: 10px auto;
+      padding: 10px;
+    }
+    
+    .registration-container h1 {
+      font-size: 20px;
+    }
+    
+    .registration-intro {
+      font-size: 0.8rem;
+    }
+    
+    .registration-form label {
+      font-size: 0.79rem;
+    }
+    
+    .registration-form input,
+    .registration-form select,
+    .registration-form textarea {
+      font-size: 0.79rem;
+    }
+    
+    .registration-form .submit-button {
+      padding: 8px 16px;
+      font-size: 0.8rem;
+    }
+    
+  }

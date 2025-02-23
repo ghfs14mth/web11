@@ -1,56 +1,98 @@
 .handbook-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.handbook-title {
+  font-size: 28px;
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.handbook-intro {
+  font-size: 16px;
+  color: #555;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.handbook-sections {
+  margin-top: 20px;
+}
+
+.handbook-section {
+  margin-bottom: 30px;
+}
+
+.handbook-section-title {
+  font-size: 20px;
+  color: #1d5f2c;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #1d5f2c;
+  padding-bottom: 5px;
+}
+
+.handbook-rules {
+  padding-left: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.handbook-rules li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.handbook-rules li::before {
+  content: "• ";
+  color: #1d5f2c;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .handbook-container {
     max-width: 800px;
     margin: 20px auto;
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
   }
-  
-  .handbook-title {
-    font-size: 28px;
-    color: #2c3e50;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .handbook-intro {
-    font-size: 16px;
-    color: #555;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  .handbook-sections {
-    margin-top: 20px;
-  }
-  
-  .handbook-section {
-    margin-bottom: 30px;
-  }
-  
-  .handbook-section-title {
+  .handbook-container h1{
     font-size: 20px;
+  }
+  .handbook-container p{
+    font-size: 0.8rem;
+  }
+
+  .handbook-title {
+    font-size: 20px;
+  }
+
+  .handbook-intro {
+    font-size: 0.8rem;
+  }
+
+  .handbook-section-title {
+    
     color: #1d5f2c;
     margin-bottom: 10px;
     border-bottom: 2px solid #1d5f2c;
     padding-bottom: 5px;
   }
-  
+  .handbook-section h2{
+    font-size: 1.05rem;
+  }
+
   .handbook-rules {
-    padding-left: 20px;
-    font-size: 16px;
-    color: #333;
+    padding-left: 15px;
+    font-size: 0.8rem;
   }
-  
+
   .handbook-rules li {
-    margin-bottom: 10px;
-    line-height: 1.5;
+    line-height: 1.2;
   }
-  
-  .handbook-rules li::before {
-    content: "• ";
-    color: #1d5f2c;
-    font-weight: bold;
-  }
-  
+
+}

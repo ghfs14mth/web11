@@ -149,16 +149,20 @@
     font-size: 1.3rem;
   }
 
+
   .academics-sidebar .sidebar-link {
     font-size: 0.9rem;
     padding: 8px 10px;
   }
 
   .academics-overview h1 {
-    font-size: 1.5rem;
+    font-size: 20px;
+  }
+  .academics-overview p {
+    font-size: 0.8rem;
   }
 
   .academics-option h2 {
-    font-size: 1.5rem;
+    font-size: 18px;
   }
 }

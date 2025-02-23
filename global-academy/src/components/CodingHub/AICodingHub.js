@@ -11,16 +11,18 @@ const aiFeatures = [
 
 export default function AICodingHub() {
   return (
-    <div style={styles.container}>
-      <h2 style={styles.heading}>
+    <div className="ai-heading" style={styles.container}>
+      <style>{mediaStyles}</style>
+      <h2  style={styles.heading}>
         🚀 AI is Making <span style={{ color: "#00b4d8" }}>Learning Fun!</span>
       </h2>
       <p style={styles.subtext}>Explore AI-powered learning at Global Academy.</p>
 
-      <div style={styles.grid}>
+      <div className="ai-grid" style={styles.grid}>
         {aiFeatures.map((feature, index) => (
           <motion.div
             key={index}
+            className="ai-card"
             style={{ ...styles.card, backgroundColor: feature.color }}
             whileHover={{ scale: 1.03, rotate: 1 }}
             transition={{ duration: 0.2 }}
@@ -44,7 +46,7 @@ const styles = {
     color: "#333",
   },
   heading: {
-    fontSize: "28px",
+    fontSize: "24px",
     fontWeight: "bold",
     marginBottom: "10px",
   },
@@ -81,3 +83,20 @@ const styles = {
     marginTop: "5px",
   },
 };
+const mediaStyles = `
+  @media (max-width: 600px) {
+    .ai-grid {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .ai-card {
+      width: 90%;
+      max-width: 300px;
+      text-align: center;
+    }
+    .ai-heading h2 {
+    font-size:20px}
+  }
+`;

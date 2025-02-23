@@ -1,23 +1,95 @@
 .blog-details-container {
-    padding: 20px;
-    width: 75%;
-    margin: 0 auto; 
+  margin-top: 10px;
+  padding-top: 20px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.blog-details-container h1 {
+  font-size: 34px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.blog-image {
+  width: 80%;
+  height: auto;
+  margin-bottom: 20px;
+
+}
+
+.blog-details-contentbox {
+  display: flex;
+}
+
+.blog-details-blog-section {
+  width: 20%;
+  margin-top: 15px;
+  border-right: 1px solid #ccc;
+}
+
+.blog-details-content {
+  width: 80%;
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width:768px) {
+
+  .blog-details-container h1 {
+    font-size: 16px;
+  }
+
+  .blog-details-contentbox {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    box-sizing: border-box;
+    color:var(--text-color4);
+    font-weight: 500;
+    /* Ensures padding doesn’t overflow */
+  }
+
+
+  .blog-details-container {
+    
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    font-size: 0.9rem;
+    padding: 10px;
+    box-sizing: border-box;
+    /* Prevents padding from pushing content out */
   }
-  
-.blog-image {
-    width:45%;
+
+  .blog-image {
+    width: 80%;
     height: auto;
     margin-bottom: 20px;
-    
   }
-.blog-details-mainbox{
-  display: flex;
-}
-.blog-details-blog-section{
-  width: 25%;
-  margin-top: 15px;
-  background-color: red;
+
+  .blog-details-blog-section {
+    width: 100%;
+    margin-top: 15px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    background-color: rgb(37, 120, 215);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+
+
+  .blog-details-content {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* Ensures padding doesn't make the section overflow */
+  }
 }

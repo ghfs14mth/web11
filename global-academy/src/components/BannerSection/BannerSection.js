@@ -12,13 +12,10 @@ const BannerSection = () => {
     >
       <div className="gradient-overlay"></div> {/* Gradient overlay */}
       <div className="overlay-text">
-        <span>Curiosity</span>
-        <span>•</span>
-        <span>Character</span>
-        <span>•</span>
-        <span>Courage</span>
-        <span>•</span>
-        <span>Compassion</span>
+        <span>• Curiosity </span>
+        <span>• Character</span>
+        <span>• Courage </span>
+        <span>• Compassion </span>
       </div>
     </div>
   );

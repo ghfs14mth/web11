@@ -1,0 +1,80 @@
+.learning-container {
+    text-align: center;
+    padding: 30px;
+    font-family: 'Arial', sans-serif;
+}
+
+.learning-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #144734;
+    margin-bottom: 10px;
+    margin-top: -20px;
+}
+
+.learning-subtitle {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.learning-category {
+    text-align: left;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 10px 0;
+    border-bottom: 2px solid #ddd;
+}
+
+.learning-category h2 {
+    font-size: 1.5rem;
+    color: #144734;
+    margin-bottom: 10px;
+}
+
+.learning-category ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.learning-category li {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.learning-category a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.learning-category a:hover {
+    color: #ff8800;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .learning-container {
+        padding: 10px;
+    }
+
+    .learning-title {
+        font-size:20px;
+        margin-top: 10px;
+    }
+
+    .learning-category {
+        width: 95%;
+        margin-top: -20px;
+    }
+    .learning-category h2 {
+        font-size: 1rem;
+        color: #144734;
+        margin-bottom: 10px;
+    }
+    .learning-category li {
+        font-size: 0.8rem;
+        margin-bottom: 5px;
+    }
+}

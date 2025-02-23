@@ -9,6 +9,7 @@
     font-size: 28px;
     color: #144734;
     font-weight: bold;
+    margin-top: -20px;
   }
   
   .transport-subtitle {
@@ -77,10 +78,46 @@
   @media (max-width: 768px) {
     .bus-routes {
       grid-template-columns: 1fr;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
     }
   
     .bus-card {
       width: 100%;
+    }
+    .transportation-container {
+      max-width: 1000px;
+      margin: auto;
+      text-align: center;
+      padding: 20px;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .transport-title {
+      font-size: 20px;
+    }
+    
+    .transport-subtitle {
+      font-size: 0.9rem;
+    }
+    
+    .bus-routes {
+      gap: 10px;
+    }
+    
+    .bus-card {
+      padding: 10px;
+    }
+    
+    .bus-card h2 {
+      font-size: 1rem;
+      gap: 10px;
+    }
+    .bus-card li {
+      font-size: 0.8rem;
     }
   }
   

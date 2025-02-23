@@ -1,71 +1,126 @@
 .exams-container {
-    padding: 20px;
-    font-family: Arial, sans-serif;
-  }
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.exams-school_name {
+  margin-top: 2px;
+  font-size: 20px;
+  font-weight: 600
+}
 
 .exams-container h2 {
-    font-size: 2rem;
-    color: #2c3e50;
-    margin-bottom: 10px;
-    margin-top: -30px;
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  margin-top: -30px;
+}
+
+.exams-container h3 {
+  text-transform: uppercase;
+}
+
+label {
+  font-size: 1rem;
+  color: #5a5a5a;
+  margin-right: 10px;
+}
+
+select {
+  padding: 5px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.exam-table-container {
+  margin-top: 20px;
+}
+
+.exams-school_info {
+  display: flex;
+  color: var(--primary-color);
+  align-items: center;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.exams-school_info p {
+  margin-top: -10px;
+}
+
+.exam-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.exam-table th,
+.exam-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.exam-table th {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.exam-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.exam-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.exam-table td[colspan="4"] {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+}
+
+@media (max-width:768px) {
+
+  .exams-container {
+    padding: 10px;
   }
-  .exams-container h3{
-    text-transform: uppercase;
-  }
-  label {
-    font-size: 1rem;
-    color: #5a5a5a;
-    margin-right: 10px;
-  }
-  
-  select {
-    padding: 5px;
-    font-size: 1rem;
+
+  .exams-container h2 {
+    font-size: 20px;
+    margin-top: 20px;
     margin-bottom: 20px;
   }
-  
-  .exam-table-container {
-    margin-top: 20px;
+  .exams-school_name {
+    font-size: 18px;
+    margin-top: 10px;
   }
-  .exams-school_info{
-    display: flex;
-    color: var(--primary-color);
-    align-items: center;
-    flex-direction: column;
-    padding: 0px;
+  label {
+    font-size: 0.8rem;
+    margin-right: 10px;
   }
-  .exams-school_info p{
+
+  select {
+    padding: 5px;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+  }
+
+  .exams-school_info p {
     margin-top: -10px;
+    font-size: 0.8rem;
   }
-  
+
   .exam-table {
     width: 100%;
     border-collapse: collapse;
   }
-  
+
   .exam-table th,
   .exam-table td {
-    padding: 10px;
+    padding: 8px;
     text-align: left;
     border: 1px solid #ddd;
+    font-size: 0.7rem;
   }
-  
-  .exam-table th {
-    background-color: #f4f4f4;
-    color: #333;
-  }
-  
-  .exam-table tr:nth-child(even) {
-    background-color: #f9f9f9;
-  }
-  
-  .exam-table tr:hover {
-    background-color: #f1f1f1;
-  }
-  
-  .exam-table td[colspan="4"] {
-    text-align: center;
-    color: #888;
-    font-style: italic;
-  }
-  
+
+}

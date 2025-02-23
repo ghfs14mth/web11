@@ -70,8 +70,55 @@
   text-align: center;
 }
 
+.load-more {
+  display: none;
+}
+
 @media (max-width: 768px) {
   .posts {
     grid-template-columns: 1fr;
+  }
+  .social-media-section h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: -15px;
+    color: rgba(20, 71, 52, 1);
+  }
+  .social-title {
+    font-size: 20px;
+    margin-bottom: -20px;
+  }
+  .social-media-section {
+    padding: 10px;
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  .post p{
+    font-size: 0.9rem;
+  }
+  .post:hover {
+    transform: scale(1);
+  }
+
+  .load-more {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #144734;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+
+  .load-more:hover {
+    background-color: #0f3625;
   }
 }

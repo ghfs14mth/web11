@@ -1,14 +1,22 @@
 import React, { useState, useEffect } from "react";
-import { getDatabase, ref, onValue } from "firebase/database";
+import { getDatabase, ref, push,onValue } from "firebase/database";
+import { getStorage, ref as storageRef, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import "./Employment.css";
-import staff from '../../assets/staff.jpg';
+import staff from "../../assets/staff.jpg";
+
 const Employment = () => {
   const [teacherData, setTeacherData] = useState([]);
+  const [name, setName] = useState("");
+  const [role, setRole] = useState("");
+  const [cvFile, setCvFile] = useState(null);
+  const [remarks, setRemarks] = useState("");
+  const [uploading, setUploading] = useState(false);
+  const [progress, setProgress] = useState(0);
 
   useEffect(() => {
     const fetchTeacherData = async () => {
       const database = getDatabase();
-      const teachersRef = ref(database, "employment-teachers"); // Firebase Realtime Database node for teachers
+      const teachersRef = ref(database, "employment-teachers");
 
       onValue(teachersRef, (snapshot) => {
         const data = snapshot.val();
@@ -21,17 +29,67 @@ const Employment = () => {
     fetchTeacherData();
   }, []);
 
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    if (!cvFile) {
+      alert("Please select a CV file to upload.");
+      return;
+    }
+
+    const allowedTypes = ["application/pdf", "application/msword", "application/vnd.openxmlformats-officedocument.wordprocessingml.document"];
+    if (!allowedTypes.includes(cvFile.type)) {
+      alert("Only PDF or Word documents are allowed for CV upload.");
+      return;
+    }
+
+    setUploading(true);
+    const storage = getStorage();
+    const fileRef = storageRef(storage, `employment/cv/${Date.now()}_${cvFile.name}`);
+    const uploadTask = uploadBytesResumable(fileRef, cvFile);
+
+    uploadTask.on(
+      "state_changed",
+      (snapshot) => {
+        const progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+        setProgress(progress.toFixed(0)); // Update progress
+      },
+      (error) => {
+        console.error("Upload error:", error);
+        alert("Error uploading CV. Please try again.");
+        setUploading(false);
+      },
+      async () => {
+        const cvUrl = await getDownloadURL(uploadTask.snapshot.ref);
+
+        // Store form submission in Firebase Realtime Database
+        const db = getDatabase();
+        const applicationsRef = ref(db, "employment/cv");
+        await push(applicationsRef, {
+          name,
+          role,
+          cvUrl,
+          remarks,
+          timestamp: new Date().toISOString(),
+        });
+
+        alert("Application submitted successfully! ✅");
+
+        setName("");
+        setRole("");
+        setCvFile(null);
+        setRemarks("");
+        setProgress(0);
+        setUploading(false);
+      }
+    );
+  };
+
   return (
     <div className="employment-container">
-      {/* Title and Image */}
       <h2 className="employment-title">Employment Opportunities</h2>
-      <img
-        src={staff}
-        alt="Employment"
-        className="employment-image"
-      />
+      <img src={staff} alt="Employment" className="employment-image" />
 
-      {/* Job Openings Table */}
       <div className="employment-table-container">
         <h3>Current Job Openings</h3>
         <table className="employment-table">
@@ -58,17 +116,16 @@ const Employment = () => {
         </table>
       </div>
 
-      {/* Application Form */}
       <div className="employment-form">
         <h3>Submit Your Application</h3>
-        <form>
+        <form onSubmit={handleSubmit}>
           <label>
             Name:
-            <input type="text" placeholder="Enter your name" required />
+            <input type="text" value={name} onChange={(e) => setName(e.target.value)} required />
           </label>
           <label>
             Role:
-            <select required>
+            <select value={role} onChange={(e) => setRole(e.target.value)} required>
               <option value="">Select a role</option>
               {teacherData.map((teacher, index) => (
                 <option key={index} value={teacher.title}>
@@ -79,17 +136,19 @@ const Employment = () => {
           </label>
           <label>
             CV:
-            <input type="file" placeholder="Submit your CV" required />
+            <input type="file" onChange={(e) => setCvFile(e.target.files[0])} required />
           </label>
+          {uploading && <p>Uploading: {progress}%</p>}
           <label>
             Remarks:
-            <textarea placeholder="Tell us something about yourself" rows="4" />
+            <textarea value={remarks} onChange={(e) => setRemarks(e.target.value)} rows="4" />
           </label>
-          <button type="submit">Submit</button>
+          <button type="submit" disabled={uploading}>
+            {uploading ? `Uploading... ${progress}%` : "Submit"}
+          </button>
         </form>
       </div>
 
-      {/* Contact Details */}
       <div className="employment-contact">
         <h3>Contact Us</h3>
         <p>
@@ -99,8 +158,7 @@ const Employment = () => {
           <strong>Phone:</strong> +91 12345-67890
         </p>
         <p>
-          <strong>Address:</strong> Himuda Colony, Paonta Sahib, Distt. Sirmaur
-          (H.P)
+          <strong>Address:</strong> Himuda Colony, Paonta Sahib, Distt. Sirmaur (H.P)
         </p>
       </div>
     </div>

@@ -3,7 +3,8 @@ import { useParams } from "react-router-dom";
 import Timetable from "../../components/TimeTable/TimeTable";
 import Council from "../../components/Council/Council";
 import Handbook from "../../components/Handbook/Handbook";
-
+import './Students.css';
+import Learning from "../../components/Learning/Learning";
 const StudentOption = () => {
     const { option } = useParams();
 
@@ -27,11 +28,7 @@ const StudentOption = () => {
     if (option === "learning") {
         return (
             <div className="student-option">
-                <h2>Learning</h2>
-                <p>
-                    Discover learning resources tailored to your academic
-                    journey.
-                </p>
+                <Learning/>
             </div>
         );
     }

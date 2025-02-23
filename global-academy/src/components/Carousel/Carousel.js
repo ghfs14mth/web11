@@ -29,12 +29,12 @@ const Carousel = ({ databaseName }) => {
   };
 
   return (
-    <div className="carousel-container">
+    <div className="carousell-container">
       <Slider {...settings}>
         {carouselImages.map((item) => (
-          <div className="carousel-slide" key={item.id}>
-            <img src={item.image} alt={item.caption} className="carousel-image" />
-            <div className="carousel-caption">{item.caption}</div>
+          <div className="carousell-slide" key={item.id}>
+            <img src={item.image} alt={item.caption} className="carousell-image" />
+            <div className="carousell-caption">{item.caption}</div>
           </div>
         ))}
       </Slider>

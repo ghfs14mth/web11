@@ -52,3 +52,28 @@
     text-align: center;
     padding-top: 6px;
   }
+  @media (max-width: 768px) {
+    .operations-section {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Two items per row */
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+      padding: 50px 20px;
+      margin-left: 0px;
+    }
+  
+    .operation-item {
+      text-align: center;
+    }
+  
+    .operation-icon {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .operation-title {
+      font-size: 0.7rem;
+    }
+  }
+  

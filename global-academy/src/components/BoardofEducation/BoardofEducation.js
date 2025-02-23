@@ -75,7 +75,7 @@ const BoardOfEducation = () => {
                             alt="Vision Statement"
                         />
                     </div>
-                    <a href="/vision-statement" className="icon-link">Vision Statement</a>
+                    <Link to="/vision-statement" className="icon-link">Vision Statement</Link>
                 </div>
             </div>
 

@@ -16,6 +16,19 @@ import Footer from "../../components/Footer/Footer";
 const Home = () => {
     return (
         <div>
+            <div className="marquee-box">
+                <div className="marquee-container">
+                    <div className="marquee-content">
+                        📢 Admissions Open for 2025-26 | 🏆 English Speaking Course added to curriculum | 🎉 4 New Sports Academies Launched! | 🚀 First AI Enabled school in region!
+                    </div>
+                </div>
+                <div className="carquee-container">
+                    <div className="carquee-content">
+                        📢 Admissions Open for 2025-26 | 🏆 English Speaking Course added to curriculum | 🎉 4 New Sports Academies Launched! | 🚀 First AI Enabled school in region!
+                    </div>
+                </div>
+            </div>
+
             <RebrandingSection />
             <div className="home-container">
                 <div className="left-section">
@@ -28,13 +41,19 @@ const Home = () => {
                     <BlogsSection />
                 </div>
             </div>
+            <div className="home-mobile-middle-carousel">
+                <Carousel databaseName={"carouselImages"} />
+            </div>
+            <div className="home-mobile-right-blogs">
+                <BlogsSection />
+            </div>
             <OperationsSection />
             <AICodingHub />
             <EventsCarousel />
             <SocialMediaSection />
             <BannerSection />
             <FooterSection />
-            <Footer/>
+            <Footer />
             <QueryForm />
         </div>
     );

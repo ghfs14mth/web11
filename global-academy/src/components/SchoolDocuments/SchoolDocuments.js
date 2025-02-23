@@ -4,6 +4,7 @@ import { getDatabase, ref, onValue } from "firebase/database"; // Import Realtim
 import SDComm from '../../assets/school-building.jpg'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const SchoolDocuments = () => {
     const [documents, setDocuments] = useState({});
@@ -71,9 +72,9 @@ const SchoolDocuments = () => {
                                 <ul>
                                     {documents[category].map((doc, index) => (
                                         <li key={index}>
-                                            <a href={doc.url} download target="_blank" rel="noopener noreferrer">
+                                            <Link to={doc.url} download target="_blank" rel="noopener noreferrer">
                                                 {doc.name}
-                                            </a>
+                                            </Link>
                                         </li>
                                     ))}
                                 </ul>

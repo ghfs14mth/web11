@@ -154,9 +154,14 @@ h2 {
         padding: 2px;
         font-size: 8px;
     }
-
+    .custom-calendar{
+        display: none;
+    }
+    .table-container h3{
+        font-size: 18px;
+    }
     .table th,
     .table td {
-        font-size: 10px;
+        font-size: 12px;
     }
 }

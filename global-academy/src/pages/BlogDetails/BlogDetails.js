@@ -21,18 +21,20 @@ const BlogDetails = () => {
 
   return (
     <div>
-      <div className="blog-details-mainbox">
-        <div className="blog-details-blog-section">
-          <BlogsSection/>
-        </div>
-        <div className="blog-details-container">
-          <h1>{blog.title}</h1>
-          <p>{blog.date}</p>
-          <img src={blog.image} alt={blog.title} className="blog-image" />
-          <p>{blog.fullDescription}</p>
+      <div className="blog-details-container">
+        <h1>{blog.title}</h1>
+        <p>{blog.date}</p>
+        <img src={blog.image} alt={blog.title} className="blog-image" />
+        <div className="blog-details-contentbox">
+          <div className="blog-details-blog-section">
+            <BlogsSection />
+          </div>
+          <div className="blog-details-content">
+            <p>{blog.fullDescription}</p>
+          </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
       <QueryForm />
     </div>
   );

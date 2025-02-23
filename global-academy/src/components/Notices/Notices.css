@@ -66,4 +66,40 @@
     font-size: 16px;
     margin-top: 20px;
   }
-  
+  @media (max-width: 768px) {
+    .notices-container {
+      margin: 10px auto;
+      padding: 10px;
+    }
+    
+    .notices-container h1 {
+      font-size: 20px;
+    }
+    
+    .notices-intro {
+      font-size: 0.8rem;
+    }
+    
+    .notices-list {
+      gap: 10px;
+    }
+    
+    .notice-card {
+      padding: 10px;
+    }
+    
+    .notice-title {
+      font-size: 18px;
+    }
+    
+    .notice-date {
+      font-size: 0.79rem;
+    }
+    
+    .notice-description {
+      font-size: 0.8rem;}
+    
+    .no-notices {
+      font-size: 0.8rem;
+    }
+  }

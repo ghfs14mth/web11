@@ -60,3 +60,67 @@ h2 {
 .submit-button:hover {
     background: #0e3625;
 }
+
+.submit-button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+    .admission-form-container {
+        max-width: 600px;
+        margin: auto;
+        padding: 10px;
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .admission-form-container h2 {
+        font-size: 18px;
+        text-align: center;
+        color: #144734;
+        margin-bottom: 20px;
+    }
+
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-group label {
+        display: block;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        box-sizing: border-box;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+        border-color: #144734;
+        outline: none;
+    }
+
+    .error {
+        color: red;
+        font-size: 12px;
+    }
+
+    .submit-button {
+        width: 100%;
+        padding: 8px;
+        font-size: 13px;
+        cursor: pointer;
+    }
+
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Accessibility.css";
+import { Link } from "react-router-dom";
 
 const AccessibilityPage = () => {
   return (
@@ -34,7 +35,7 @@ const AccessibilityPage = () => {
           Phone: <span className="phone-number">+91 94180-86224</span>
         </li>
         <li>
-          E-mail: <a href="mailto:lola@gmail.com" className="accessibility-links email">globalacademy.paonta@gmail.com</a>
+          E-mail: <Link to="mailto:lola@gmail.com" className="accessibility-links email">globalacademy.paonta@gmail.com</Link>
         </li>
         <li>
           Visitor Address: <span className="visitor-address">Himuda Colony, Shubh Khera, Paonta Sahib, (H.P)</span>
@@ -71,9 +72,9 @@ const AccessibilityPage = () => {
       <h3>Date</h3>
       <p>
         This statement was created on <span className="statement-created-date">13 December 2024</span> using the{" "}
-        <a className="accessibility-links" href="https://www.w3.org/WAI/planning/statements/" target="_blank" rel="noopener noreferrer">
+        <Link className="accessibility-links" to="https://www.w3.org/WAI/planning/statements/" target="_blank" rel="noopener noreferrer">
           W3C Accessibility Statement Generator Tool
-        </a>.
+        </Link>.
       </p>
     </div>
   );

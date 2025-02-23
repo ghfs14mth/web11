@@ -1,12 +1,13 @@
 import React from "react";
 import "./VisitUS.css";
 import locationPic from '../../assets/location.jpeg';
+import { Link } from "react-router-dom";
 
 const VisitUs = () => {
   return (
     <div className="visit-us">
       <h2 className="visit-title">Visit Us</h2>
-      
+
       {/* Map Section */}
       <div className="visit-map">
         <img
@@ -19,13 +20,13 @@ const VisitUs = () => {
             <strong>Global Academy</strong>
             <p>Himuda Colony, Shubh Khera</p>
             <p>Paonta Sahib, Himachal Pradesh, India</p>
-            <a href="tel:+919418086224">+91 94180-86224</a>
+            <Link to="tel:+919418086224">+91 94180-86224</Link>
           </div>
           <div className="address-item">
             <strong>Administration Center/ GHFS</strong>
             <p>Market Road/ H.No. 134</p>
             <p>Majra, Himachal Pradesh, India</p>
-            <a href="tel:+919418486224">+91 94184-86224</a>
+            <Link to="tel:+919418486224">+91 94184-86224</Link>
           </div>
         </div>
       </div>
@@ -36,7 +37,7 @@ const VisitUs = () => {
           <h4>If You Are the Parent of a Prospective Student</h4>
           <p>
             If you would like to tour the school, please contact Dr. Vishwa Jeet Bansal at{" "}
-            <a href="mailto:vishwajeet224@gmail.com">vishwajeet224@gmail.com</a>.
+            <Link to="mailto:vishwajeet224@gmail.com">vishwajeet224@gmail.com</Link>.
           </p>
         </div>
 

@@ -1,27 +1,106 @@
 .art-gallery-container {
-    padding: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.art-gallery-container h2 {
+  font-size: 24px;
+  text-align: center;
+}
+.art-gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 10px;
+  justify-content: center;
+}
+
+.art-gallery-item {
+  width: 320px;
+  /* Fixed height for consistency */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.art-gallery-item img {
+  width: 320px;
+  height: 200px;
+  /* Ensures all images have the same height */
+  object-fit: cover;
+  /* Crop images to fill the space while maintaining aspect ratio */
+
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.art-gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+.art-gallery-zoom {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.art-gallery-zoom-image img {
+  max-width: 60%;
+  max-height: 60%;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .art-gallery-container {
+    padding: 10px;
     text-align: center;
   }
-  
+  .art-gallery-container h2 {
+      font-size: 20px;
+  }
+
   .art-gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: 15px;
     padding: 10px;
+    justify-content: center;
   }
-  
+
+  .art-gallery-item {
+    width: 320px;
+    /* Fixed height for consistency */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+
   .art-gallery-item img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
+    width: 320px;
+    height: 150px;
+    /* Ensures all images have the same height */
+    object-fit: cover;
+    /* Crop images to fill the space while maintaining aspect ratio */
+
     cursor: pointer;
     transition: transform 0.2s ease;
   }
-  
+
   .art-gallery-item img:hover {
     transform: scale(1.1);
   }
-  
+
   .art-gallery-zoom {
     position: fixed;
     top: 0;
@@ -35,10 +114,10 @@
     cursor: pointer;
     z-index: 1000;
   }
-  
+
   .art-gallery-zoom-image img {
     max-width: 90%;
     max-height: 90%;
     border-radius: 10px;
   }
-  
+}

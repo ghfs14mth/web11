@@ -63,7 +63,7 @@ const Exams = () => {
     <div className="exams-container">
       <h2>Exams</h2>
       <div className="exams-school_info">
-        <p style={{ marginTop: '2px', fontSize: '20px', fontWeight: '600' }}>Global Academy Public School, Paonta Sahib </p>
+        <p className="exams-school_name">Global Academy Public School, Paonta Sahib </p>
         <p>Date Sheet</p>
 
         <p>  Final Examination - Session : 2024-25</p>
@@ -71,22 +71,22 @@ const Exams = () => {
       </div>
       <div className="exams-select-options">
         <div>
-        <label htmlFor="standard-select">Select Standard:</label>
-        <select
-          id="standard-select"
-          value={standard}
-          onChange={(e) => setStandard(e.target.value)}
-        >
-          <option value="">-- Select Standard --</option>
-          {Array.from({ length: 12 }, (_, i) => i + 1).map((std) => (
-            <option key={std} value={std}>
-              Standard {std}
-            </option>
-          ))}
-        </select>
+          <label htmlFor="standard-select">Select Standard:</label>
+          <select
+            id="standard-select"
+            value={standard}
+            onChange={(e) => setStandard(e.target.value)}
+          >
+            <option value="">-- Select Standard --</option>
+            {Array.from({ length: 12 }, (_, i) => i + 1).map((std) => (
+              <option key={std} value={std}>
+                Standard {std}
+              </option>
+            ))}
+          </select>
         </div>
         <div>{standard > 10 ? <>
-          <label style={{marginRight:'85px'}} htmlFor="standard-select"> Field: </label>
+          <label style={{ marginRight: '85px' }} htmlFor="standard-select"> Field: </label>
           <select
             id="field-select"
             value={field}
@@ -100,7 +100,7 @@ const Exams = () => {
             ))}
           </select> </> : null}</div>
       </div>
-      {standard>10?<h3 >Field: {field}</h3>:null}
+      {standard > 10 ? <h4 >Field: {field}</h4> : null}
       <div className="exam-table-container">
         <table className="exam-table">
           <thead>

@@ -1,107 +1,179 @@
 .student-login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  max-width: 500px;
+  margin: 50px auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.student-login-intro {
+  font-size: 16px;
+  color: #5a5a5a;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.student-login-form-container {
+  width: 100%;
+}
+
+.student-login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.student-login-form label {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.student-login-form select,
+.student-login-form input {
+  font-size: 15px;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #dcdcdc;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.student-login-form select:focus,
+.student-login-form input:focus {
+  border-color: #1d5f2c;
+  outline: none;
+  box-shadow: 0 0 8px rgba(52, 152, 219, 0.3);
+}
+
+.login-button {
+  padding: 12px 0;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #1d5f2c;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: goldenrod;
+}
+
+.error {
+  font-size: 14px;
+  color: #e74c3c;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.toggle-link {
+  font-size: 15px;
+  color: #3498db;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.toggle-link span:hover {
+  text-decoration: underline;
+}
+
+.student-login-footer {
+  font-size: 14px;
+  color: #999;
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .student-login-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 40px;
+    padding: 20px;
     background-color: #ffffff;
     border-radius: 12px;
     max-width: 500px;
-    margin: 50px auto;
+    margin: 10px auto;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   }
-  
+
   h1 {
     color: #2c3e50;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
   }
-  
+
   .student-login-intro {
-    font-size: 16px;
+    font-size: 0.82rem;
     color: #5a5a5a;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
-  
-  .student-login-form-container {
-    width: 100%;
-  }
-  
-  .student-login-form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  
+
   .student-login-form label {
-    font-size: 14px;
-    color: #333;
-    font-weight: bold;
+    font-size: 0.79rem;
     margin-bottom: 8px;
   }
-  
+
   .student-login-form select,
   .student-login-form input {
-    font-size: 15px;
-    padding: 12px;
-    margin-bottom: 20px;
-    border: 1px solid #dcdcdc;
+    font-size: 0.8rem;
+    padding: 8px;
+    margin-bottom: 10px;
     border-radius: 6px;
-    width: 100%;
-    box-sizing: border-box;
-    transition: all 0.3s ease;
   }
-  
-  .student-login-form select:focus,
-  .student-login-form input:focus {
-    border-color: #1d5f2c;
-    outline: none;
-    box-shadow: 0 0 8px rgba(52, 152, 219, 0.3);
-  }
-  
+
   .login-button {
-    padding: 12px 0;
-    font-size: 16px;
-    color: #ffffff;
-    background-color: #1d5f2c;
-    border: none;
+    padding: 8px 0;
+    font-size: 0.8rem;
     border-radius: 6px;
-    cursor: pointer;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: background-color 0.3s ease;
   }
-  
+
   .login-button:hover {
     background-color: goldenrod;
   }
-  
+
   .error {
-    font-size: 14px;
+    font-size: 0.8rem;
     color: #e74c3c;
     margin-bottom: 20px;
     text-align: center;
   }
-  
+
   .toggle-link {
-    font-size: 15px;
-    color: #3498db;
-    text-align: center;
-    cursor: pointer;
-    margin-top: 20px;
+    font-size: 0.8rem;
+    margin-top: 10px;
   }
-  
+
   .toggle-link span:hover {
     text-decoration: underline;
   }
-  
+
   .student-login-footer {
-    font-size: 14px;
-    color: #999;
-    margin-top: 20px;
-    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 10px;
   }
-  
+}

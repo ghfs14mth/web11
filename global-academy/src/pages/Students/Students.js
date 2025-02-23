@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
 import "./Students.css";
 import QueryForm from "../../components/QueryForm/QueryForm";
@@ -15,6 +15,25 @@ const Students = () => {
     ];
 
     const isStudentsPage = location.pathname === "/students";
+    const [sidebarOpen, setSidebarOpen] = useState(false);
+    const [closing, setClosing] = useState(false);
+
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (sidebarOpen && !event.target.closest(".students-sidebar") && !event.target.closest(".sidebar-toggle")) {
+                setClosing(true); // Start closing animation
+                setTimeout(() => {
+                    setSidebarOpen(false);
+                    setClosing(false);
+                }, 300); // Delay to match CSS transition
+            }
+        };
+
+        document.addEventListener("click", handleClickOutside);
+        return () => {
+            document.removeEventListener("click", handleClickOutside);
+        };
+    }, [sidebarOpen]);
 
     return (
         <div>
@@ -29,9 +48,15 @@ const Students = () => {
                         <Outlet />
                     )}
                 </div>
-
+                {/* Mobile Sidebar Toggle Button */}
+                <div
+                    className={`sidebar-toggle ${sidebarOpen ? "sidebar-toggle-open" : ""}`}
+                    onClick={() => setSidebarOpen(!sidebarOpen)}
+                >
+                    <span className={`arrow ${sidebarOpen ? "flip" : ""}`}>&#x276E;</span>
+                </div>
                 {/* Right Sidebar */}
-                <div className="students-sidebar">
+                <div className={`students-sidebar ${sidebarOpen ? "sidebar-open" : ""} ${closing ? "sidebar-closing" : ""}`}>
                     <h2 style={{ marginLeft: "10px", color: "#fff" }}>
                         Students
                     </h2>
@@ -39,7 +64,7 @@ const Students = () => {
                         {menuOptions.map((option, index) => {
                             const isActive = location.pathname.includes(option.link);
                             return (
-                                <li key={index}>
+                                <li key={index} onClick={() => setSidebarOpen(false)}>
                                     <Link
                                         to={`/students/${option.link}`}
                                         className={`sidebar-link ${isActive ? "active" : ""
@@ -53,7 +78,7 @@ const Students = () => {
                     </ul>
                 </div>
             </div>
-            <Footer/>
+            <Footer />
             <QueryForm />
         </div>
     );

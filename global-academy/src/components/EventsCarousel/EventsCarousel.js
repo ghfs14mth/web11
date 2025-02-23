@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import { ref, onValue } from "firebase/database";
@@ -24,13 +24,18 @@ const EventsCarousel = () => {
     <div className="events-carousel">
       <div className="events-header">
         <div className="events-highlight">Upcoming Events</div>
+        <p>Swipe to check out more--</p>
       </div>
       <div className="carousel-wrapper">
         <Swiper
-          modules={[Navigation]}
-          navigation
-          spaceBetween={10} // Gaps between cards
-          slidesPerView={5} // Show 5 full cards
+          modules={[Navigation, Autoplay]}
+          navigation={window.innerWidth > 768}
+          autoplay={{
+            delay: 1800,
+            disableOnInteraction: false
+          }} // Disable navigation on mobile
+          spaceBetween={10}
+          slidesPerView={1} // Show only 1 card per view on mobile
           breakpoints={{
             1024: { slidesPerView: 4 },
             768: { slidesPerView: 3 },

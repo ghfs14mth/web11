@@ -2,10 +2,12 @@ import React, { useEffect, useState } from "react";
 import "./SocialMediaSection.css";
 import { ref, onValue } from "firebase/database";
 import { database } from "../../firebase";
+import { Link } from "react-router-dom";
 
 const SocialMediaSection = () => {
   const [posts, setPosts] = useState([]);
   const [mediaTypes, setMediaTypes] = useState({});
+  const [visiblePosts, setVisiblePosts] = useState(window.innerWidth <= 768 ? 1 : 8);
 
 
   useEffect(() => {
@@ -47,9 +49,9 @@ const SocialMediaSection = () => {
       <h2 className="section-title">Stay Connected</h2>
       <h3 className="social-title">Instagram</h3>
       <div className="posts">
-        {posts.slice(0, 8).map((post, index) => (
-          <a
-            href={post.permalink}
+        {posts.slice(0, visiblePosts).map((post, index) => (
+          <Link
+            to={post.permalink}
             target="_blank"
             rel="noopener noreferrer"
             className="post"
@@ -62,11 +64,17 @@ const SocialMediaSection = () => {
             ) : (
               <div className="placeholder">Media type not supported</div>
             )}
-            {post.caption ? (post.caption.length > 40 ? post.caption.substring(0, 100) + "..." : post.caption) : "No caption available"}
-          </a>
+            {post.caption ? (post.caption.length > 40 ? <p>{post.caption.substring(0, 100) + "..."}</p> : <p>{post.caption}</p>) : "No caption available"}
+          </Link>
         ))}
 
       </div>
+      {/* Load More Button (only in mobile view) */}
+      {visiblePosts < posts.length && (
+        <button className="load-more" onClick={() => setVisiblePosts((prev) => prev + 1)}>
+          Load More
+        </button>
+      )}
     </div>
   );
 };

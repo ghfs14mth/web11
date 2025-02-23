@@ -4,6 +4,7 @@ import OneImg from '../../assets/Member1.png';
 import TwoImg from '../../assets/Member2.jpg';
 import ThreeImg from '../../assets/Member3.png';
 import FourImg from '../../assets/Member4.png';
+import { Link } from "react-router-dom";
 const AdministrativeTeam = () => {
     // Example data for team members
     const [selectedTab, setSelectedTab] = useState("district-office");
@@ -95,7 +96,7 @@ const AdministrativeTeam = () => {
                             <p>{member.position}</p>
                             <p>{member.email}</p>
                             <p>{member.phone}</p>
-                            <a href="/about/home">Learn More</a>
+                            <Link to="/about/home">Learn More</Link>
                         </div>
                     </div>
                 ))}

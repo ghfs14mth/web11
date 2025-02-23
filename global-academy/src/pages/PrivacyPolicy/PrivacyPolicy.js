@@ -2,6 +2,7 @@ import React from "react";
 import "./PrivacyPolicy.css";
 import QueryForm from "../../components/QueryForm/QueryForm";
 import Footer from "../../components/Footer/Footer";
+import { Link } from "react-router-dom";
 const PrivacyPolicy = () => {
     return (
         <div>
@@ -46,9 +47,9 @@ const PrivacyPolicy = () => {
                     </p>
                     <p>
                         For more detailed information, read the{" "}
-                        <a href="https://example.com" target="_blank" rel="noopener noreferrer">
+                        <Link to="/privacy-policy" target="_blank" rel="noopener noreferrer">
                             FERPA guidelines.
-                        </a>
+                        </Link>
                     </p>
                 </div>
 
