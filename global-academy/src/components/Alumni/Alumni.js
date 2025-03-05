@@ -1,29 +1,29 @@
 import React from "react";
 import "./Alumni.css";
-
+import template from '../../assets/template-person.jpg'
 const Alumni = () => {
   const stats = [
-    { title: "National Exam Toppers", value: "50+" },
+    { title: "Competitive Exam Performers", value: "30+" },
     { title: "Sports Medals", value: "120+" },
-    { title: "Scholarship Winners", value: "200+" },
-    { title: "University Placements", value: "500+" },
+    { title: "Scholarship Winners", value: "40+" },
+    { title: "Batch incusivity", value: "100%" },
   ];
 
   const toppers = [
     {
+      name: "Vanshika Sharma",
+      year: "2024",
+      image: template, // Replace with actual image URLs
+    },
+    {
       name: "Tanisha Bansal",
       year: "2023",
-      image: "https://storage.googleapis.com/web_images_database_gaps/tansh.jpg", // Replace with actual image URLs
+      image: template, // Replace with actual image URLs
     },
     {
-      name: "Shaurya Bansal",
+      name: "Dhruv Kumar",
       year: "2022",
-      image: "https://storage.googleapis.com/web_images_database_gaps/mansh.jpg", // Replace with actual image URLs
-    },
-    {
-      name: "Vansh Bansal",
-      year: "2021",
-      image: "https://storage.googleapis.com/web_images_database_gaps/vansh.jpg", // Replace with actual image URLs
+      image: template, // Replace with actual image URLs
     },
   ];
 

@@ -11,7 +11,7 @@ const Admissions = () => {
         { name: "Admission Updates", link: "admission-updates" },
         { name: "Admission Form", link: "admission-form" },
     ];
-
+    console.log(sidebarOpen)
     const isAdmissionsPage = location.pathname === "/admissions";
     const [closing, setClosing] = useState(false);
 

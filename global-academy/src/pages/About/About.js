@@ -48,17 +48,11 @@ const About = () => {
                     {isAboutPage ? (
                         <div className="about-overview">
                             <h1>Global Academy</h1>
-                            <p>
-                                A place where education meets excellence. At Global Academy, we believe in nurturing the minds of tomorrow by providing a holistic and inclusive learning environment that encourages curiosity, creativity, and critical thinking.
-
-                                Our mission is to empower every student with the knowledge, skills, and values needed to succeed in an ever-changing world. We take pride in offering a comprehensive curriculum that balances academic rigor with extracurricular opportunities, fostering personal growth and lifelong learning.</p>
-
-                            <p>At Global Academy, every student is valued and supported by a dedicated team of educators and staff who are committed to their success. Our state-of-the-art facilities and diverse programs ensure that students can explore their interests, develop their talents, and build strong foundations for their future.
-
-                                Whether it’s in the classroom, on the stage, or on the playing field, Global Academy provides a safe and inspiring space where every individual is encouraged to reach their full potential. Together, we strive to create a community that celebrates diversity, respects individuality, and builds strong character.
-
-                                Join us on this journey of discovery and growth. At Global Academy, we are not just preparing students for the next grade level—we are preparing them for life.
-                            </p>
+                            <p>At Global Academy, secondary education has been defined for the 21st century. Designed to cultivate critical thinkers, innovators, and compassionate leaders, the  school blends academic excellence with cutting-edge technology like AI and coding, character development, and real-world applications.</p>
+                            <p>The curriculum integrates the best of traditional learning with modern approaches, emphasizing Science (Medical and Non-Medical), commerce and humanities. Through hands-on projects, digital learning, and collaborative problem-solving, the school empowers students to explore their passions and develop future-ready skills. The highly qualified teachers serve as mentors, fostering creativity, resilience, and a love for lifelong learning.</p>
+                            <p>Beyond academics, Global Academy prioritizes holistic development. The vibrant extracurricular programs—ranging from robotics and entrepreneurship to music, sports inclusive of Kabaddi Academy, Table -Tennis Academy, Badminton Academy and Chess Academy, and much more along with community service—help students discover their unique talents and build confidence. The Global Academy emphasizes values such as integrity, responsibility, and global citizenship, ensuring its pass outs are not just academically accomplished but also socially responsible individuals.</p>
+                            <p>The school also integrates class room studies with Coaching for various competitive entrance examinations like JEE, NEET, NDA, IPMAT, CLAT, CPT, HAS and IAS and sports as mentioned in the safe hands of teachers and coaches of National and international reputation.</p>
+                            <p>With state-of-the-art facilities, a safe and inclusive environment, and a commitment to personalized learning, Global Academy Public School stands as a beacon of educational excellence.The school prepares  students not just for exams, but for life. Join us and be part of a school that shapes the leaders and changemakers of tomorrow.</p>
                             <p style={{ fontWeight: '500' }}>Navigate the sidebar to learn more</p>
                         </div>
                     ) : (

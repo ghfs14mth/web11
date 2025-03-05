@@ -1,79 +1,83 @@
 .operations-section {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 100px 0 120px 0;
-    border-bottom: 0.5px solid black;
-    margin-left: -25px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 100px 0 120px 0;
+  border-bottom: 0.5px solid black;
+  margin-left: -25px;
+}
+
+.operation-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.operation-icon {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.operation-item:hover .operation-icon {
+  transform: scale(1.1);
+  /* Icon pops out */
+
+  transition: ease-in-out 0.2s;
+}
+
+.operation-item:hover .operation-title {
+  color: darkgreen;
+}
+
+.operation-icon img {
+  width: 50%;
+  /* Adjust icon size */
+  height: 50%;
+  object-fit: contain;
+}
+
+.operation-title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 6px;
+}
+
+@media (max-width: 768px) {
+  .operations-section {
+    flex-flow: row wrap;
+    /* Two items per row */
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: space-around;
+    padding: 30px 30px;
+    margin-left: 0px;
   }
-  
+
   .operation-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-    padding-left: 6px;
-    padding-right: 6px;
-  }
-  
-  .operation-icon {
-    width: 80px;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    border-radius: 50%;
-    border: 1px solid #ddd;
-    margin-bottom: 10px;
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .operation-item:hover .operation-icon {
-    transform: scale(1.1); /* Icon pops out */
-    
-    transition: ease-in-out 0.2s;
-  }
-  .operation-item:hover .operation-title {
-    color: darkgreen;
-  }
-  
-  .operation-icon img {
-    width: 50%; /* Adjust icon size */
-    height: 50%;
-    object-fit: contain;
-  }
-  
-  .operation-title {
-    font-size: 0.9rem;
-    font-weight:500;
     text-align: center;
-    padding-top: 6px;
+    width: 100px;
   }
-  @media (max-width: 768px) {
-    .operations-section {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr); /* Two items per row */
-      gap: 20px;
-      justify-content: center;
-      align-items: center;
-      padding: 50px 20px;
-      margin-left: 0px;
-    }
-  
-    .operation-item {
-      text-align: center;
-    }
-  
-    .operation-icon {
-      width: 60px;
-      height: 60px;
-    }
-  
-    .operation-title {
-      font-size: 0.7rem;
-    }
+
+  .operation-icon {
+    width: 60px;
+    height: 60px;
   }
-  
+
+  .operation-title {
+    font-size: 0.7rem;
+  }
+}

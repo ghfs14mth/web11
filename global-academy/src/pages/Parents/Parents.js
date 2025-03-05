@@ -49,12 +49,12 @@ const Parents = () => {
                     )}
                 </div>
                 {/* Mobile Sidebar Toggle Button */}
-                <div
+                {sidebarOpen ? <div
                     className={`sidebar-toggle ${sidebarOpen ? "sidebar-toggle-open" : ""}`}
                     onClick={() => setSidebarOpen(!sidebarOpen)}
                 >
                     <span className={`arrow ${sidebarOpen ? "flip" : ""}`}>&#x276E;</span>
-                </div>
+                </div> : null}
                 {/* Right Sidebar */}
                 <div className={`parents-sidebar ${sidebarOpen ? "sidebar-open" : ""} ${closing ? "sidebar-closing" : ""}`}>
 

@@ -9,9 +9,10 @@ import SocialMediaSection from "../../components/SocialMediaSection/SocialMediaS
 import BannerSection from "../../components/BannerSection/BannerSection";
 import FooterSection from "../../components/FooterSection/FooterSection";
 import QueryForm from "../../components/QueryForm/QueryForm";
-import RebrandingSection from "../../components/RebrandingSection/RebrandingSection";
 import AICodingHub from "../../components/CodingHub/AICodingHub";
 import Footer from "../../components/Footer/Footer";
+import "../../components/RebrandingSection/RebrandingSection.css";
+import Rocket from '../../assets/rocket.png';
 
 const Home = () => {
     return (
@@ -29,7 +30,27 @@ const Home = () => {
                 </div>
             </div>
 
-            <RebrandingSection />
+            <section className="rebranding-section">
+                {/* Starry Background Overlay */}
+                <div className="stars"></div>
+
+                {/* Moving Rocket */}
+                <img
+                    src={Rocket} /* Replace with a better rocket SVG */
+                    alt="Rocket"
+                    className="rocket"
+                />
+
+                {/* Rebranding Text (Now Floating) */}
+                <div className="rebranding-text">
+                    <h1 className="neon-text">🚀 Future Innovators Start Here!</h1>
+                    <p>
+                        AI | Space Science | Coding | Mathematics
+                        <br />
+                        <strong>Shaping the next-gen thinkers at GAPS!</strong>
+                    </p>
+                </div>
+            </section>
             <div className="home-container">
                 <div className="left-section">
                     <TrendingSection />
@@ -44,11 +65,11 @@ const Home = () => {
             <div className="home-mobile-middle-carousel">
                 <Carousel databaseName={"carouselImages"} />
             </div>
+            <OperationsSection />
+            <AICodingHub />
             <div className="home-mobile-right-blogs">
                 <BlogsSection />
             </div>
-            <OperationsSection />
-            <AICodingHub />
             <EventsCarousel />
             <SocialMediaSection />
             <BannerSection />

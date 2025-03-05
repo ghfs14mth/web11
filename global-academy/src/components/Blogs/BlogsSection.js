@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { ref, onValue, getDatabase } from "firebase/database";
-
 import { Link } from "react-router-dom";
 import "./BlogsSection.css";
 
@@ -30,7 +29,7 @@ const BlogsSection = () => {
       {blogs.map((blog, index) => (
         <Link to={`/about/news/${blog.id}`} className="blog-item" key={index}>
           <div className="blog-image">
-            <img src={blog.image} alt={blog.title} />
+            <img src={blog.image} alt={blog.title} loading="lazy" />
           </div>
           <div className="blog-details">
             <div className="blog-title">

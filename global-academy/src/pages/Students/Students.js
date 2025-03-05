@@ -49,12 +49,12 @@ const Students = () => {
                     )}
                 </div>
                 {/* Mobile Sidebar Toggle Button */}
-                <div
+                {sidebarOpen ? <div
                     className={`sidebar-toggle ${sidebarOpen ? "sidebar-toggle-open" : ""}`}
                     onClick={() => setSidebarOpen(!sidebarOpen)}
                 >
                     <span className={`arrow ${sidebarOpen ? "flip" : ""}`}>&#x276E;</span>
-                </div>
+                </div> : null}
                 {/* Right Sidebar */}
                 <div className={`students-sidebar ${sidebarOpen ? "sidebar-open" : ""} ${closing ? "sidebar-closing" : ""}`}>
                     <h2 style={{ marginLeft: "10px", color: "#fff" }}>

@@ -3,9 +3,38 @@ import Slider from "react-slick";
 import { ref, onValue } from "firebase/database";
 import { database } from "../../firebase";
 import "./Carousel.css";
-
+import image1 from '../../assets/pahadi_kids_2024.jpeg';
+import image2 from '../../assets/mass_sitting_2024.jpeg';
+import image3 from '../../assets/dusshera_2024.jpeg';
+import image4 from '../../assets/Karate_begins_2024.jpeg';
 const Carousel = ({ databaseName }) => {
-  const [carouselImages, setCarouselImages] = useState([]);
+  const carouselSavedImages =
+    [
+      {
+        "4": "",
+        "caption": "Welcome to Global Academy",
+        "id": 1,
+        "image": image1
+      },
+      {
+        "caption": "Empowering Students for the Future",
+        "id": 2,
+        "image": image2
+      },
+      {
+        "caption": "Dusshera",
+        "id": 3,
+        "image": image3
+      },
+      {
+        "caption": "Karate Practice Match",
+        "id": 4,
+        "image": image4
+      }
+    ]
+  const [carouselImages, setCarouselImages] = useState(carouselSavedImages);
+
+
 
   useEffect(() => {
     const carouselRef = ref(database, databaseName);
@@ -33,7 +62,7 @@ const Carousel = ({ databaseName }) => {
       <Slider {...settings}>
         {carouselImages.map((item) => (
           <div className="carousell-slide" key={item.id}>
-            <img src={item.image} alt={item.caption} className="carousell-image" />
+            <img loading="lazy" src={item.image} alt={item.caption} className="carousell-image" />
             <div className="carousell-caption">{item.caption}</div>
           </div>
         ))}

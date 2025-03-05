@@ -51,7 +51,9 @@
     background-color: rgba(255, 255, 255, 0.2);
     border-left: 3px solid goldenrod;
 }
-
+.sidebar-toggle{
+  display: none;
+}
 .admissions-overview h1 {
     color: #004225;
     font-size: 24px;

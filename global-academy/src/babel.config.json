@@ -1,0 +1,9 @@
+{
+    "presets": ["react-app"],
+    "env": {
+      "production": {
+        "presets": ["minify"]
+      }
+    }
+  }
+  

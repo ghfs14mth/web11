@@ -56,10 +56,11 @@ const styles = {
     color: "#555",
   },
   grid: {
-    display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
+    display:"flex",
+    flexFlow: "row wrap",
+    justifyContent: "center",
     gap: "15px",
-    maxWidth: "750px",
+    maxWidth: "800px",
     margin: "0 auto",
     marginBottom: "40px"
   },

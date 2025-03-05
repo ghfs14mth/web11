@@ -12,7 +12,12 @@ const Notices = () => {
     onValue(noticesRef, (snapshot) => {
       const data = snapshot.val();
       if (data) {
-        setNotices(Object.values(data));
+        let noticesArray = Object.values(data);
+        
+        // ✅ Sorting notices by latest date first
+        noticesArray.sort((a, b) => new Date(b.date) - new Date(a.date));
+        
+        setNotices(noticesArray);
       }
       setLoading(false);
     });
@@ -33,6 +38,9 @@ const Notices = () => {
               <h2 className="notice-title">{notice.title}</h2>
               <p className="notice-date">{new Date(notice.date).toDateString()}</p>
               <p className="notice-description">{notice.description}</p>
+              <p className="notice-description">Regards,</p>
+              <p className="notice-description">{notice.salutation}</p>
+              <p className="notice-description" style={{marginTop:"-18px"}}>{notice.occupation}</p>
             </div>
           ))}
         </div>

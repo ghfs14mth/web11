@@ -18,7 +18,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: url("https://storage.googleapis.com/web_images_database_gaps/stars.jpg");
+    background: url("../../assets/stars.avif");
     /* Working starry background */
     background-size: cover;
     background-position: center;
@@ -116,7 +116,7 @@
         top: 60px;
         left: -100px;
         width: 80px;
-        animation: fly-across 10s linear infinite;
+        animation: fly-across-mobile 10s linear infinite;
     }
 
     /* Futuristic Neon Title */
@@ -128,6 +128,18 @@
     .rebranding-text p {
         font-size: 0.9rem;
     }
+    @keyframes fly-across-mobile {
+        0% {
+            transform: translateX(0) rotate(0deg);
+        }
     
+        50% {
+            transform: translateX(80vw) translateY(-50px) rotate(355deg);
+        }
+    
+        100% {
+            transform: translateX(120vw) translateY(-100px) rotate(350deg);
+        }
+    }
 
 }

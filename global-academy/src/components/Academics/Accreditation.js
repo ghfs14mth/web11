@@ -5,9 +5,8 @@ import acc2 from '../../assets/acc2.jpg';
 const Accreditation = () => {
   const accreditations = [
     { title: "Affiliated with HPBOSE", description: "Recognized by the Himachal Pradesh Board of School Education (HPBOSE) for primary, secondary, and senior secondary education." },
-    { title: "National Accreditation", description: "Certified by the National Accreditation Board for Education and Training (NABET)." },
-    { title: "ISO Certification", description: "ISO 9001:2015 certified for quality management systems in education." },
-    { title: "Excellence in Education Award", description: "Awarded for maintaining high standards in teaching and extracurricular activities." },
+    { title: "National Education Policy", description: "GAPS has started implementing National Education Policy" },
+
   ];
 
   return (

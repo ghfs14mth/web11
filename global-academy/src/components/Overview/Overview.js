@@ -1,9 +1,10 @@
 import React from "react";
 import "./Overview.css"; // Optional CSS file for styling the overview section
-import schoolImage from "../../assets/school-building.jpg";
+import cultural from "../../assets/cultural.jpg";
 import festivalImage from "../../assets/festival-celebration.jpg";
 import techClassroomImage from "../../assets/tech-classroom.jpg";
 import sportsImage from "../../assets/sports-event.jpg";
+import society from '../../assets/society.jpg'
 
 const Overview = () => {
   return (
@@ -15,7 +16,7 @@ const Overview = () => {
         <p>
           Global Academy was established in 2012 with the vision to provide students with a holistic education that inspires academic excellence and character building. Since its inception, the school has achieved numerous milestones in academics and sports, empowering students to excel in competitive exams and represent the school in national and international sporting events.
         </p>
-        <img src={schoolImage} alt="School Building" className="overview-image" />
+        <img src={society} alt="School Building" className="overview-image" />
       </section>
 
       <section className="overview-section">
@@ -39,7 +40,7 @@ const Overview = () => {
         <p>
           We believe in fostering a deep connection to cultural roots. The school celebrates various festivals and events, ensuring students appreciate and respect diversity while learning about traditions and customs.
         </p>
-        <img src={festivalImage} alt="Festival Celebration" className="overview-image" />
+        <img src={cultural} alt="Festival Celebration" className="overview-image" />
       </section>
 
       <section className="overview-section">

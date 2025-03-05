@@ -1,6 +1,6 @@
 import React from "react";
 import "./RebrandingSection.css";
-
+import Rocket from '../../assets/rocket.png';
 const RebrandingSection = () => {
   return (
     <section className="rebranding-section">
@@ -9,7 +9,7 @@ const RebrandingSection = () => {
 
       {/* Moving Rocket */}
       <img
-        src="https://storage.googleapis.com/web_images_database_gaps/rocket.png" /* Replace with a better rocket SVG */
+        src={Rocket} /* Replace with a better rocket SVG */
         alt="Rocket"
         className="rocket"
       />

@@ -1,0 +1,2296 @@
+{
+  "admissions": {
+    "updates": {
+      "imageUrl": "https://storage.googleapis.com/web_images_database_gaps/AdmissionsOpen_2025.jpg",
+      "list": [
+        null,
+        {
+          "date": "2025-03-05",
+          "description": "The last date for admission form submission has been extended to March 15, 2025.",
+          "title": "Admission Form Submission Deadline Extended!"
+        },
+        {
+          "date": "2025-02-28",
+          "description": "We are excited to introduce new scholarship opportunities for deserving students.",
+          "title": "New Scholarship Programs Available"
+        },
+        {
+          "date": "2025-02-20",
+          "description": "Join us for an in-person or virtual campus tour to explore our school.",
+          "title": "Campus Tour Dates Announced"
+        }
+      ]
+    }
+  },
+  "blogsSection": [
+    null,
+    {
+      "date": "12/06/24",
+      "image": "https://i.imgur.com/SKMZzsj.jpg",
+      "link": "/about/news/blog5",
+      "title": "Diddy Lawsuit Accuser Revealed as Anna Kane, Ex-Wife of NHL Star"
+    },
+    {
+      "date": "12/08/24",
+      "image": "https://i.imgur.com/9sXpl8t.jpg",
+      "link": "/blogs/2",
+      "title": "Brandi Glanville Sparks Concern With New Selfie on Social Media"
+    },
+    {
+      "date": "12/07/24",
+      "image": "https://i.imgur.com/Qt1Eywi.jpg",
+      "link": "/blogs/3",
+      "title": "Mark Withers, 'Stranger Things' Actor, Dead at 77"
+    },
+    {
+      "date": "12/07/24",
+      "image": "https://i.imgur.com/PYbn0nW.jpg",
+      "link": "/blogs/4",
+      "title": "UnitedHealthcare CEO Shooter's Possible Jacket Flying Off Shelves"
+    }
+  ],
+  "calendar": [
+    null,
+    {
+      "date": "2025-01-25",
+      "description": "Celebration of Himachal Pradesh's Statehood.",
+      "title": "Statehood Day"
+    },
+    {
+      "date": "2025-01-26",
+      "description": "Commemorating the adoption of the Constitution of India.",
+      "title": "Republic Day"
+    },
+    {
+      "date": "2025-02-12",
+      "description": "Birth anniversary of Guru Ravidas.",
+      "title": "Guru Ravidas's Birthday"
+    },
+    {
+      "date": "2025-02-26",
+      "description": "Festival honoring Lord Shiva.",
+      "title": "Maha Shivratri"
+    },
+    {
+      "date": "2025-03-14",
+      "description": "Festival of colors celebrated across India.",
+      "title": "Holi"
+    },
+    {
+      "date": "2025-03-31",
+      "description": "Festival marking the end of Ramadan.",
+      "title": "Id-ul-Fitr"
+    },
+    {
+      "date": "2025-04-06",
+      "description": "Festival marking the birth of Lord Ram.",
+      "title": "Ram Navami"
+    },
+    {
+      "date": "2025-04-14",
+      "description": "Birth anniversary of Dr. B.R. Ambedkar.",
+      "title": "Dr. B.R. Ambedkar's Birthday"
+    },
+    {
+      "date": "2025-04-15",
+      "description": "Commemoration of Himachal Pradesh formation.",
+      "title": "Himachal Day"
+    },
+    {
+      "date": "2025-04-18",
+      "description": "Christian holiday observing the crucifixion of Jesus.",
+      "title": "Good Friday"
+    },
+    {
+      "date": "2025-04-29",
+      "description": "Celebration of Sage Parshuram's birth.",
+      "title": "Parshu Ram Jayanti"
+    },
+    {
+      "date": "2025-05-12",
+      "description": "Festival celebrating the birth of Buddha.",
+      "title": "Budha Purnima"
+    },
+    {
+      "date": "2025-05-29",
+      "description": "Commemoration of Maharana Pratap's legacy.",
+      "title": "Maharana Pratap Jayanti"
+    },
+    {
+      "date": "2025-06-07",
+      "description": "Festival marking the sacrifice of Prophet Ibrahim.",
+      "title": "Id-ul-Zuha (Bakrid)"
+    },
+    {
+      "date": "2025-06-11",
+      "description": "Birth anniversary of Sant Kabir.",
+      "title": "Sant Guru Kabir Jayanti (Prakat Diwas)"
+    },
+    {
+      "date": "2025-07-06",
+      "description": "Commemoration of Muharram.",
+      "title": "Muharram"
+    },
+    {
+      "date": "2025-08-15",
+      "description": "Celebration of India's independence.",
+      "title": "Independence Day"
+    },
+    {
+      "date": "2025-08-16",
+      "description": "Celebration of Lord Krishna's birth.",
+      "title": "Janmashtami"
+    },
+    {
+      "date": "2025-10-02",
+      "description": "Birthday of Mahatma Gandhi and Dussehra festival.",
+      "title": "Mahatma Gandhi Birthday / Dussehra"
+    },
+    {
+      "date": "2025-10-07",
+      "description": "Celebration of Maharishi Valmiki's birth.",
+      "title": "Maharishi Valmiki's Birthday"
+    },
+    {
+      "date": "2025-10-20",
+      "description": "Festival of lights celebrated across India.",
+      "title": "Diwali"
+    },
+    {
+      "date": "2025-11-05",
+      "description": "Birth anniversary of Guru Nanak.",
+      "title": "Guru Nanak's Birthday"
+    },
+    {
+      "date": "2025-12-25",
+      "description": "Celebration of the birth of Jesus Christ.",
+      "title": "Christmas Day"
+    },
+    {
+      "date": "2025-01-01",
+      "description": "Celebration of the New Year.",
+      "title": "New Year's Day"
+    },
+    {
+      "date": "2025-01-14",
+      "description": "Hindu festival celebrating the Sun's transition.",
+      "title": "Makar Sankranti"
+    },
+    {
+      "date": "2025-02-02",
+      "description": "Hindu festival marking the arrival of spring.",
+      "title": "Basant Panchami"
+    },
+    {
+      "date": "2025-02-23",
+      "description": "Celebration of Swami Dayanand Saraswati's birth.",
+      "title": "Swami Dayanand Saraswati Jayanti"
+    },
+    {
+      "date": "2025-04-13",
+      "description": "Harvest festival celebrated across India.",
+      "title": "Vaisakhi / Vishu"
+    },
+    {
+      "date": "2025-04-20",
+      "description": "Christian holiday celebrating Jesus' resurrection.",
+      "title": "Easter Sunday"
+    },
+    {
+      "date": "2025-05-09",
+      "description": "Birth anniversary of Guru Rabindranath Tagore.",
+      "title": "Guru Rabindranath's Birthday"
+    },
+    {
+      "date": "2025-08-09",
+      "description": "Festival celebrating sibling bonds.",
+      "title": "Raksha Bandhan"
+    },
+    {
+      "date": "2025-08-27",
+      "description": "Hindu festival honoring Lord Ganesha.",
+      "title": "Ganesh Chaturthi"
+    },
+    {
+      "date": "2025-09-30",
+      "description": "Festival celebrating Goddess Durga.",
+      "title": "Maha Ashtami"
+    },
+    {
+      "date": "2025-10-10",
+      "description": "Hindu festival celebrating women's marital well-being.",
+      "title": "Karva Chauth"
+    },
+    {
+      "date": "2025-10-22",
+      "description": "Festival honoring Lord Krishna and Govardhan Hill.",
+      "title": "Goverdhan Puja"
+    },
+    {
+      "date": "2025-10-23",
+      "description": "Festival celebrating sibling bonds.",
+      "title": "Bhai Duj"
+    },
+    {
+      "date": "2025-11-24",
+      "description": "Observance of Guru Teg Bahadur's martyrdom.",
+      "title": "Guru Teg Bahadur Martyrdom Day"
+    },
+    {
+      "date": "2025-12-24",
+      "description": "The evening before Christmas.",
+      "title": "Christmas Eve"
+    }
+  ],
+  "carouselImages": [
+    {
+      "4": "",
+      "caption": "Welcome to Global Academy",
+      "id": 1,
+      "image": "https://firebasestorage.googleapis.com/v0/b/global-academy-4921f.firebasestorage.app/o/web_images%2Fpahadi_kids_2024.jpeg?alt=media&token=00d2bcc7-ec88-4426-86c5-700f2ba11715"
+    },
+    {
+      "caption": "Empowering Students for the Future",
+      "id": 2,
+      "image": "https://firebasestorage.googleapis.com/v0/b/global-academy-4921f.firebasestorage.app/o/web_images%2Fmass_sitting_2024.jpeg?alt=media&token=c6ddaa7b-309c-4320-b1ad-92a9101add12"
+    },
+    {
+      "caption": "Dusshera",
+      "id": 3,
+      "image": "https://firebasestorage.googleapis.com/v0/b/global-academy-4921f.firebasestorage.app/o/web_images%2Fdusshera_2024.jpeg?alt=media&token=b321737e-52c0-4a2a-9919-9210c1261dd8"
+    },
+    {
+      "caption": "Karate Practice Match",
+      "id": 4,
+      "image": "https://firebasestorage.googleapis.com/v0/b/global-academy-4921f.firebasestorage.app/o/web_images%2FKarate_begins_2024.jpeg?alt=media&token=df3b943f-653f-4c21-83f8-f85c0e09874a"
+    }
+  ],
+  "employment": {
+    "cv": {
+      "-OJmBcpyBXy6-AEgnAWR": {
+        "cvUrl": "https://firebasestorage.googleapis.com/v0/b/global-academy-4921f.firebasestorage.app/o/employment%2Fcv%2F1740303921768_Resume-%20Dev%20Bansal.pdf?alt=media&token=303820ad-2f57-43b4-a4c7-e5f3656ab1e2",
+        "name": "Dev Bansal",
+        "remarks": "Please Recruit me!",
+        "role": "Physics Teacher",
+        "timestamp": "2025-02-23T09:45:28.601Z"
+      }
+    }
+  },
+  "employment-teachers": [
+    {
+      "title": "Nursery Teacher",
+      "description": "Responsible for early childhood education with a focus on language development and interactive learning.",
+      "requirements": [
+        "Highly qualified",
+        "Fluency in spoken English",
+        "NTT"
+      ]
+    },
+    {
+      "title": "Primary Teacher",
+      "description": "Responsible for teaching core subjects at the primary level with structured lesson plans.",
+      "requirements": [
+        "Bachelor’s Degree in subject",
+        "D.El.Ed",
+        "B.Ed",
+        "PRT"
+      ]
+    },
+    {
+      "title": "Trained Graduate Teacher (TGT)",
+      "description": "English, Maths, S.Sc, Sanskrit, Computer Science, IT",
+      "requirements": [
+        "Bachelor’s/Master’s Degree in subject",
+        "B.Ed",
+        "TET",
+        "TGT"
+      ]
+    },
+    {
+      "title": "Post Graduate Teacher (PGT)",
+      "description": "Maths, Hindi, Psychology, Sociology, History, English",
+      "requirements": [
+        "Master’s Degree in subject",
+        "B.Ed",
+        "PGT"
+      ]
+    },
+    {
+      "title": "Sports Coach",
+      "description": "Football, Hockey, Cricket, Badminton, Skating",
+      "requirements": [
+        "Experience in Football, Hockey, Cricket, Badminton, Skating",
+        "Coaching certification",
+        "Coaches"
+      ]
+    },
+    {
+      "title": "Physical Education Teacher (P.E.T)",
+      "description": "Ensures students' physical well-being through structured physical education programs.",
+      "requirements": [
+        "B.P.Ed",
+        "M.P.Ed",
+        "Experience in physical education",
+        "P.E.T"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "date": "DEC 9",
+      "id": 1,
+      "location": "Resource Center",
+      "time": "5:00 PM",
+      "title": "School Board Study Session"
+    },
+    {
+      "date": "DEC 9",
+      "id": 2,
+      "location": "Resource Center",
+      "time": "7:00 PM",
+      "title": "School Board Meeting"
+    },
+    {
+      "date": "DEC 18",
+      "id": 3,
+      "location": "Microsoft Teams",
+      "time": "4:30 PM - 5:30 PM",
+      "title": "Information Meeting"
+    },
+    {
+      "date": "DEC 23",
+      "id": 4,
+      "location": "District Wide",
+      "time": "All Day",
+      "title": "No School - Winter Break"
+    },
+    {
+      "date": "JAN 5",
+      "id": 5,
+      "location": "Main Hall",
+      "time": "6:00 PM",
+      "title": "Parent-Teacher Conference"
+    },
+    {
+      "date": "JAN 10",
+      "id": 6,
+      "location": "Auditorium",
+      "time": "9:00 AM - 3:00 PM",
+      "title": "Science Fair"
+    },
+    {
+      "date": "JAN 15",
+      "id": 7,
+      "location": "Room 201",
+      "time": "4:00 PM",
+      "title": "Volunteer Orientation"
+    },
+    {
+      "date": "JAN 20",
+      "id": 8,
+      "location": "Art Gallery",
+      "time": "1:00 PM - 5:00 PM",
+      "title": "Art Exhibition"
+    },
+    {
+      "date": "FEB 2",
+      "id": 9,
+      "location": "Room 105",
+      "time": "10:00 AM - 12:00 PM",
+      "title": "Math Workshop"
+    },
+    {
+      "date": "FEB 14",
+      "id": 10,
+      "location": "Gymnasium",
+      "time": "7:00 PM",
+      "title": "Valentine's Day Dance"
+    }
+  ],
+  "exams": [
+    null,
+    [
+      {
+        "date": "2025-03-04",
+        "day": "Tuesday",
+        "title": "Drawing/ Computer(oral)"
+      },
+      {
+        "date": "2025-03-07",
+        "day": "Friday",
+        "title": "English"
+      },
+      {
+        "date": "2024-03-10",
+        "day": "Monday",
+        "title": "E.V.S"
+      },
+      {
+        "date": "2025-03-13",
+        "day": "Thursday",
+        "title": "Maths"
+      },
+      {
+        "date": "2025-03-15",
+        "title": "Saturday"
+      }
+    ],
+    [
+      {
+        "date": "2025-03-04",
+        "day": "Tuesday",
+        "title": "Drawing/ Computer(oral)"
+      },
+      {
+        "date": "2025-03-07",
+        "day": "Friday",
+        "title": "Maths"
+      },
+      {
+        "date": "2024-03-10",
+        "day": "Monday",
+        "title": "Hindi"
+      },
+      {
+        "date": "2025-03-13",
+        "day": "Thursday",
+        "title": "English"
+      },
+      {
+        "date": "2025-03-15",
+        "day": "Saturday",
+        "title": "E.V.S"
+      }
+    ],
+    [
+      {
+        "date": "2025-03-04",
+        "day": "Tuesday",
+        "title": "Drawing/ Computer(oral)"
+      },
+      {
+        "date": "2025-03-07",
+        "day": "Friday",
+        "title": "E.V.S"
+      },
+      {
+        "date": "2024-03-10",
+        "day": "Monday",
+        "title": "Maths"
+      },
+      {
+        "date": "2025-03-13",
+        "day": "Thursday",
+        "title": "Hindi"
+      },
+      {
+        "date": "2025-03-15",
+        "day": "Saturday",
+        "title": "English"
+      }
+    ],
+    [
+      {
+        "date": "2025-03-04",
+        "day": "Tuesday",
+        "title": "Drawing/ Computer(oral)"
+      },
+      {
+        "date": "2025-03-07",
+        "day": "Friday",
+        "title": "Hindi"
+      },
+      {
+        "date": "2024-03-10",
+        "day": "Monday",
+        "title": "E.V.S"
+      },
+      {
+        "date": "2025-03-13",
+        "day": "Thursday",
+        "title": "Maths"
+      },
+      {
+        "date": "2025-03-15",
+        "day": "Saturday",
+        "title": "English"
+      }
+    ],
+    [
+      {
+        "date": "2025-03-04",
+        "day": "Tuesday",
+        "title": "Drawing/ Computer(oral)"
+      },
+      {
+        "date": "2025-03-07",
+        "day": "Friday",
+        "title": "E.V.S"
+      },
+      {
+        "date": "2024-03-10",
+        "day": "Monday",
+        "title": "Maths"
+      },
+      {
+        "date": "2025-03-13",
+        "day": "Thursday",
+        "title": "English"
+      },
+      {
+        "date": "2025-03-15",
+        "day": "Saturday",
+        "title": "Hindi"
+      }
+    ],
+    [
+      {
+        "date": "2025-03-04",
+        "day": "Tuesday",
+        "title": "Maths"
+      },
+      {
+        "date": "2025-03-05",
+        "day": "Wednesday",
+        "title": "Drawing"
+      },
+      {
+        "date": "2024-03-06",
+        "day": "Thursday",
+        "title": "Science"
+      },
+      {
+        "date": "2025-03-07",
+        "day": "Friday",
+        "title": "Sanksrit"
+      },
+      {
+        "date": "2025-03-10",
+        "day": "Monday",
+        "title": "English"
+      },
+      {
+        "date": "2025-03-12",
+        "day": "Wednesday",
+        "title": "Social Studies"
+      },
+      {
+        "date": "2025-03-15",
+        "day": "Saturday",
+        "title": "Hindi"
+      }
+    ],
+    [
+      {
+        "date": "2025-03-04",
+        "day": "Tuesday",
+        "title": "Science"
+      },
+      {
+        "date": "2025-03-05",
+        "day": "Wednesday",
+        "title": "Drawing"
+      },
+      {
+        "date": "2024-03-06",
+        "day": "Thursday",
+        "title": "English"
+      },
+      {
+        "date": "2025-03-07",
+        "day": "Friday",
+        "title": "Hindi"
+      },
+      {
+        "date": "2025-03-10",
+        "day": "Monday",
+        "title": "Sanksrit"
+      },
+      {
+        "date": "2025-03-12",
+        "day": "Wednesday",
+        "title": "Social Studies"
+      },
+      {
+        "date": "2025-03-15",
+        "day": "Saturday",
+        "title": "Maths"
+      }
+    ],
+    [
+      {
+        "date": "2025-03-04",
+        "day": "Tuesday",
+        "title": "Hindi"
+      },
+      {
+        "date": "2025-03-05",
+        "day": "Wednesday",
+        "title": "Lok Sanksriti"
+      },
+      {
+        "date": "2024-03-06",
+        "day": "Thursday",
+        "title": "Sanksrit"
+      },
+      {
+        "date": "2025-03-07",
+        "day": "Friday",
+        "title": "Drawing"
+      },
+      {
+        "date": "2025-03-10",
+        "day": "Monday",
+        "title": "Maths"
+      },
+      {
+        "date": "2025-03-12",
+        "day": "Wednesday",
+        "title": "English"
+      },
+      {
+        "date": "2025-03-15",
+        "day": "Saturday",
+        "title": "Science"
+      },
+      {
+        "date": "2025-03-17",
+        "day": "Monday",
+        "title": "Social Studies"
+      }
+    ],
+    [
+      {
+        "date": "2025-03-05",
+        "day": "Wednesday",
+        "title": "Maths"
+      },
+      {
+        "date": "2025-03-07",
+        "day": "Friday",
+        "title": "Social Studies"
+      },
+      {
+        "date": "2025-03-10",
+        "day": "Monday",
+        "title": "English"
+      },
+      {
+        "date": "2025-03-12",
+        "day": "Wednesday",
+        "title": "Hindi"
+      },
+      {
+        "date": "2025-03-15",
+        "day": "Saturday",
+        "title": "Sanskrit"
+      },
+      {
+        "date": "2025-03-17",
+        "day": "Monday",
+        "title": "Science"
+      },
+      {
+        "date": "2025-03-19",
+        "day": "Wednesday",
+        "title": "Computer"
+      }
+    ],
+    [
+      {
+        "date": "2025-03-04",
+        "day": "Tuesday",
+        "title": "Hindi"
+      },
+      {
+        "date": "2025-03-07",
+        "day": "Friday",
+        "title": "English"
+      },
+      {
+        "date": "2025-03-10",
+        "day": "Monday",
+        "title": "Mathematics"
+      },
+      {
+        "date": "2025-03-13",
+        "day": "Thursday",
+        "title": "Science and Technology"
+      },
+      {
+        "date": "2025-03-15",
+        "day": "Saturday",
+        "title": "Computer Science"
+      },
+      {
+        "date": "2025-03-19",
+        "day": "Wednesday",
+        "title": "Sanskrit"
+      },
+      {
+        "date": "2025-03-22",
+        "day": "Saturday",
+        "title": "Social Science"
+      }
+    ],
+    [
+      {
+        "category": "science",
+        "date": "2025-03-04",
+        "day": "Tuesday",
+        "title": "English"
+      },
+      {
+        "category": "arts",
+        "date": "2025-03-04",
+        "day": "Tuesday",
+        "title": "English"
+      },
+      {
+        "category": "commerce",
+        "date": "2025-03-04",
+        "day": "Tuesday",
+        "title": "English"
+      },
+      {
+        "category": "science",
+        "date": "2025-03-10",
+        "day": "Monday",
+        "title": "Physics"
+      },
+      {
+        "category": "arts",
+        "date": "2025-03-11",
+        "day": "Tuesday",
+        "title": "Hindi"
+      },
+      {
+        "category": "commerce",
+        "date": "2025-03-12",
+        "day": "Wednesday",
+        "title": "Economics"
+      },
+      {
+        "category": "arts",
+        "date": "2025-03-13",
+        "day": "Thursday",
+        "title": "Sociology"
+      },
+      {
+        "category": "science",
+        "date": "2025-03-15",
+        "day": "Saturday",
+        "title": "Biology"
+      },
+      {
+        "category": "commerce",
+        "date": "2025-03-15",
+        "day": "Saturday",
+        "title": "Accountancy"
+      },
+      {
+        "category": "arts",
+        "date": "2025-03-17",
+        "day": "Monday",
+        "title": "History"
+      },
+      {
+        "category": "science",
+        "date": "2025-03-20",
+        "day": "Thursday",
+        "title": "Chemistry"
+      },
+      {
+        "category": "commerce",
+        "date": "2025-03-20",
+        "day": "Thursday",
+        "title": "Business Study"
+      },
+      {
+        "category": "arts",
+        "date": "2025-03-20",
+        "day": "Thursday",
+        "title": "Psychology"
+      },
+      {
+        "category": "arts",
+        "date": "2025-03-21",
+        "day": "Friday",
+        "title": "Political Science"
+      },
+      {
+        "category": "science",
+        "date": "2025-03-26",
+        "day": "Wednesday",
+        "title": "Maths"
+      },
+      {
+        "category": "commerce",
+        "date": "2025-03-24",
+        "day": "Monday",
+        "title": "Physical Education / Computer"
+      }
+    ],
+    [
+      {
+        "category": "science",
+        "date": "2025-03-04",
+        "day": "Tuesday",
+        "title": "Physics"
+      },
+      {
+        "category": "arts",
+        "date": "2025-03-04",
+        "day": "Tuesday",
+        "title": "Economics"
+      },
+      {
+        "category": "science",
+        "date": "2025-03-08",
+        "day": "Saturday",
+        "title": "English"
+      },
+      {
+        "category": "arts",
+        "date": "2025-03-08",
+        "day": "Saturday",
+        "title": "English"
+      },
+      {
+        "category": "arts",
+        "date": "2025-03-12",
+        "day": "Wednesday",
+        "title": "Hindi"
+      },
+      {
+        "category": "arts",
+        "date": "2025-03-17",
+        "day": "Monday",
+        "title": "Political Science"
+      },
+      {
+        "category": "science",
+        "date": "2025-03-18",
+        "day": "Tuesday",
+        "title": "Biology"
+      },
+      {
+        "category": "science",
+        "date": "2025-03-20",
+        "day": "Thursday",
+        "title": "History"
+      },
+      {
+        "category": "science",
+        "date": "2025-03-24",
+        "day": "Monday",
+        "title": "Chemistry"
+      },
+      {
+        "category": "science",
+        "date": "2025-03-25",
+        "day": "Tuesday",
+        "title": "Geography"
+      },
+      {
+        "category": "science",
+        "date": "2025-03-28",
+        "day": "Friday",
+        "title": "Physical Education / Computer"
+      }
+    ]
+  ],
+  "incidents": {
+    "artGallery": [
+      {
+        "title": "Abstract Colors",
+        "url": "https://storage.googleapis.com/web_images_database_gaps/Amritsar_trip_2024.jpeg"
+      },
+      {
+        "title": "Janmashtmi 2024",
+        "url": "https://storage.googleapis.com/web_images_database_gaps/Janmashtmi_2024.jpeg"
+      },
+      {
+        "title": "City Life",
+        "url": "https://storage.googleapis.com/web_images_database_gaps/Teacher's_Day_Sept_2024.jpeg"
+      },
+      {
+        "title": "Chess Latest",
+        "url": "https://storage.googleapis.com/web_images_database_gaps/chess_latest.jpeg"
+      },
+      {
+        "title": "Staff 2024",
+        "url": "https://storage.googleapis.com/web_images_database_gaps/staff_2024.jpeg"
+      },
+      {
+        "title": "Golden Sunset",
+        "url": "https://storage.googleapis.com/web_images_database_gaps/Kabaddi_girls_team_pic_2025.jpeg"
+      },
+      {
+        "title": "Kabbadi Girls Being Welcomed 2025",
+        "url": "https://storage.googleapis.com/web_images_database_gaps/Kabaddi_girls_winner_welcome_2025.jpeg"
+      },
+      {
+        "title": "Karate Kids Morning PT",
+        "url": "https://storage.googleapis.com/web_images_database_gaps/Karate_PT_kids_2024.jpeg"
+      },
+      {
+        "title": "Pahadi Kids 2024 Celebration Nati",
+        "url": "https://storage.googleapis.com/web_images_database_gaps/Pahadi_kids_2024.jpeg"
+      },
+      {
+        "title": "Minimalism",
+        "url": "https://storage.googleapis.com/web_images_database_gaps/Nursery_kids_playing_2024.jpeg"
+      }
+    ],
+    "carousel": [
+      {
+        "description": "Celebration of Dusshera 2024",
+        "url": "https://storage.googleapis.com/web_images_database_gaps/Dusshera_2024.jpeg"
+      },
+      {
+        "description": "GAPS students won many medals",
+        "url": "https://storage.googleapis.com/web_images_database_gaps/Winner_1_2024.jpeg"
+      },
+      {
+        "description": "Students practicing Karate",
+        "url": "https://storage.googleapis.com/web_images_database_gaps/Karate_NC_2024.jpeg"
+      }
+    ],
+    "pastProductions": [
+      {
+        "date": "2023-12-01",
+        "description": "GAPS went to Amritsar on its annual school trip",
+        "image": "https://storage.googleapis.com/web_images_database_gaps/Amritsar_trip_2024.jpeg",
+        "title": "A trip to Amritsar"
+      },
+      {
+        "date": "2023-11-15",
+        "description": "Students celebrated Dusshera with great enthusiasm, acted on a skit depicting the events that happened on Dusshera",
+        "image": "https://storage.googleapis.com/web_images_database_gaps/Dusshera_2024.jpeg",
+        "title": "Dusshera Celebration"
+      },
+      {
+        "date": "2023-10-10",
+        "description": "Students celebrated Janmashtmi and showed their love and devotion towards Lord Krishna",
+        "image": "https://storage.googleapis.com/web_images_database_gaps/Janmashtmi_2024.jpeg",
+        "title": "Jansmashtmi Celebration by students"
+      },
+      {
+        "date": "2023-09-20",
+        "description": "The school welcomed National Kabbadi Winner (women category) team with great pump and show.",
+        "image": "https://storage.googleapis.com/web_images_database_gaps/Kabaddi_girls_winner_welcome_2025.jpeg",
+        "title": "GAPS welcomes 'The Invincible National Kabaddi Queens'"
+      },
+      {
+        "date": "2023-08-15",
+        "description": "Administration with the Invincible Women's team that won National Kabaddi Championship",
+        "image": "https://storage.googleapis.com/web_images_database_gaps/Kabaddi_girls_team_pic_2025.jpeg",
+        "title": "National Kabaddi Champions (women's team)"
+      },
+      {
+        "date": "2023-07-25",
+        "description": "A still captured just before a Karate practice match",
+        "image": "https://storage.googleapis.com/web_images_database_gaps/Karate_NC_2024.jpeg",
+        "title": "Students practicing Karate Match"
+      },
+      {
+        "date": "2023-06-10",
+        "description": "Students practicing Karate poses in the morning PT",
+        "image": "https://storage.googleapis.com/web_images_database_gaps/Karate_PT_kids_2024.jpeg",
+        "title": "Karate PT"
+      },
+      {
+        "date": "2023-05-20",
+        "description": "Nursery kids playing outside during day ",
+        "image": "https://storage.googleapis.com/web_images_database_gaps/Nursery_kids_playing_2024.jpeg",
+        "title": "Lovely still of nursery kids playing"
+      },
+      {
+        "date": "2023-04-10",
+        "description": "Students posing, dressed in regional folk pahadi dresses",
+        "image": "https://storage.googleapis.com/web_images_database_gaps/Pahadi_kids_2024.jpeg",
+        "title": "Students dressed in little cute pahadi dresses"
+      },
+      {
+        "date": "2023-03-25",
+        "description": "A still capturing the tension between two students while they are engaged in a tough Chess match",
+        "image": "https://storage.googleapis.com/web_images_database_gaps/chess_latest.jpeg",
+        "title": "Students playing chess"
+      }
+    ]
+  },
+  "instagramPosts": {
+    "mediaTypes": [
+      null,
+      "image",
+      "reel",
+      "reel",
+      "reel",
+      "image",
+      "image",
+      "image",
+      "image",
+      "reel",
+      "reel",
+      "reel",
+      "reel",
+      "reel",
+      "reel"
+    ]
+  },
+  "middleSection": {
+    "content": "This is the middle section content. Replace it with dynamic content as needed."
+  },
+  "news": {
+    "blog1": {
+      "date": "Oct 2 2024 9:52 AM",
+      "fullDescription": "## Why AI, Math & Coding Are the Future of Education\n\nThe world is changing at an unprecedented pace, driven by technology, automation, and data-driven decision-making. As industries evolve, the demand for a workforce skilled in Artificial Intelligence (AI), Mathematics, and Coding is growing exponentially.\n\nThese three fields are shaping the future, making them critical subjects for students in today’s education system. Learning AI, math, and coding isn’t just about securing a high-paying job—it’s about developing problem-solving abilities, logical reasoning, and creativity, all of which are essential for success in the 21st century.\n\n## The Growing Role of AI, Math, and Coding in Society\n\n### 1. Artificial Intelligence: The Future of Innovation\n\nAI is revolutionizing everything—from healthcare and finance to education and entertainment. AI-powered assistants like Siri and Alexa, self-driving cars, and recommendation algorithms on Netflix are just a few examples of how AI is integrated into daily life.\n\nBut AI isn’t just about automating tasks. It helps businesses make smarter decisions by analyzing massive amounts of data. Companies rely on AI to predict market trends, personalize customer experiences, and even diagnose diseases with greater accuracy than doctors.\n\nFor students, understanding AI means staying ahead in a world where automation and machine learning are becoming the norm. Schools worldwide are introducing AI-related coursework to help students develop skills in data analysis, machine learning, and problem-solving.\n\n### 2. Mathematics: The Language of Logic and Precision\n\nMathematics has always been an essential subject, but its importance is even greater today. In a world driven by big data, artificial intelligence, and financial analytics, math is the foundation of all technological advancements.\n\nMathematical concepts like algebra, probability, and statistics are used extensively in AI development, physics, engineering, and even social sciences.\n\nFor instance:\n- Companies use data science to make business decisions.\n- Hospitals rely on predictive analytics to improve healthcare.\n- Financial markets use mathematical models to predict stock trends.\n\nStudents who master math develop logical thinking, analytical reasoning, and problem-solving skills—all of which are critical for their academic and professional success.\n\n### 3. Coding: The Digital Age Literacy\n\nIn an era where everything is digital, learning to code is as important as learning to read and write. Coding is no longer just for software developers—it’s a skill that is used across industries, including healthcare, business, security, and even agriculture.\n\nCoding allows students to develop computational thinking, which helps them break down complex problems into manageable steps. It also nurtures creativity and innovation, enabling students to create apps, websites, and AI-based solutions.\n\nPopular coding languages like Python, Java, and JavaScript are beginner-friendly, and platforms like Scratch and Code.org help young students learn coding in a fun and interactive way.\n\n## How These Skills Will Shape the Future\n\n### 1. Expanding Career Opportunities\nWith AI, coding, and math becoming fundamental in multiple industries, students skilled in these areas will have access to some of the most lucrative career paths, including AI engineering, data science, cybersecurity, and robotics.\n\n### 2. Developing Critical Thinking\nLearning AI, math, and coding enhances students' problem-solving abilities, helping them tackle real-world challenges in innovative ways.\n\n### 3. Global Competitiveness\nNations investing in AI and STEM education are leading technological advancements. Students trained in these subjects will have a significant edge in the global job market.\n\n## How to Get Started with AI, Math, and Coding\n\n### AI Learning Platforms\n- Google AI Experiments\n- AI4ALL\n- IBM AI Education\n\n### Math Resources\n- Prodigy\n- Khan Academy\n- Brilliant.org\n\n### Coding for Beginners\n- Code.org\n- Scratch\n- Python for Kids\n- MIT App Inventor\n\n## Conclusion\n\nArtificial Intelligence, Mathematics, and Coding are shaping the future. Schools must integrate these subjects into their curriculum to prepare students for careers, problem-solving, and innovation.\n\nBy fostering a love for these fields, we can equip young minds with the skills they need to thrive in an ever-evolving world.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/global-academy-4921f.firebasestorage.app/o/Blogs_Images%2FAI.avif?alt=media&token=4b206b46-fc49-4656-a18e-63b695189689",
+      "shortDescription": "Exploring why AI, math, and coding are essential in modern education.",
+      "title": "Why AI, Math & Coding Are the Future of Education"
+    },
+    "blog2": {
+      "date": "Oct 5 2024 11:30 AM",
+      "fullDescription": "## How to Make Math Fun and Easy for Students\n\nMathematics is one of the most important subjects in a student’s academic journey, yet it is often viewed as difficult or even intimidating. Many students struggle with numbers, equations, and formulas because they perceive math as boring or irrelevant to their daily lives.\n\nHowever, math is a fundamental skill that helps with problem-solving, logical reasoning, and analytical thinking, all of which are necessary for success in various fields, including science, technology, engineering, and finance.\n\nThe key to making math more engaging lies in innovative teaching methods, real-life applications, and interactive learning experiences. If math is taught in a way that captures a student’s interest, it can become a subject that is not just easy but also enjoyable.\n\n## Why Do Students Struggle with Math?\n\nBefore we explore how to make math fun, it’s important to understand why students find it difficult:\n\n### 1. Lack of Real-World Applications\nMany students feel that math is just about solving equations and memorizing formulas with no relevance to real life.\n\n### 2. Fear of Failure\nMath is a subject where mistakes are common, and repeated failures can lead to frustration and loss of confidence.\n\n### 3. Traditional Teaching Methods\nMany schools rely on repetitive drills and textbook-based learning, which can make math feel monotonous.\n\n### 4. One-Size-Fits-All Approach\nNot all students learn the same way. Some may prefer visual learning, while others need hands-on activities to grasp concepts.\n\n## Strategies to Make Math Fun and Engaging\n\n### 1. Gamification: Turning Math into a Game\nIntroducing math-based games and challenges can make learning interactive and enjoyable. Educational apps like Prodigy, Mathletics, and DragonBox turn math into a game where students solve problems to earn points and rewards. Board games like Monopoly and Sudoku also help reinforce math skills in a fun way.\n\n### 2. Using Real-Life Applications\nWhen students see how math applies to real life, they develop a deeper understanding of its importance. For example:\n\n- Budgeting & Money Management: Teach percentages and fractions through real-life scenarios like shopping discounts or splitting a bill at a restaurant.\n- Sports & Statistics: Use basketball scores, cricket batting averages, or football passing percentages to explain probability and statistics.\n- Cooking & Measurements: Recipes require conversions between units (grams to kilograms, milliliters to liters), which help students understand ratios and proportions.\n\n### 3. Visual Learning and Hands-On Activities\nSome students learn best through visual aids like graphs, charts, and animations. Using YouTube tutorials, math puzzles, and drawing geometric figures can help students visualize abstract concepts. Interactive whiteboards, Lego blocks, and math manipulatives also make learning more engaging.\n\n### 4. Encouraging a Growth Mindset\nMany students develop math anxiety because they believe that being good at math is a natural talent rather than a skill that can be developed. Teachers and parents should encourage a growth mindset by:\n\n- Emphasizing that mistakes are part of learning.\n- Rewarding effort, not just correct answers.\n- Providing positive reinforcement and patience in teaching.\n\n### 5. Storytelling with Math\nInstead of presenting math as a set of rules, incorporating storytelling can make abstract concepts more relatable. For instance, teaching multiplication through a story about a farmer planting crops in rows and columns can help young students grasp the concept easily.\n\n### 6. Encouraging Group Activities and Competitions\nMath becomes more exciting when students collaborate. Activities like:\n\n- Math Olympiads and competitions create excitement and a challenge.\n- Escape room math puzzles require students to solve problems to move to the next stage.\n- Collaborative problem-solving sessions encourage students to work together and develop teamwork skills.\n\n## How Technology is Making Math More Engaging\n\n### 1. Online Learning Platforms\nApps and websites like Khan Academy, Brilliant.org, and IXL Math offer interactive video lessons, quizzes, and step-by-step problem-solving guides that help students grasp difficult concepts in an engaging way.\n\n### 2. Augmented Reality (AR) and Virtual Reality (VR) in Math\nWith AR and VR technology, students can visualize 3D shapes, interact with mathematical models, and even solve equations in a virtual space, making math concepts more concrete and easier to understand.\n\n## Conclusion\n\nMath is a subject that is often feared, but it doesn’t have to be. By incorporating games, real-world applications, storytelling, technology, and a positive learning environment, we can transform math into an enjoyable and engaging subject for students.\n\nThe key is to make math feel like an adventure rather than a chore. When students experience the beauty and logic of mathematics in a fun and interactive way, they develop confidence, problem-solving skills, and a lifelong appreciation for the subject.\n\nMathematics isn’t just about numbers; it’s about learning how to think critically, analyze problems, and find solutions—skills that are valuable for every aspect of life.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/global-academy-4921f.firebasestorage.app/o/Blogs_Images%2FMath.avif?alt=media&token=97491f15-e540-4c79-93d1-f80bbcf9d93e",
+      "shortDescription": "Discover new methods to make math an exciting subject for students.",
+      "title": "How to Make Math Fun and Easy for Students"
+    },
+    "blog3": {
+      "date": "Oct 10 2024 3:15 PM",
+      "fullDescription": "## The Role of AI in Schools: How Artificial Intelligence is Transforming Education\n\nArtificial Intelligence (AI) is no longer a futuristic concept—it is rapidly transforming various industries, including healthcare, finance, and entertainment. But one of the most significant impacts of AI is in the field of education.\n\nFrom personalized learning experiences to AI-powered tutors, AI is revolutionizing how students learn and how teachers instruct. Schools worldwide are beginning to adopt AI technologies to enhance the educational experience, making learning more interactive, efficient, and tailored to individual student needs.\n\n## How AI is Revolutionizing Education\n\n### 1. Personalized Learning for Every Student\n\nOne of the most significant advantages of AI in education is personalized learning. Traditional classroom settings often use a one-size-fits-all approach, where all students are taught at the same pace. However, every student has different learning abilities, and some may struggle while others grasp concepts quickly.\n\nAI-powered learning platforms, such as Khan Academy, Coursera, and Duolingo, use machine learning to analyze students’ progress and provide customized lessons. These platforms adapt in real time, offering extra practice for struggling students and advanced materials for fast learners.\n\nFor example, if a student is weak in algebra but strong in geometry, an AI-based system can recommend more practice problems and video tutorials in algebra while advancing their geometry lessons. This ensures that students receive a learning experience tailored to their needs.\n\n### 2. AI-Powered Tutors and Chatbots\n\nWith AI-powered tutors and chatbots, students can receive instant answers to their questions, even outside school hours. AI tutors, such as Socratic by Google and Brainly, help students solve complex problems by breaking them down into smaller, easier-to-understand steps.\n\nThese virtual tutors use Natural Language Processing (NLP) to understand student queries and provide detailed explanations. AI-powered chatbots in schools can assist students by answering frequently asked questions about homework, exams, and school policies.\n\n### 3. Automated Grading and Feedback Systems\n\nTeachers spend a significant amount of time grading assignments and exams, which takes away from actual teaching. AI-driven grading systems help automate this process, saving time and providing instant feedback to students.\n\nTools like Grammarly, Turnitin, and AI-based plagiarism checkers analyze essays, assignments, and even subjective answers, providing automated grading and constructive feedback. AI can detect writing errors, suggest improvements, and ensure that students receive timely corrections.\n\nThis not only reduces the workload for teachers but also helps students learn from their mistakes in real time.\n\n### 4. AI in Classroom Management and Administration\n\nAI is not just improving learning; it is also enhancing the administrative side of education. Schools use AI-powered management systems to:\n\n- Track student attendance with facial recognition technology.\n- Automate scheduling of classes and parent-teacher meetings.\n- Monitor student performance and provide data-driven insights to teachers.\n\nBy automating these tasks, AI allows schools to function more efficiently, reducing administrative burdens and enabling teachers to focus more on teaching.\n\n### 5. AI for Special Education Needs\n\nOne of the most promising applications of AI in education is helping students with special needs. AI-driven tools such as speech recognition, text-to-speech software, and assistive learning applications enable students with disabilities to learn more effectively.\n\nFor example, AI can:\n\n- Convert text into audio for visually impaired students.\n- Provide real-time captions for hearing-impaired students.\n- Use AI-powered predictive typing tools to assist students with dyslexia.\n\nThese technologies create an inclusive learning environment, ensuring that all students receive equal learning opportunities.\n\n## Challenges and Ethical Concerns of AI in Schools\n\nWhile AI in education has many benefits, it also presents some challenges:\n\n### 1. Data Privacy and Security\nAI collects large amounts of student data to personalize learning, raising concerns about data security and student privacy. Schools must ensure strict data protection policies to safeguard personal information.\n\n### 2. Teacher-Student Relationship\nAI should complement teachers, not replace them. While AI tutors and grading tools help, human teachers play an irreplaceable role in mentoring and guiding students.\n\n### 3. Bias in AI Algorithms\nAI systems are only as good as the data they are trained on. If the data is biased, it can lead to unfair assessments or recommendations. Schools need to ensure that AI tools are tested for fairness and accuracy.\n\n## The Future of AI in Education\n\nThe integration of AI in schools is still in its early stages, but its impact is undeniable. In the future, we can expect:\n\n- More advanced AI tutors capable of teaching complex subjects through interactive virtual reality (VR) and augmented reality (AR).\n- AI-powered emotional recognition tools to help teachers understand student engagement and mental health.\n- Automated career guidance systems that analyze students' strengths and recommend career paths.\n\nAs AI continues to develop, schools must find a balance between technology and traditional teaching methods, ensuring that AI enhances education rather than replacing human interaction.\n\n## Conclusion\n\nArtificial Intelligence is transforming education by making learning more personalized, efficient, and accessible. AI tutors, chatbots, grading systems, and assistive technologies are revolutionizing how students learn and how schools operate.\n\nHowever, its implementation should be carefully monitored to ensure ethical use and student data privacy.\n\nThe future of AI in education is bright, and as technology advances, it will continue to reshape the way we teach and learn. Schools that embrace AI today will better prepare their students for the future, equipping them with the skills needed to thrive in an AI-driven world.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/global-academy-4921f.firebasestorage.app/o/Blogs_Images%2FAI_classroom.avif?alt=media&token=14e37404-e686-42af-bc96-f2706d7e7a97",
+      "shortDescription": "How AI is transforming the education system for students and teachers.",
+      "title": "The Role of AI in Schools: How Artificial Intelligence is Transforming Education"
+    },
+    "blog4": {
+      "date": "Oct 15 2024 1:45 PM",
+      "fullDescription": "## Why Every Student Should Learn to Code – And How to Get Started\n\nIn today’s digital world, coding is no longer a skill reserved for software engineers—it has become a fundamental literacy, just like reading and writing. Coding is the backbone of technological advancements, from mobile apps and websites to artificial intelligence and automation.\n\nAs technology continues to dominate every industry, coding has become an essential skill for students, regardless of their career aspirations.\n\nLearning to code doesn’t just prepare students for high-paying tech jobs—it enhances problem-solving abilities, logical thinking, creativity, and resilience. Whether a student wants to become a scientist, engineer, artist, or entrepreneur, coding gives them a powerful tool to innovate and create solutions for real-world problems.\n\n## Why Should Every Student Learn to Code?\n\n### 1. Coding Develops Problem-Solving and Logical Thinking\n\nAt its core, coding is about breaking down complex problems into smaller, manageable parts and solving them step by step. This process, known as computational thinking, enhances a student’s ability to think logically, analyze situations, and develop structured solutions.\n\nWhen students write code, they learn how to debug errors, troubleshoot issues, and think critically, which are valuable skills not just in programming but in all areas of life.\n\n### 2. Coding Encourages Creativity and Innovation\n\nCoding isn’t just about writing commands—it’s a creative process that allows students to build their own projects, from games and animations to websites and AI-powered apps.\n\nFor example:\n\n- A student passionate about gaming can create their own video games using programming languages like Python or Scratch.\n- An aspiring entrepreneur can build an e-commerce website to sell their handmade crafts.\n- A student interested in AI can experiment with machine learning models to analyze real-world data.\n\nBy coding, students learn to think outside the box, experiment with ideas, and develop solutions that impact the world.\n\n### 3. Coding Opens Lucrative Career Opportunities\n\nThe demand for coding skills is growing across industries, making it one of the most valuable skills for future job markets. Careers in data science, cybersecurity, AI development, game design, robotics, and even finance require coding expertise.\n\nEven for non-tech careers, coding is a bonus. Many professionals in business, marketing, and healthcare use data analytics, automation, and AI tools that require basic coding knowledge.\n\n### 4. Coding Improves Math and Analytical Skills\n\nCoding and mathematics go hand in hand. Many programming concepts involve logic, algorithms, and data analysis, helping students improve their problem-solving abilities, pattern recognition, and mathematical reasoning.\n\nFor instance, Python and R programming are widely used in data science and statistical modeling, helping businesses make data-driven decisions.\n\n### 5. Coding Builds Resilience and Persistence\n\nCoding teaches students how to handle failures and keep trying until they succeed. Debugging errors is a natural part of programming, and students quickly learn that mistakes are stepping stones to success.\n\nWhen a piece of code doesn’t work, students analyze the problem, test different solutions, and refine their approach. This growth mindset helps students develop perseverance, patience, and problem-solving confidence, which are essential life skills.\n\n## How to Get Started with Coding\n\n### 1. Choose a Beginner-Friendly Programming Language\n\nFor beginners, starting with an easy-to-learn language makes the process less intimidating. Here are some great choices:\n\n- Scratch – A visual programming language for kids that teaches the basics of coding through drag-and-drop blocks.\n- Python – A simple and powerful language used in AI, data science, and web development.\n- JavaScript – A language for building interactive websites and games.\n- Swift – A great language for creating iOS apps.\n\n### 2. Use Online Learning Platforms\n\nThere are several platforms that offer interactive coding lessons, projects, and challenges to help students learn at their own pace:\n\n- Code.org – Beginner-friendly platform with engaging coding tutorials.\n- Khan Academy – Teaches coding through fun activities.\n- Codecademy – Offers hands-on coding exercises in Python, JavaScript, and more.\n- Scratch – A perfect starting point for kids who want to learn coding through animations and games.\n\n### 3. Work on Fun Coding Projects\n\nThe best way to learn coding is by building real projects. Some fun beginner projects include:\n\n- Creating a simple game in Scratch or Python.\n- Developing a personal website using HTML, CSS, and JavaScript.\n- Building a chatbot using AI tools like IBM Watson or Python’s Natural Language Toolkit.\n- Automating repetitive tasks like organizing files using Python scripts.\n\nThese projects not only make learning enjoyable but also help students see the real-world impact of coding.\n\n### 4. Join Coding Communities and Competitions\n\nCoding becomes even more fun when students collaborate and compete. Encourage participation in:\n\n- Hackathons – Coding competitions where students solve problems and build projects.\n- Online coding communities – Websites like GitHub, Stack Overflow, and CodeWars help students connect with other programmers.\n- School coding clubs – Joining a club helps students learn together, share ideas, and build projects as a team.\n\n### 5. Keep Practicing and Experimenting\n\nCoding is a skill that improves with practice. Regularly solving coding challenges on platforms like LeetCode, CodeSignal, and HackerRank helps students strengthen their logic and algorithmic thinking.\n\n## Conclusion\n\nLearning to code is one of the most valuable skills a student can acquire in today’s technology-driven world. It develops problem-solving abilities, enhances creativity, improves logical thinking, and opens doors to exciting career opportunities.\n\nGetting started with coding is easier than ever, with free online resources, interactive coding platforms, and hands-on projects. Whether students are interested in gaming, AI, web development, or robotics, coding gives them the power to innovate and create solutions that impact the world.\n\nIn a world where technology is shaping every industry, students who learn to code will have a significant advantage in their future careers and personal growth.\n\nThe question isn’t why should students learn to code? but rather, how soon can they start?",
+      "image": "https://firebasestorage.googleapis.com/v0/b/global-academy-4921f.firebasestorage.app/o/Blogs_Images%2FCoding.avif?alt=media&token=d1f2182a-2f1d-4a5f-9169-c14bcbef9569",
+      "shortDescription": "Why coding is a must-have skill and how students can start learning.",
+      "title": "Why Every Student Should Learn to Code – And How to Get Started"
+    },
+    "blog5": {
+      "date": "Oct 20 2024 10:00 AM",
+      "fullDescription": "## The Importance of Extracurricular Activities in a Student’s Growth\n\nEducation is not just about textbooks and exams; it is about holistic development, which includes cognitive, social, emotional, and physical growth. Extracurricular activities play a crucial role in a student’s education by providing opportunities to develop essential life skills such as leadership, teamwork, problem-solving, time management, and resilience.\n\nWhile academic excellence is important, students who engage in extracurricular activities often exhibit higher confidence, better social skills, and greater adaptability to real-world challenges. Whether it’s sports, music, drama, coding clubs, or community service, these activities shape students into well-rounded individuals, preparing them for college, careers, and life beyond school.\n\n## Why Are Extracurricular Activities Important?\n\n### 1. Enhancing Academic Performance\n\nContrary to the belief that extracurricular activities take away time from studies, research shows that students who participate in extracurriculars often perform better academically. Activities such as chess, debate, and math clubs enhance critical thinking, memory, and problem-solving skills, which positively impact academic performance.\n\nAdditionally, students involved in structured extracurriculars develop better discipline, focus, and time management skills, enabling them to handle both academics and activities efficiently.\n\n### 2. Developing Leadership and Teamwork Skills\n\nMany extracurricular activities involve group participation, teaching students how to collaborate, communicate, and work effectively as a team. Whether it’s playing a sport, participating in a drama production, or working on a robotics project, students learn how to take responsibility, resolve conflicts, and lead a group toward a common goal.\n\nLeadership roles in clubs and student organizations also help students develop decision-making skills and confidence, which are valuable for future careers and personal growth.\n\n### 3. Building Social Skills and Friendships\n\nExtracurricular activities allow students to interact with peers who share similar interests, helping them build friendships and social networks. This is especially beneficial for shy or introverted students who may struggle to make friends in traditional classroom settings.\n\nThrough clubs and sports, students learn how to communicate effectively, understand different perspectives, and work in diverse groups, preparing them for professional and social interactions in adulthood.\n\n### 4. Encouraging Creativity and Self-Expression\n\nActivities like music, dance, art, drama, and creative writing provide students with an outlet for self-expression. Creativity is an essential skill that helps students develop innovative thinking, problem-solving abilities, and emotional intelligence.\n\nEngaging in creative extracurriculars can also boost mental health, reduce stress, and build self-confidence, as students feel a sense of accomplishment when they create something unique.\n\n### 5. Promoting Physical Health and Well-Being\n\nWith the increasing screen time and sedentary lifestyle among students, physical activities such as sports, yoga, and martial arts are crucial for maintaining health and fitness. Regular participation in sports helps students:\n\n- Develop physical endurance, strength, and coordination.\n- Reduce stress, anxiety, and depression through physical exercise.\n- Learn the importance of discipline, teamwork, and perseverance.\n\nMany studies have shown that students who participate in sports are less likely to develop unhealthy habits and have higher energy levels, which positively impact their academic performance.\n\n### 6. Preparing for College and Career Success\n\nColleges and employers value students who have well-rounded profiles. Engaging in extracurricular activities demonstrates time management, dedication, and a proactive approach to learning, all of which are qualities sought after by top universities and companies.\n\nFor example, students involved in:\n\n- Debate clubs develop strong analytical and public speaking skills, useful for careers in law, politics, and business.\n- Robotics and coding clubs gain hands-on experience in technology, paving the way for careers in engineering and computer science.\n- Volunteering and community service showcase empathy, leadership, and a commitment to social responsibility, which are valued in any profession.\n\n## Types of Extracurricular Activities and Their Benefits\n\n### 1. Sports and Physical Activities\n- Examples: Football, basketball, athletics, swimming, martial arts, yoga.\n- Benefits: Improves physical fitness, teamwork, discipline, and stress relief.\n\n### 2. Academic and STEM Clubs\n- Examples: Robotics, coding, math club, science fairs, debate team.\n- Benefits: Enhances problem-solving, critical thinking, and logical reasoning.\n\n### 3. Creative Arts and Music\n- Examples: Painting, photography, drama, music band, dance.\n- Benefits: Encourages creativity, self-expression, and emotional intelligence.\n\n### 4. Community Service and Volunteering\n- Examples: Environmental initiatives, teaching underprivileged children, charity drives.\n- Benefits: Develops empathy, leadership, and social responsibility.\n\n### 5. Cultural and Language Clubs\n- Examples: Model UN, foreign language clubs, history society.\n- Benefits: Increases cultural awareness, global perspective, and communication skills.\n\n## How to Balance Extracurricular Activities with Academics\n\nOne of the biggest concerns for students and parents is how to manage extracurricular activities alongside academic responsibilities. Here are some tips:\n\n- Prioritize Interests: Choose activities that align with personal interests and future goals. Avoid overloading with too many commitments.\n- Create a Schedule: Proper time management helps balance studies and activities effectively.\n- Set Realistic Goals: Participate actively but don’t stress about excelling in everything—focus on personal growth.\n- Stay Organized: Use planners or digital apps to keep track of deadlines and commitments.\n- Seek Support: Teachers, parents, and mentors can guide students in managing their time efficiently.\n\n## Conclusion\n\nExtracurricular activities play a vital role in developing a student’s personality, skills, and overall well-being. They offer a break from academic stress while teaching important life skills like leadership, teamwork, creativity, and discipline.\n\nRather than being seen as distractions from studies, extracurriculars should be embraced as an essential part of education, helping students grow into confident, capable, and well-rounded individuals.\n\nSchools and parents should encourage students to participate in activities that fuel their passions and shape their futures.\n\nIn today’s competitive world, it is not just academic grades that define success—it is the ability to think critically, communicate effectively, and solve real-world problems that truly set students apart.\n\nSo, what extracurricular activity will you explore next?",
+      "image": "https://firebasestorage.googleapis.com/v0/b/global-academy-4921f.firebasestorage.app/o/Blogs_Images%2FExtracurriculat_activities.avif?alt=media&token=bc7835af-4811-480c-b167-2ce3772d1b36",
+      "shortDescription": "The significance of extracurricular activities in shaping students' futures.",
+      "title": "The Importance of Extracurricular Activities in a Student’s Growth"
+    },
+    "blog6": {
+      "date": "Oct 25 2024 2:30 PM",
+      "fullDescription": "## How to Choose the Right School for Your Child: 5 Key Factors\n\nChoosing the right school for your child is one of the most important decisions a parent can make. A school is more than just a place of education; it is where children develop their personalities, acquire essential life skills, and prepare for their future careers.\n\nThe school environment significantly impacts a child’s academic success, emotional well-being, and overall growth. However, with so many options available, selecting the right school can be overwhelming.\n\nShould you opt for a traditional school or one with a strong focus on STEM? Should you prioritize extracurricular activities or academic excellence?\n\nTo help parents make an informed decision, this blog outlines five key factors to consider when choosing a school for your child.\n\n## 1. Academic Curriculum and Teaching Methods\n\nOne of the first things to evaluate is the academic curriculum and teaching methodology used by the school. While most schools follow a standardized syllabus (such as CBSE, ICSE, IB, or State Board in India), it is important to assess how they approach teaching.\n\n### Questions to Ask:\n- Does the school emphasize rote memorization or conceptual understanding?\n- Are STEM (Science, Technology, Engineering, and Mathematics) subjects given priority?\n- How does the school incorporate modern teaching methods like experiential learning, AI-based education, or interactive smart classrooms?\n\n### Why It Matters:\nA strong academic foundation is crucial for future success. Schools that focus on critical thinking, creativity, and problem-solving help children develop analytical skills that go beyond textbook learning.\n\n## 2. Quality of Teachers and Faculty\n\nTeachers play a pivotal role in shaping a child’s learning experience. A good school must have qualified, experienced, and passionate teachers who can inspire and guide students.\n\n### Questions to Ask:\n- What are the qualifications and experience levels of the teachers?\n- Does the school provide regular teacher training programs to keep educators updated with the latest teaching methods?\n- How approachable and supportive are the teachers in helping students with doubts and challenges?\n\n### Why It Matters:\nA great teacher can ignite curiosity and foster a love for learning in a child. Schools with engaging and well-trained faculty create a nurturing environment where students feel comfortable asking questions and exploring new ideas.\n\n## 3. Infrastructure and Facilities\n\nA well-equipped school provides students with the resources they need for holistic development. A school’s infrastructure goes beyond just classrooms—it includes libraries, science labs, sports grounds, art studios, and technological facilities.\n\n### Questions to Ask:\n- Does the school have modern classrooms, science labs, and computer labs?\n- Are there playgrounds, sports facilities, and extracurricular activity spaces?\n- Is the school investing in technology-based learning, such as smartboards, AI-assisted learning tools, and coding labs?\n\n### Why It Matters:\nA well-rounded learning environment includes practical exposure. Schools with modern infrastructure provide students with opportunities to explore various fields, from science and technology to arts and sports.\n\n## 4. Extracurricular Activities and Skill Development\n\nA good education is not just about academics—it also includes sports, arts, music, drama, and leadership activities. Schools that encourage extracurricular participation help students develop confidence, teamwork, creativity, and leadership skills.\n\n### Questions to Ask:\n- Does the school offer a variety of extracurricular activities, including sports, music, art, drama, and debate?\n- Are there STEM clubs, robotics labs, and coding workshops for students interested in technology?\n- Does the school encourage students to participate in competitions, Olympiads, and leadership programs?\n\n### Why It Matters:\nExtracurricular activities enhance social skills, boost confidence, and help students explore their interests. A child who is actively engaged in extracurricular activities is more likely to develop into a well-rounded individual with diverse skills.\n\n## 5. School Environment, Values, and Safety\n\nThe school environment plays a crucial role in a child’s emotional and psychological well-being. A school should promote a culture of respect, inclusivity, and positivity, making students feel safe and valued.\n\n### Questions to Ask:\n- How does the school handle bullying, discipline, and student behavior?\n- What safety measures are in place, such as CCTV surveillance, secure entry points, and emergency protocols?\n- What is the school’s approach to mental health, student counseling, and emotional well-being?\n\n### Why It Matters:\nA safe and supportive environment encourages students to express themselves freely, build self-confidence, and develop positive relationships. Schools that focus on mental well-being and character-building create responsible and emotionally strong individuals.\n\n## Additional Considerations\n\nApart from the five key factors mentioned above, here are some additional points parents should consider when selecting a school:\n\n- Class Size and Student-Teacher Ratio – Smaller class sizes ensure personalized attention and better student engagement.\n- Parental Involvement – Some schools encourage parental participation through PTA meetings, workshops, and community events.\n- Future Readiness and College Preparation – If your child is preparing for higher education, consider schools that offer career counseling, college preparation programs, and international exposure.\n- Distance and Transport Facilities – A school that is too far from home can be exhausting for young children. Ensure that safe and reliable transportation options are available.\n\n## How to Make the Final Decision\n\n### Step 1: Visit the School\nSchedule a school tour to observe the classrooms, faculty, infrastructure, and overall environment.\n\n### Step 2: Interact with Teachers and Students\nTalking to teachers and current students gives insight into teaching quality, student engagement, and extracurricular opportunities.\n\n### Step 3: Compare Multiple Schools\nShortlist a few schools and compare their curriculum, faculty, infrastructure, extracurriculars, and fees before making a final decision.\n\n### Step 4: Consider Your Child’s Interests and Strengths\nChoose a school that aligns with your child’s strengths, interests, and learning style. Some students thrive in academically rigorous schools, while others do better in creative or skill-based learning environments.\n\n## Conclusion\n\nSelecting the right school for your child is a crucial decision that influences their academic, personal, and social growth. While no school is perfect, the key is to find one that nurtures your child’s potential, encourages holistic development, and aligns with your family’s educational values.\n\nBy focusing on academic excellence, faculty quality, infrastructure, extracurriculars, and a positive school environment, parents can ensure that their child receives the best possible education and opportunities for the future.\n\nRemember, the best school is not the most expensive one—it is the one that meets your child’s unique needs and helps them grow into a confident and capable individual.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/global-academy-4921f.firebasestorage.app/o/Blogs_Images%2FConsider.avif?alt=media&token=3e23941c-ceef-454f-bc2f-e3e7d916bdfc",
+      "shortDescription": "A guide for parents to choose the best school for their child.",
+      "title": "How to Choose the Right School for Your Child: 5 Key Factors"
+    },
+    "blog7": {
+      "date": "Oct 30 2024 12:00 PM",
+      "fullDescription": "## Why Small Class Sizes & Personalized Attention Matter in Education\n\nOne of the most significant factors influencing a student’s academic success is the learning environment. While many schools focus on infrastructure, curriculum, and extracurricular activities, one crucial aspect that often gets overlooked is class size.\n\nStudies have shown that students in smaller class sizes tend to perform better academically, receive more individualized attention, and have stronger relationships with their teachers.\n\nIn today’s fast-paced world, where education is evolving with the help of technology, the importance of personalized learning is greater than ever. Schools that prioritize smaller class sizes and student-centric teaching methods create an environment where students feel more engaged, supported, and confident in their learning journey.\n\n## How Small Class Sizes Benefit Students\n\n### 1. Personalized Attention from Teachers\n\nOne of the biggest advantages of small class sizes is that students receive individualized attention from their teachers. In a class of 40–50 students, it’s difficult for teachers to address each student’s specific needs, but in a class of 20 or fewer, teachers can:\n\n- Identify students' strengths and weaknesses more easily.\n- Provide customized learning plans for students who need extra help.\n- Offer faster feedback on assignments and assessments.\n\n### 2. Better Student-Teacher Relationships\n\nStudents who learn in smaller classrooms tend to have stronger relationships with their teachers. A closer teacher-student bond leads to better understanding, increased confidence, and a more comfortable learning environment.\n\nTeachers can:\n\n- Monitor student progress more effectively and provide timely intervention when necessary.\n- Encourage students to ask questions without fear of embarrassment.\n- Develop a deeper understanding of each student’s learning style and personality, making it easier to adapt lessons accordingly.\n\n### 3. Increased Student Participation & Engagement\n\nIn large classrooms, many students hesitate to ask questions or participate in discussions due to the fear of judgment. Smaller class sizes:\n\n- Promote an interactive and discussion-based learning environment.\n- Encourage students to speak up and express their opinions.\n- Help teachers engage students in hands-on activities, rather than relying solely on lectures.\n\nResearch suggests that students in smaller classes participate more actively and retain information better compared to students in large lecture-style classrooms.\n\n### 4. Improved Academic Performance\n\nSeveral studies have found a direct correlation between small class sizes and higher academic performance. A well-known study, Project STAR (Student-Teacher Achievement Ratio), found that students in smaller classes performed significantly better in reading, math, and science compared to their peers in larger classes.\n\n### Reasons for this improvement include:\n\n- More one-on-one support from teachers.\n- Fewer distractions and disruptions in class.\n- A stress-free environment, leading to better concentration and comprehension.\n\n### 5. Stronger Peer Interactions and Collaboration\n\nSmall class sizes allow for better social interactions among students. In large classrooms, students tend to form small friend groups and may not interact with everyone. However, in a close-knit classroom, students are more likely to:\n\n- Work together on projects and assignments.\n- Develop teamwork and collaboration skills.\n- Feel a sense of belonging, which reduces anxiety and enhances self-confidence.\n\n## How Personalized Attention Improves Learning\n\n### 1. Customized Learning Paths\n\nEvery student learns at a different pace. Personalized attention allows teachers to:\n\n- Identify students who need extra support in certain subjects.\n- Offer challenging materials for students who excel and need advanced coursework.\n- Adjust teaching methods based on individual learning preferences (visual, auditory, or kinesthetic learners).\n\n### 2. Addressing Learning Gaps Early\n\nIn large classrooms, students who struggle may not receive the help they need, leading to long-term academic challenges. Personalized attention helps teachers:\n\n- Identify learning gaps before they become major obstacles.\n- Provide additional support through remedial lessons or extra practice sessions.\n- Help students gain confidence in subjects they previously found difficult.\n\n### 3. Encouraging Independent Learning and Critical Thinking\n\nWhen students receive personalized attention, they feel more accountable for their learning. Teachers can encourage students to:\n\n- Think critically and ask deeper questions.\n- Develop self-discipline and problem-solving abilities.\n- Work on independent projects that align with their interests and strengths.\n\n## Challenges of Small Class Sizes and Personalized Learning\n\nDespite the numerous advantages, implementing small class sizes and personalized learning comes with challenges:\n\n### 1. Higher Costs for Schools\n\nSchools with smaller class sizes may need more teachers, classrooms, and resources, which can lead to higher tuition fees.\n\n### 2. Teacher Training\n\nPersonalized learning requires teachers to be highly trained in adaptive teaching methods, which may not always be available.\n\n### 3. Scalability Issues\n\nWhile small classes work well in private schools, public schools with limited budgets may find it difficult to implement the same model.\n\nTo overcome these challenges, many schools are adopting hybrid models, combining technology-driven personalized learning with traditional teaching.\n\n## The Role of Technology in Personalized Learning\n\nAI and technology are revolutionizing education, making personalized learning more accessible even in large classrooms. Some innovations include:\n\n- AI-Powered Learning Platforms: Websites like Khan Academy, Byju’s, and Coursera use AI to personalize lesson plans based on a student’s progress.\n- Adaptive Learning Software: Programs like DreamBox and Duolingo adjust difficulty levels based on a student's learning pace.\n- Online Tutoring and Virtual Classrooms: Students can get one-on-one coaching through online platforms, making personalized attention possible even in larger schools.\n\nThese tools help bridge the gap between small-classroom benefits and large-classroom limitations.\n\n## Conclusion\n\nThe impact of small class sizes and personalized attention on student success is undeniable. Schools that focus on individualized learning create an environment where students feel confident, motivated, and engaged.\n\nWhile challenges exist, modern technology is making personalized education more accessible, even in larger schools.\n\nAs parents and educators, the goal should be to ensure that every child receives the attention, guidance, and resources they need to reach their full potential.\n\nInvesting in smaller classrooms, better student-teacher relationships, and customized learning approaches is the key to nurturing future leaders, problem-solvers, and innovators.\n\nEducation is not about how many students a teacher can teach—it’s about how well each student learns.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/global-academy-4921f.firebasestorage.app/o/Blogs_Images%2FSmall_classroom.avif?alt=media&token=4352205c-871d-4a5c-b222-1f18b38dabb2",
+      "shortDescription": "Why small class sizes are crucial for student success.",
+      "title": "Why Small Class Sizes & Personalized Attention Matter in Education"
+    },
+    "blog8": {
+      "date": "Nov 5 2024 9:00 AM",
+      "fullDescription": "## The Future of Education: Trends That Will Shape Learning in the Next Decade\n\nEducation is evolving at an unprecedented pace, driven by technological advancements, changing student needs, and new teaching methodologies. The traditional classroom model is giving way to personalized, technology-enhanced, and skills-focused learning environments.\n\nIn the next decade, education will shift from a one-size-fits-all approach to a student-centered model that emphasizes adaptability, digital literacy, and real-world applications.\n\nAs we prepare for the future, it’s important to explore the key trends that will redefine how students learn, teachers instruct, and schools operate.\n\n## 1. Artificial Intelligence (AI) in Education\n\nArtificial Intelligence is already transforming industries, and its impact on education will continue to grow. AI-powered tools are making learning more personalized, interactive, and efficient.\n\n### How AI is Changing Education:\n- Personalized Learning: AI-driven platforms like Khan Academy and Coursera analyze student progress and adjust content to match individual learning styles.\n- AI Tutors & Chatbots: Virtual tutors provide 24/7 assistance, helping students with doubts and homework.\n- Automated Grading & Feedback: AI can assess assignments and provide instant feedback, saving teachers time and improving learning efficiency.\n- Smart Classrooms: AI-driven analytics help teachers understand student performance and customize lessons accordingly.\n\nIn the coming years, AI-powered virtual teaching assistants and real-time adaptive learning systems will further revolutionize education.\n\n## 2. Virtual Reality (VR) & Augmented Reality (AR) in Learning\n\nImagine students exploring ancient Egypt, walking through the solar system, or conducting virtual chemistry experiments—all from their classroom. This is the potential of VR and AR in education.\n\n### How VR & AR Will Shape Learning:\n- Immersive Learning Experiences: Subjects like history, geography, and science become engaging with 3D virtual environments.\n- Hands-On Science Labs: Students can conduct virtual experiments without expensive lab equipment.\n- Medical and Engineering Training: Future doctors and engineers will use VR simulations for real-life training.\n\nWith advancements in VR headsets and AR apps, learning will become more engaging, experiential, and memorable.\n\n## 3. Gamification of Education\n\nGamification is using game elements like rewards, challenges, and levels in learning to make education more interactive and enjoyable. This method increases student engagement, motivation, and retention.\n\n### Examples of Gamified Learning:\n- Apps like Prodigy and Duolingo turn subjects like math and languages into fun, competitive challenges.\n- Coding games like Scratch and Code.org make programming accessible and enjoyable.\n- Points, Badges & Leaderboards encourage students to set and achieve learning goals.\n\nAs more schools embrace gamified curriculums, education will feel less like a chore and more like an adventure.\n\n## 4. Skill-Based and Project-Based Learning\n\nTraditional education has often focused on memorization and theoretical knowledge. However, the future of education will emphasize real-world skills, creativity, and problem-solving.\n\n### What Will Change?\n- Less Memorization, More Hands-On Learning: Schools will prioritize projects over exams, encouraging students to apply their knowledge in practical scenarios.\n- Entrepreneurship & Innovation in Schools: Programs will teach students how to start businesses, manage finances, and develop leadership skills.\n- Industry Collaborations: Schools will partner with companies for internships, mentorships, and real-world project exposure.\n\nBy focusing on skills rather than rote learning, students will be better prepared for careers in a rapidly changing job market.\n\n## 5. The Rise of Hybrid and Online Learning\n\nThe COVID-19 pandemic accelerated the shift to online learning, and hybrid education models are here to stay.\n\n### What’s Next for Online Learning?\n- Blended Classrooms: A mix of in-person and online learning will allow for more flexibility.\n- EdTech Growth: Platforms like Udemy, Coursera, and BYJU’s will continue to offer specialized courses outside the traditional school system.\n- AI-Powered Adaptive Learning: Online education will become more personalized with AI-driven coursework tailored to individual progress.\n\nSchools will combine technology with classroom instruction to make learning more accessible and effective.\n\n## 6. Emphasis on Social-Emotional Learning (SEL) & Mental Health\n\nWith increasing academic pressure and digital distractions, student mental health has become a major focus for educators. Schools are now integrating Social-Emotional Learning (SEL) programs to help students develop emotional intelligence, empathy, and resilience.\n\n### Key Changes in Student Well-Being:\n- Mindfulness & Meditation Practices will be introduced in schools.\n- Counseling & Mental Health Support will be more widely available.\n- Stress-Free Learning Approaches will replace high-pressure exam systems.\n\nA shift towards a more balanced, mental-health-friendly education will help students succeed not just academically but emotionally and socially.\n\n## 7. The Importance of Coding and AI Education\n\nWith the rise of automation and artificial intelligence, coding is now considered a fundamental literacy. Future education will integrate coding and AI learning from an early age.\n\n### How Schools Will Teach Coding & AI:\n- Scratch & Python for Beginners: Even elementary students will start coding.\n- AI & Robotics Clubs: Schools will offer hands-on experience in machine learning and automation.\n- Integration with Other Subjects: AI will be used in math, science, and even creative subjects like music and art.\n\nStudents who understand AI, programming, and data analysis will have a competitive edge in future job markets.\n\n## 8. Blockchain Technology for Student Records\n\nBlockchain technology is set to revolutionize academic records and certifications. Instead of physical report cards and degree certificates, students will have blockchain-verified digital transcripts that are tamper-proof and globally recognized.\n\n### Benefits of Blockchain in Education:\n- Secure Student Data Management – Eliminates fraudulent certificates and ensures authenticity.\n- Global Recognition of Degrees – Makes it easier for students to apply for international universities and jobs.\n- Faster Academic Verification – Companies can instantly verify student credentials, speeding up hiring processes.\n\nBlockchain will streamline and secure education systems, reducing paperwork and fraud.\n\n## Conclusion\n\nThe next decade will bring unprecedented changes in education, making learning more personalized, flexible, and skills-based. AI, VR, gamification, hybrid learning, and coding will transform how students engage with knowledge and prepare for their careers.\n\nAs education evolves, the key question is:  \nAre we ready to embrace these changes and equip the next generation with the skills they need for success?\n\nThe future of education isn’t coming—it’s already here.",
+      "image": "https://firebasestorage.googleapis.com/v0/b/global-academy-4921f.firebasestorage.app/o/Blogs_Images%2FFuture-education.avif?alt=media&token=46d2f495-8102-4edb-9fe0-7bce25429387",
+      "shortDescription": "Exploring the key trends that will shape the future of education.",
+      "title": "The Future of Education: Trends That Will Shape Learning in the Next Decade"
+    }
+  },
+  "operationsSection": [
+    {
+      "icon": "/icons/calendar-icon.svg",
+      "id": 1,
+      "link": "/academics/calendar",
+      "title": "Academic Calendar"
+    },
+    {
+      "icon": "/icons/code-icon.svg",
+      "id": 2,
+      "link": "/students/handbook",
+      "title": "Code of Conduct"
+    },
+    {
+      "icon": "/icons/menu-icon.svg",
+      "id": 3,
+      "link": "/operations/menus",
+      "title": "School Menus"
+    },
+    {
+      "icon": "/icons/login-icon.svg",
+      "id": 4,
+      "link": "/students",
+      "title": "Clever Login"
+    },
+    {
+      "icon": "/icons/transport-icon.svg",
+      "id": 5,
+      "link": "/parents/transportation",
+      "title": "Transportation"
+    },
+    {
+      "icon": "/icons/volunteer-icon.svg",
+      "id": 6,
+      "link": "/volunteer",
+      "title": "Volunteer"
+    }
+  ],
+  "parents": {
+    "notices": [
+      null,
+      {
+        "date": "July 31, 2024",
+        "description": "Dear Parents / students, Greetings!!! The school extends warm wishes on the resumption of the school after the completion of summer vacation. As notified earlier the school timings will be from 8.00 am to 2.00 pm and the bus will arrive at the marked pockets as it had been doing in April 2024. With best wishes and rega",
+        "title": "Resumption of school after summer vacation",
+        "occupation": "Principal",
+        "salutation": "Vandana Bansal"
+      },
+      {
+        "date": "September 4, 2024",
+        "description": "It is informed that the school will break for all classes at 1.00 p.m. on 5th of September 2024 in view of Teachers Day Function.",
+        "title": "Teacher's Day",
+        "occupation": "Principal",
+        "salutation": "Vandana Bansal"
+      },
+      {
+        "date": "November 3, 2024",
+        "description": "The school will reopen on 04.11.2024 at 09.00 a. m. And will break at 3:00 pm Also the school bus will reach one hour late at each stop pocket for picking up and dropping of the children. ",
+        "title": "School Commencement",
+        "occupation": "Principal",
+        "salutation": "Vandana Bansal"
+      },
+      {
+        "date": "January 24, 2025",
+        "description": "The school extends greetings to all its students as well as their parents/guardians, teachers and other staff on the occasion of Full Statehood Day and the Republic Day. It is thus informed that the school will remain closed on the above days, that is on 25th and 26th of January, 2025. The students participating in the celebration of the Republic Day Parade rehearsal however will come to school as per the schedule conveyed to them.",
+        "title": "Himachal Day",
+        "occupation": "Principal",
+        "salutation": "Vandana Bansal"
+      },
+      {
+        "date": "January 29, 2025",
+        "description": "All those students who participated in the State Open Chess Championship  held at TSH Paonta Sahib in 2024 are required to bring Chess boards to the school tomorrow that is on 30/01/2025 for future strategies.",
+        "title": "Instructions for State Open Chess Championship",
+        "occupation": "Principal",
+        "salutation": "Vandana Bansal"
+      },
+      {
+        "date": "January 31, 2025",
+        "description": "It is for the information of all that the school will start at 9.00 a.m. and break at 3.00p.m as before prior to change in schedule w.e.f. 01/02/2025. All parents are requested to adhere to the rescheduled time. Also, the school will break at 12.30 p.m. for the students of Pre-Nursery, Nursery and KG. ",
+        "title": "Changes in school timing ",
+        "occupation": "Principal",
+        "salutation": "Vandana Bansal"
+      },
+      {
+        "date": "February 27, 2025",
+        "description": "It is for the information of all concerned that the school will remain closed on 28/02/2028 for the students of Pre-Nursery, Nursery, KG and 1st to 8th in the wake of farewell party to the outgoing students. ",
+        "title": "Farewell Party",
+        "occupation": "Principal",
+        "salutation": "Vandana Bansal"
+      }
+    ],
+    "registrations": {
+      "-OJmCYGEq9r5axCX2m_q": {
+        "address": "121  Himuda Colony  Subh Khera  Paonta Sahib  Distt  Sirmaur  H P",
+        "dob": "2025-02-09",
+        "email": "devbansal4521@gmail.com",
+        "firstName": "Dev",
+        "gender": "Male",
+        "guardianContact": "7018183915",
+        "guardianName": "VJ BANSAL",
+        "lastName": "Bansal",
+        "notes": "HAHA",
+        "phone": "7018183915",
+        "previousSchool": "BBJKMSSS",
+        "standard": "10"
+      }
+    }
+  },
+  "queries": {
+    "-OJ9etqV-3zdb8NwUQNM": {
+      "email": "devbansal4521@gmail.com",
+      "name": "Dev Bansal",
+      "query": "What are the school timings?"
+    }
+  },
+  "school-documents": {
+    "categories": [
+      {
+        "category": "Budiling Safety",
+        "links": [
+          {
+            "name": "2024-35",
+            "url": "https://firebasestorage.googleapis.com/v0/b/global-academy-4921f.firebasestorage.app/o/school-documents%2Fbuilding%20safety%20certificate.pdf?alt=media&token=463c59a6-8fb9-46b2-bace-2cfaaafd2ba2"
+          }
+        ]
+      },
+      {
+        "category": "Fire Safety",
+        "links": [
+          {
+            "name": "2023-24 Student Achievement Report",
+            "url": "https://firebasestorage.googleapis.com/v0/b/global-academy-4921f.firebasestorage.app/o/school-documents%2FNOC%202026.pdf?alt=media&token=72c09adf-11e7-4939-9254-7245c9b1df3a"
+          }
+        ]
+      }
+    ]
+  },
+  "staff-directory": {
+    "staff1": {
+      "name": "Vandana Bansal",
+      "roles": [
+        "Headmistress"
+      ]
+    },
+    "staff2": {
+      "name": "Sunaina",
+      "roles": [
+        "TGT (Arts)"
+      ]
+    },
+    "staff3": {
+      "name": "Usha devi",
+      "roles": [
+        "TGT (Science )"
+      ]
+    },
+    "staff4": {
+      "name": "Jyoti Devi",
+      "roles": [
+        "TGT(Non-Med)"
+      ]
+    },
+    "staff5": {
+      "name": "|Kamlesh Devi",
+      "roles": [
+        "O.T"
+      ]
+    },
+    "staff6": {
+      "name": "Vijeta",
+      "roles": [
+        "L.T"
+      ]
+    },
+    "staff7": {
+      "name": "Lata Devi",
+      "roles": [
+        "Art & Craft"
+      ]
+    },
+    "staff8": {
+      "name": "Kamlesh",
+      "roles": [
+        "PET"
+      ]
+    },
+    "staff9": {
+      "name": "Sonam",
+      "roles": [
+        "Lab attendant-I"
+      ]
+    },
+    "staff10": {
+      "name": "Tabbsum",
+      "roles": [
+        "Clerk"
+      ]
+    },
+    "staff11": {
+      "name": "Meera Devi",
+      "roles": [
+        "Peon"
+      ]
+    },
+    "staff12": {
+      "name": "Parul",
+      "roles": [
+        "Lecturer – English"
+      ]
+    },
+    "staff13": {
+      "name": "Amit Kumar",
+      "roles": [
+        "Lecturer–Physical Education"
+      ]
+    },
+    "staff14": {
+      "name": "Suman",
+      "roles": [
+        "Lecturer–I.T"
+      ]
+    },
+    "staff15": {
+      "name": "Shinani Bansal",
+      "roles": [
+        "Librarian"
+      ]
+    },
+    "staff16": {
+      "name": "Neha devi",
+      "roles": [
+        "Lecturer– Commerce"
+      ]
+    },
+    "staff17": {
+      "name": "Bharti",
+      "roles": [
+        "Lecturer– Commerce"
+      ]
+    },
+    "staff18": {
+      "name": "Vartika",
+      "roles": [
+        "Lecturer – Physics"
+      ]
+    },
+    "staff19": {
+      "name": "Sheilja Kishtwaria",
+      "roles": [
+        "Lecturer – Chemistry"
+      ]
+    },
+    "staff20": {
+      "name": "Vaishali",
+      "roles": [
+        "Lecturer – Biology"
+      ]
+    },
+    "staff21": {
+      "name": "Mohit Tanwar",
+      "roles": [
+        "Lecturer – Mathematics"
+      ]
+    },
+    "staff22": {
+      "name": "Gulshan",
+      "roles": [
+        "Lecturer – Political Science"
+      ]
+    },
+    "staff23": {
+      "name": "Pooja Bansal",
+      "roles": [
+        "Lecturer –History"
+      ]
+    },
+    "staff24": {
+      "name": "Bharti",
+      "roles": [
+        "Lecturer – Economics"
+      ]
+    },
+    "staff25": {
+      "name": "Kumari Anjali",
+      "roles": [
+        "Lecturer – Hindi"
+      ]
+    },
+    "staff26": {
+      "name": "Vasudha Sehgal",
+      "roles": [
+        "Lecturer – Physiology"
+      ]
+    },
+    "staff27": {
+      "name": "Tabassum",
+      "roles": [
+        "Lecturer – Geography"
+      ]
+    },
+    "staff28": {
+      "name": "Rahul Kumar",
+      "roles": [
+        "Lecturer – Sociology"
+      ]
+    },
+    "staff29": {
+      "name": "Vivek Rathor",
+      "roles": [
+        "Karate"
+      ]
+    },
+    "staff30": {
+      "name": "Simran Kaur",
+      "roles": [
+        "English"
+      ]
+    },
+    "staff31": {
+      "name": "Veer Kumar",
+      "roles": [
+        "English speaking"
+      ]
+    },
+    "staff32": {
+      "name": "Mehak",
+      "roles": [
+        "Teacher"
+      ]
+    }
+  },
+  "students": {
+    "council": {
+      "Art Club": [
+        {
+          "image": "https://randomuser.me/api/portraits/women/21.jpg",
+          "name": "Sophia Carter",
+          "position": "President"
+        },
+        {
+          "image": "https://randomuser.me/api/portraits/men/45.jpg",
+          "name": "Daniel Lee",
+          "position": "Vice President"
+        },
+        {
+          "image": "https://randomuser.me/api/portraits/women/22.jpg",
+          "name": "Emily Johnson",
+          "position": "Executive Member 1"
+        },
+        {
+          "image": "https://randomuser.me/api/portraits/men/32.jpg",
+          "name": "Noah Smith",
+          "position": "Executive Member 2"
+        },
+        {
+          "image": "https://randomuser.me/api/portraits/women/43.jpg",
+          "name": "Ava Martinez",
+          "position": "Executive Member 3"
+        }
+      ],
+      "Music Club": [
+        {
+          "image": "https://randomuser.me/api/portraits/women/35.jpg",
+          "name": "Harper Allen",
+          "position": "President"
+        },
+        {
+          "image": "https://randomuser.me/api/portraits/men/36.jpg",
+          "name": "Elijah Young",
+          "position": "Vice President"
+        },
+        {
+          "image": "https://randomuser.me/api/portraits/women/37.jpg",
+          "name": "Charlotte King",
+          "position": "Executive Member 1"
+        },
+        {
+          "image": "https://randomuser.me/api/portraits/men/38.jpg",
+          "name": "William Scott",
+          "position": "Executive Member 2"
+        },
+        {
+          "image": "https://randomuser.me/api/portraits/women/39.jpg",
+          "name": "Amelia Green",
+          "position": "Executive Member 3"
+        }
+      ],
+      "Science Club": [
+        {
+          "image": "https://randomuser.me/api/portraits/men/25.jpg",
+          "name": "Liam Brown",
+          "position": "President"
+        },
+        {
+          "image": "https://randomuser.me/api/portraits/women/26.jpg",
+          "name": "Emma Davis",
+          "position": "Vice President"
+        },
+        {
+          "image": "https://randomuser.me/api/portraits/men/27.jpg",
+          "name": "James Wilson",
+          "position": "Executive Member 1"
+        },
+        {
+          "image": "https://randomuser.me/api/portraits/women/28.jpg",
+          "name": "Olivia Thompson",
+          "position": "Executive Member 2"
+        },
+        {
+          "image": "https://randomuser.me/api/portraits/men/29.jpg",
+          "name": "Benjamin White",
+          "position": "Executive Member 3"
+        }
+      ],
+      "Sports Club": [
+        {
+          "image": "https://randomuser.me/api/portraits/men/30.jpg",
+          "name": "Mason Harris",
+          "position": "President"
+        },
+        {
+          "image": "https://randomuser.me/api/portraits/women/31.jpg",
+          "name": "Sophia Lewis",
+          "position": "Vice President"
+        },
+        {
+          "image": "https://randomuser.me/api/portraits/men/32.jpg",
+          "name": "Ethan Clark",
+          "position": "Executive Member 1"
+        },
+        {
+          "image": "https://randomuser.me/api/portraits/women/33.jpg",
+          "name": "Ava Walker",
+          "position": "Executive Member 2"
+        },
+        {
+          "image": "https://randomuser.me/api/portraits/men/34.jpg",
+          "name": "Logan Hall",
+          "position": "Executive Member 3"
+        }
+      ]
+    },
+    "learning": {
+      "Artificial Intelligence": [
+        {
+          "link": "https://www.coursera.org/learn/machine-learning",
+          "title": "Machine Learning Basics"
+        },
+        {
+          "link": "https://www.deeplearning.ai/",
+          "title": "Neural Networks Explained"
+        },
+        {
+          "link": "https://aiethicslab.com/",
+          "title": "AI Ethics and Society"
+        }
+      ],
+      "History": [
+        {
+          "link": "https://www.history.com/",
+          "title": "Ancient Civilizations Overview"
+        },
+        {
+          "link": "https://www.britannica.com/event/World-War-I",
+          "title": "World War I & II - Detailed Analysis"
+        },
+        {
+          "link": "https://www.historyextra.com/",
+          "title": "Modern History Explained"
+        }
+      ],
+      "Mathematics": [
+        {
+          "link": "https://www.khanacademy.org/math/calculus",
+          "title": "Understanding Calculus - A Beginner's Guide"
+        },
+        {
+          "link": "https://www.mathsisfun.com/algebra/",
+          "title": "Algebra Basics: Equations and Graphs"
+        },
+        {
+          "link": "https://www.khanacademy.org/math/geometry",
+          "title": "Geometry Fundamentals"
+        }
+      ],
+      "Science": [
+        {
+          "link": "https://www.physicsclassroom.com/",
+          "title": "Introduction to Physics"
+        },
+        {
+          "link": "https://www.chemguide.co.uk/",
+          "title": "The Wonders of Chemistry"
+        },
+        {
+          "link": "https://www.biologyonline.com/",
+          "title": "Biology for Beginners"
+        }
+      ]
+    },
+    "studentsLogin": [
+      null,
+      [
+        {
+          "accountActivated": true,
+          "email": "studenta1@gmail.com",
+          "name": "Student A1",
+          "standard": "1",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B1",
+          "standard": "1",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C1",
+          "standard": "1",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D1",
+          "standard": "1",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A2",
+          "standard": "2",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B2",
+          "standard": "2",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C2",
+          "standard": "2",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D2",
+          "standard": "2",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A3",
+          "standard": "3",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B3",
+          "standard": "3",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C3",
+          "standard": "3",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D3",
+          "standard": "3",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A4",
+          "standard": "4",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B4",
+          "standard": "4",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C4",
+          "standard": "4",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D4",
+          "standard": "4",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A5",
+          "standard": "5",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B5",
+          "standard": "5",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C5",
+          "standard": "5",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D5",
+          "standard": "5",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A6",
+          "standard": "6",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B6",
+          "standard": "6",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C6",
+          "standard": "6",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D6",
+          "standard": "6",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A7",
+          "standard": "7",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B7",
+          "standard": "7",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C7",
+          "standard": "7",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D7",
+          "standard": "7",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A8",
+          "standard": "8",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B8",
+          "standard": "8",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C8",
+          "standard": "8",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D8",
+          "standard": "8",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A9",
+          "standard": "9",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B9",
+          "standard": "9",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C9",
+          "standard": "9",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D9",
+          "standard": "9",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A10",
+          "standard": "10",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B10",
+          "standard": "10",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C10",
+          "standard": "10",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D10",
+          "standard": "10",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A11",
+          "standard": "11",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B11",
+          "standard": "11",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C11",
+          "standard": "11",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D11",
+          "standard": "11",
+          "verificationCode": "123456"
+        }
+      ],
+      [
+        {
+          "accountActivated": false,
+          "name": "Student A12",
+          "standard": "12",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student B12",
+          "standard": "12",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student C12",
+          "standard": "12",
+          "verificationCode": "123456"
+        },
+        {
+          "accountActivated": false,
+          "name": "Student D12",
+          "standard": "12",
+          "verificationCode": "123456"
+        }
+      ]
+    ],
+    "timetable": [
+      null,
+      [
+        {
+          "friday": "Mental Math",
+          "monday": "Mental Math",
+          "saturday": "Mental Math",
+          "sunday": "Holiday",
+          "thursday": "Mental Math",
+          "time": "8:50 - 9:05",
+          "tuesday": "Mental Math",
+          "wednesday": "Mental Math"
+        },
+        {
+          "friday": "Gaelic",
+          "monday": "Arabic",
+          "saturday": "General Knowledge",
+          "sunday": "Holiday",
+          "thursday": "Gaelic",
+          "time": "9:05 - 9:45",
+          "tuesday": "Gaelic",
+          "wednesday": "Roll Call"
+        },
+        {
+          "friday": "English",
+          "monday": "Math",
+          "saturday": "Science",
+          "sunday": "Holiday",
+          "thursday": "Math",
+          "time": "9:45 - 10:30",
+          "tuesday": "English",
+          "wednesday": "Math Groups"
+        },
+        {
+          "friday": "Art",
+          "monday": "English",
+          "saturday": "Physical Education",
+          "sunday": "Holiday",
+          "thursday": "Science",
+          "time": "10:30 - 11:10",
+          "tuesday": "Math",
+          "wednesday": "Social Studies"
+        },
+        {
+          "friday": "Literacy Groups",
+          "monday": "Literacy Groups",
+          "saturday": "Drama",
+          "sunday": "Holiday",
+          "thursday": "Literacy Groups",
+          "time": "11:10 - 12:05",
+          "tuesday": "Literacy Groups",
+          "wednesday": "Literacy Groups"
+        },
+        {
+          "friday": "Math",
+          "monday": "Religion",
+          "saturday": "Physical Education",
+          "sunday": "Holiday",
+          "thursday": "Social Studies",
+          "time": "12:05 - 12:45",
+          "tuesday": "Science",
+          "wednesday": "Art"
+        },
+        {
+          "friday": "Snack Break",
+          "monday": "Snack Break",
+          "saturday": "Snack Break",
+          "sunday": "Holiday",
+          "thursday": "Snack Break",
+          "time": "12:45 - 1:00",
+          "tuesday": "Snack Break",
+          "wednesday": "Snack Break"
+        },
+        {
+          "friday": "Golden Time",
+          "monday": "English",
+          "saturday": "Art",
+          "sunday": "Holiday",
+          "thursday": "Physical Education",
+          "time": "1:00 - 1:45",
+          "tuesday": "Drama",
+          "wednesday": "Gaelic"
+        }
+      ],
+      [
+        {
+          "friday": "Mental Math",
+          "monday": "Mental Math",
+          "saturday": "Mental Math",
+          "sunday": "Holiday",
+          "thursday": "Mental Math",
+          "time": "8:50 - 9:05",
+          "tuesday": "Mental Math",
+          "wednesday": "Mental Math"
+        },
+        {
+          "friday": "Gaelic",
+          "monday": "Gaelic",
+          "saturday": "General Knowledge",
+          "sunday": "Holiday",
+          "thursday": "Gaelic",
+          "time": "9:05 - 9:45",
+          "tuesday": "Gaelic",
+          "wednesday": "Roll Call"
+        },
+        {
+          "friday": "English",
+          "monday": "Math",
+          "saturday": "Science",
+          "sunday": "Holiday",
+          "thursday": "Math",
+          "time": "9:45 - 10:30",
+          "tuesday": "English",
+          "wednesday": "Math Groups"
+        },
+        {
+          "friday": "Art",
+          "monday": "English",
+          "saturday": "Physical Education",
+          "sunday": "Holiday",
+          "thursday": "Science",
+          "time": "10:30 - 11:10",
+          "tuesday": "Math",
+          "wednesday": "Social Studies"
+        },
+        {
+          "friday": "Literacy Groups",
+          "monday": "Literacy Groups",
+          "saturday": "Drama",
+          "sunday": "Holiday",
+          "thursday": "Literacy Groups",
+          "time": "11:10 - 12:05",
+          "tuesday": "Literacy Groups",
+          "wednesday": "Literacy Groups"
+        },
+        {
+          "friday": "Math",
+          "monday": "Religion",
+          "saturday": "Physical Education",
+          "sunday": "Holiday",
+          "thursday": "Social Studies",
+          "time": "12:05 - 12:45",
+          "tuesday": "Science",
+          "wednesday": "Art"
+        },
+        {
+          "friday": "Snack Break",
+          "monday": "Snack Break",
+          "saturday": "Snack Break",
+          "sunday": "Holiday",
+          "thursday": "Snack Break",
+          "time": "12:45 - 1:00",
+          "tuesday": "Snack Break",
+          "wednesday": "Snack Break"
+        },
+        {
+          "friday": "Golden Time",
+          "monday": "English",
+          "saturday": "Art",
+          "sunday": "Holiday",
+          "thursday": "Physical Education",
+          "time": "1:00 - 1:45",
+          "tuesday": "Drama",
+          "wednesday": "Gaelic"
+        }
+      ]
+    ]
+  },
+  "testimonials": {
+    "testimonial1": {
+      "feedback": "Volunteering at the school event was a great experience! I loved being part of the community.",
+      "name": "Vikas Gupta"
+    },
+    "testimonial2": {
+      "feedback": "Helping organize the fundraiser was fulfilling. Can't wait for the next one!",
+      "name": "Rishabh Jangid"
+    }
+  },
+  "transportation": {
+    "routes": [
+      {
+        "color": "#FFD700",
+        "id": "routeA",
+        "name": "Route Jamniwala to Paonta Sahib",
+        "stops": [
+          {
+            "name": "Jamniwala",
+            "time": "6:40 AM"
+          },
+          {
+            "name": "Gondpur",
+            "time": "6:40 AM"
+          },
+          {
+            "name": "Amarkot",
+            "time": "6:45 AM"
+          },
+          {
+            "name": "Kanshipur",
+            "time": "6:55 AM"
+          },
+          {
+            "name": "Shivpur",
+            "time": "7:00 AM"
+          },
+          {
+            "name": "Behrewala (Gurudwara)",
+            "time": "7:15 AM"
+          },
+          {
+            "name": "Behrewala (chowk)",
+            "time": "7:15 AM"
+          },
+          {
+            "name": "Defence Colony",
+            "time": "7:20 AM"
+          },
+          {
+            "name": "Behrewala (main road)",
+            "time": "7:20 AM"
+          },
+          {
+            "name": "Devinagar (Shani Mandir)",
+            "time": "7:40 AM"
+          },
+          {
+            "name": "Devinagar",
+            "time": "7:40 AM"
+          },
+          {
+            "name": "Bikaner",
+            "time": "7:45 AM"
+          },
+          {
+            "name": "Market (civil hospital)",
+            "time": "7:50 AM"
+          },
+          {
+            "name": "Devinagar (Shani Mandir)",
+            "time": "7:50 AM"
+          },
+          {
+            "name": "Ekta Colony",
+            "time": "7:55 AM"
+          },
+          {
+            "name": "Chungi No. 6",
+            "time": "7:55 AM"
+          },
+          {
+            "name": "ShubhKhera",
+            "time": "7:55 AM"
+          }
+        ]
+      },
+      {
+        "color": "#32CD32",
+        "id": "routeB",
+        "name": "Route: Majra to Paonta Sahib ",
+        "stops": [
+          {
+            "name": "Majra/Sainwala",
+            "time": "6:40 AM"
+          },
+          {
+            "name": "Misserwala",
+            "time": "6:45 AM"
+          },
+          {
+            "name": "Misserwala (chowk)",
+            "time": "6:50 AM"
+          },
+          {
+            "name": "Kiratpur/Fatehpur",
+            "time": "7:00 AM"
+          },
+          {
+            "name": "Pipliwala/Puruwala",
+            "time": "7:10 AM"
+          },
+          {
+            "name": "Surajpur/Malwa",
+            "time": "7:15 AM"
+          },
+          {
+            "name": "Ranbaxy chowk/ Bhuppur Gas Agency, ",
+            "time": "7:20 AM"
+          },
+          {
+            "name": "Badripur Chowk",
+            "time": "7:25 AM"
+          },
+          {
+            "name": "Matralion",
+            "time": "7:40 AM"
+          },
+          {
+            "name": "Pahari Colony",
+            "time": "7:40 AM"
+          },
+          {
+            "name": "Near Asha Ram Ashram",
+            "time": "7:45 AM"
+          },
+          {
+            "name": "Near Helipad",
+            "time": "7:45 AM"
+          },
+          {
+            "name": "Shirgul Colony",
+            "time": "7:45 AM"
+          },
+          {
+            "name": "Khehra, Rampur Ghat Road",
+            "time": "7:50 AM"
+          }
+        ]
+      }
+    ]
+  },
+  "trendingSection": [
+    null,
+    {
+      "category": "Career Develeopment",
+      "headline": "GAPS organized career session for students interested in space programs from 11-14feb"
+    },
+    {
+      "category": "Meetup Sessions",
+      "headline": "GAPS congratulated and celebrated the Himachal's team that emerged vicotorious in National Womens Kabbadi"
+    },
+    {
+      "category": "Achievements",
+      "headline": "4 students from GAPS won medals in International Karate Competition"
+    },
+    {
+      "category": "Achievements",
+      "headline": "Vansh Bansal, a 7th class student won 4 matches in state chess championship"
+    },
+    {
+      "category": "Growth",
+      "headline": "GAPS takes the first step in the AI based education by implementing change management"
+    },
+    {
+      "category": "Workshops",
+      "headline": "GAPS to organize 4 Advanced Maths workshops for students"
+    },
+    {
+      "category": "Growth",
+      "headline": "GAPS to open 3 new sports academy under its banner"
+    },
+    {
+      "category": "Meetup Sessions",
+      "headline": "Director of GAPS invited for annual prize distribution ceremony"
+    },
+    {
+      "category": "Awards",
+      "headline": "GAPS gives out 4 scholarships in 2024 to help students advance in their career"
+    },
+    {
+      "category": "Growth",
+      "headline": "GAPS to invest heavily in the AI, coding infrastructure"
+    }
+  ],
+  "volunteers": {
+    "volunteer1": {
+      "email": "johndoe@example.com",
+      "interest": "Event Planning",
+      "name": "John Doe",
+      "phone": "123-456-7890"
+    },
+    "volunteer2": {
+      "email": "janesmith@example.com",
+      "interest": "Student Tutoring",
+      "name": "Jane Smith",
+      "phone": "987-654-3210"
+    }
+  }
+}

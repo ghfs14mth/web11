@@ -1,162 +1,140 @@
-import React, { useState } from "react";
+import React, { useActionState } from "react";
 import { database } from "../../firebase"; // Ensure Firebase is properly set up
 import { ref, push } from "firebase/database";
 import "./AdmissionForm.css";
 
 const AdmissionForm = () => {
-    const [formData, setFormData] = useState({
-        fullName: "",
-        email: "",
-        phone: "",
+    // Define initial form state
+    const initialState = {
+        studentName: "",
         dob: "",
-        gender: "",
-        nationality: "",
-        address: "",
-        previousSchool: "",
-        guardianName: "",
-        guardianPhone: "",
-    });
-    
-    const [loading, setLoading] = useState(false);
-    const [errors, setErrors] = useState({});
-
-    const validateForm = () => {
-        let newErrors = {};
-        if (!formData.fullName.trim()) newErrors.fullName = "Full Name is required";
-        if (!/^[a-zA-Z ]{2,}$/.test(formData.fullName)) newErrors.fullName = "Invalid name format";
-
-        if (!formData.email.trim()) newErrors.email = "Email is required";
-        if (!/^\S+@\S+\.\S+$/.test(formData.email)) newErrors.email = "Invalid email format";
-
-        if (!formData.phone.trim()) newErrors.phone = "Phone number is required";
-        if (!/^\d{10}$/.test(formData.phone)) newErrors.phone = "Enter a valid 10-digit number";
-
-        if (!formData.dob) newErrors.dob = "Date of Birth is required";
-        if (!formData.gender) newErrors.gender = "Select your gender";
-        if (!formData.nationality.trim()) newErrors.nationality = "Nationality is required";
-        if (!formData.address.trim()) newErrors.address = "Address is required";
-        if (!formData.previousSchool.trim()) newErrors.previousSchool = "Enter previous school name";
-
-        if (!formData.guardianName.trim()) newErrors.guardianName = "Guardian's Name is required";
-        if (!/^[a-zA-Z ]{2,}$/.test(formData.guardianName)) newErrors.guardianName = "Invalid guardian name";
-
-        if (!formData.guardianPhone.trim()) newErrors.guardianPhone = "Guardian's Phone is required";
-        if (!/^\d{10}$/.test(formData.guardianPhone)) newErrors.guardianPhone = "Enter a valid 10-digit number";
-
-        setErrors(newErrors);
-        return Object.keys(newErrors).length === 0;
+        fatherName: "",
+        fatherQualification: "",
+        fatherOccupation: "",
+        motherName: "",
+        motherQualification: "",
+        annualIncome: "",
+        houseNo: "",
+        village: "",
+        postOffice: "",
+        tehsil: "",
+        district: "",
+        state: "",
+        phoneFather: "",
+        phoneMother: "",
+        studentClass: ""
     };
 
-    const handleChange = (e) => {
-        setFormData({ ...formData, [e.target.name]: e.target.value });
-    };
+    // useActionState to manage form submission
+    const [formData, submitForm, isSubmitting] = useActionState(
+        async (state, e) => {
+            e.preventDefault();
+            // Validate form
+            if (!state.studentName.trim()) return { error: "Student Name is required" };
+            if (!state.dob) return { error: "Date of Birth is required" };
+            if (!state.fatherName.trim()) return { error: "Father’s Name is required" };
+            if (!state.motherName.trim()) return { error: "Mother’s Name is required" };
+            if (!state.annualIncome.trim()) return { error: "Annual Income is required" };
+            if (!state.phoneFather.trim() || !/^\d{10}$/.test(state.phoneFather))
+                return { error: "Valid Father’s Phone Number is required" };
+            if (!state.phoneMother.trim() || !/^\d{10}$/.test(state.phoneMother))
+                return { error: "Valid Mother’s Phone Number is required" };
+            if (!state.studentClass) return { error: "Please select a class" };
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        
-        if (!validateForm()) return; // ✅ Fix: Stop submission if validation fails
-        
-        setLoading(true);
-        try {
-            const admissionsRef = ref(database, "admissions/forms"); // ✅ Reference to Realtime DB
-            await push(admissionsRef, formData); // ✅ Push form data to Firebase
-    
-            alert("Form submitted successfully! ✅");
-    
-            // ✅ Clear the form correctly after submission
-            setFormData({
-                fullName: "",
-                email: "",
-                phone: "",
-                dob: "",
-                gender: "",
-                nationality: "",
-                address: "",
-                previousSchool: "",
-                guardianName: "",
-                guardianPhone: "",
-            });
-    
-        } catch (error) {
-            console.error("Error submitting form:", error);
-            alert("❌ Error submitting form. Please try again.");
-        } finally {
-            setLoading(false);
-        }
-    };
-
+            try {
+                const admissionsRef = ref(database, "admissions/forms");
+                await push(admissionsRef, state);
+                alert("Form submitted successfully!");
+                return initialState; // Reset form
+            } catch (error) {
+                console.error("Error submitting form:", error);
+                return { error: "Error submitting form. Please try again." };
+            }
+        },
+        initialState
+    );
 
     return (
         <div className="admission-form-container">
-            <h2>Student Admission Form</h2>
-            <form onSubmit={handleSubmit}>
-                <div className="form-group">
-                    <label>Full Name:</label>
-                    <input type="text" name="fullName" placeholder="Enter full name" value={formData.fullName} onChange={handleChange} />
-                    {errors.fullName && <span className="error">{errors.fullName}</span>}
+            <h2 className="school-name">Global Academy Public School</h2>
+            <p className="school-details">
+                HIMUDA Colony, Shubh Khera, Paonta Sahib (HP) | Phone: 9418085224, 8219965912
+            </p>
+            <h3 className="form-title">REGISTRATION FORM (SESSION 2025-2026)</h3>
+
+            <form id="admission-form" name="admission-form" onSubmit={submitForm}>
+                <div className="form-group-admission">
+                    <label htmlFor="student-name">Name of the Student:</label>
+                    <input id="student-name" type="text" name="studentName" value={formData.studentName} onChange={submitForm} />
                 </div>
 
-                <div className="form-group">
-                    <label>Email:</label>
-                    <input type="email" name="email" placeholder="Enter email address" value={formData.email} onChange={handleChange} />
-                    {errors.email && <span className="error">{errors.email}</span>}
+                <div className="form-group-admission">
+                    <label htmlFor="dob">Date of Birth:</label>
+                    <input id="dob" type="date" name="dob" value={formData.dob} onChange={submitForm} />
                 </div>
 
-                <div className="form-group">
-                    <label>Phone:</label>
-                    <input type="text" name="phone" placeholder="Enter phone number (10 digits)" value={formData.phone} onChange={handleChange} />
-                    {errors.phone && <span className="error">{errors.phone}</span>}
-                </div>
-
-                <div className="form-group">
-                    <label>Date of Birth:</label>
-                    <input type="date" name="dob" value={formData.dob} onChange={handleChange} />
-                    {errors.dob && <span className="error">{errors.dob}</span>}
-                </div>
-
-                <div className="form-group">
-                    <label>Gender:</label>
-                    <select name="gender" value={formData.gender} onChange={handleChange}>
-                        <option value="">Select</option>
-                        <option value="Male">Male</option>
-                        <option value="Female">Female</option>
-                        <option value="Other">Other</option>
+                <div className="form-group-admission">
+                    <label htmlFor="student-class">Class:</label>
+                    <select id="student-class" name="studentClass" value={formData.studentClass} onChange={submitForm} className="dropdown-admission-form">
+                        <option value="">Select Class</option>
+                        {[...Array(12).keys()].map((num) => (
+                            <option key={num + 1} value={num + 1}>
+                                {num + 1}
+                            </option>
+                        ))}
                     </select>
-                    {errors.gender && <span className="error">{errors.gender}</span>}
                 </div>
 
-                <div className="form-group">
-                    <label>Nationality:</label>
-                    <input type="text" name="nationality" placeholder="Enter nationality" value={formData.nationality} onChange={handleChange} />
-                    {errors.nationality && <span className="error">{errors.nationality}</span>}
+                <div className="form-group-admission">
+                    <label htmlFor="father-name">Father’s Name:</label>
+                    <input id="father-name" type="text" name="fatherName" value={formData.fatherName} onChange={submitForm} />
                 </div>
 
-                <div className="form-group">
-                    <label>Address:</label>
-                    <input type="text" name="address" placeholder="Enter full address" value={formData.address} onChange={handleChange} />
-                    {errors.address && <span className="error">{errors.address}</span>}
+                <div className="form-group-admission">
+                    <label htmlFor="father-qualification">Father’s Qualification:</label>
+                    <input id="father-qualification" type="text" name="fatherQualification" value={formData.fatherQualification} onChange={submitForm} />
                 </div>
 
-                <div className="form-group">
-                    <label>Previous School:</label>
-                    <input type="text" name="previousSchool" placeholder="Enter previous school name" value={formData.previousSchool} onChange={handleChange} />
-                    {errors.previousSchool && <span className="error">{errors.previousSchool}</span>}
+                <div className="form-group-admission">
+                    <label htmlFor="father-occupation">Father’s Occupation:</label>
+                    <input id="father-occupation" type="text" name="fatherOccupation" value={formData.fatherOccupation} onChange={submitForm} />
                 </div>
 
-                <div className="form-group">
-                    <label>Guardian's Name:</label>
-                    <input type="text" name="guardianName" placeholder="Enter guardian's name" value={formData.guardianName} onChange={handleChange} />
-                    {errors.guardianName && <span className="error">{errors.guardianName}</span>}
+                <div className="form-group-admission">
+                    <label htmlFor="mother-name">Mother’s Name:</label>
+                    <input id="mother-name" type="text" name="motherName" value={formData.motherName} onChange={submitForm} />
                 </div>
 
-                <div className="form-group">
-                    <label>Guardian's Phone:</label>
-                    <input type="text" name="guardianPhone" placeholder="Enter guardian's phone number" value={formData.guardianPhone} onChange={handleChange} />
-                    {errors.guardianPhone && <span className="error">{errors.guardianPhone}</span>}
+                <div className="form-group-admission">
+                    <label htmlFor="mother-qualification">Mother’s Qualification:</label>
+                    <input id="mother-qualification" type="text" name="motherQualification" value={formData.motherQualification} onChange={submitForm} />
                 </div>
 
-                <button type="submit" className="submit-button" disabled={loading}>
-                    {loading ? "Submitting..." : "Submit"}
+                <div className="form-group-admission">
+                    <label htmlFor="annual-income">Annual Income (from all sources): Rs.</label>
+                    <input id="annual-income" type="text" name="annualIncome" value={formData.annualIncome} onChange={submitForm} />
+                </div>
+
+                <h4>Address</h4>
+                <div className="form-group-admission">
+                    <label htmlFor="house-no">House No.:</label>
+                    <input id="house-no" type="text" name="houseNo" value={formData.houseNo} onChange={submitForm} />
+                </div>
+
+                <div className="form-group-admission">
+                    <label htmlFor="phoneFather">Phone (Father):</label>
+                    <input id="phoneFather" type="text" name="phoneFather" value={formData.phoneFather} onChange={submitForm} />
+                </div>
+                
+                <div className="form-group-admission">
+                    <label htmlFor="phoneMother">Phone (Mother):</label>
+                    <input id="phoneMother" type="text" name="phoneMother" value={formData.phoneMother} onChange={submitForm} />
+                </div>
+
+                {formData.error && <p className="error">{formData.error}</p>}
+
+                <button name="submit-button" id="submit-button" type="submit" className="submit-button" disabled={isSubmitting}>
+                    {isSubmitting ? "Submitting..." : "Submit"}
                 </button>
             </form>
         </div>

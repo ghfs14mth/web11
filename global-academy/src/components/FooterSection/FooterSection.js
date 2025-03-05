@@ -8,7 +8,7 @@ const FooterSection = () => {
         <footer className="footer-section">
             <div className="footer-top">
                 <div className="footer-column school-info">
-                    <img src={schoolLogo} alt="School Logo" className="school-logo" />
+                    <img src={schoolLogo} alt="School-footer-Logo" className="school-footer-logo" />
                     <h2 className="school-name">Global Academy </h2>
                     <h2 className="school-name">Public School</h2>
                 </div>

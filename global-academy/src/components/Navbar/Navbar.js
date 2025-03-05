@@ -37,10 +37,6 @@ const Navbar = () => {
           <h1 className="navbar-title">Global Academy</h1>
           <p className="navbar-tagline">"Future Ready with AI & Maths"</p>
         </div>
-        <div className="navbar-title-container-mobile">
-          <h1 className="navbar-title-mobile">GAPS</h1>
-          <p className="navbar-tagline-mobile">"Future Ready with AI & Maths"</p>
-        </div>
       </div>
       <div className={`navbar-right ${showMenu === true ? "show-menu" : ""} ${showMenu === false ? "hide-menu" : ""}`}>
         <Link to="/" className={`navbar-link ${isActive("/") ? "active" : ""}`} onClick={handleLinkClick}>

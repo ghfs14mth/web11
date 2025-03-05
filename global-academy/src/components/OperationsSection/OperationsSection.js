@@ -19,14 +19,42 @@ const OperationsSection = () => {
 
   return (
     <div className="operations-section">
-      {operations.map((item) => (
-        <Link to={item.link} key={item.id} className="operation-item">
-          <div className="operation-icon">
-            <img src={item.icon} alt={item.title} />
-          </div>
-          <div className="operation-title">{item.title}</div>
-        </Link>
-      ))}
+      <Link to={"/academics/calendar"} className="operation-item">
+        <div className="operation-icon">
+          <img src={"/icons/calendar-icon.svg"} alt={"calendar-icon"} />
+        </div>
+        <div className="operation-title">Academic Calendar</div>
+      </Link>
+      <Link to={"/students/handbook"} className="operation-item">
+        <div className="operation-icon">
+          <img src={"/icons/code-icon.svg"} alt={"/icons/code-icon.svg"} />
+        </div>
+        <div className="operation-title">Student Handbook</div>
+      </Link>
+      <Link to={"/operations/menus"} className="operation-item">
+        <div className="operation-icon">
+          <img src={"/icons/menu-icon.svg"} alt={"/icons/menu-icon.svg"} />
+        </div>
+        <div className="operation-title">School Menus</div>
+      </Link>
+      <Link to={"/students"} className="operation-item">
+        <div className="operation-icon">
+          <img src={"/icons/login-icon.svg"} alt={"/icons/login-icon.svg"} />
+        </div>
+        <div className="operation-title">Clever Login</div>
+      </Link>
+      <Link to={"/parents/transportation"} className="operation-item">
+        <div className="operation-icon">
+          <img src={"/icons/transport-icon.svg"} alt={"/icons/transport-icon.svg"} />
+        </div>
+        <div className="operation-title">Transportation</div>
+      </Link>
+      <Link to={"/volunteer"} className="operation-item">
+        <div className="operation-icon">
+          <img src={"/icons/volunteer-icon.svg"} alt={"volunteer-icon"} />
+        </div>
+        <div className="operation-title">Volunteer</div>
+      </Link>
     </div>
   );
 };

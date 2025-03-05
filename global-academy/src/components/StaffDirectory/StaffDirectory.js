@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./StaffDirectory.css"; // Include custom CSS file for styling
 import { getDatabase, ref, onValue } from "firebase/database"; // Firebase Realtime Database imports
-import staff from '../../assets/staff.jpg';
+import staff from '../../assets/staff.jpeg';
 const StaffDirectory = () => {
     const [staffData, setStaffData] = useState([]);
 

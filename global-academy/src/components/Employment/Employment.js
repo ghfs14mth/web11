@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { getDatabase, ref, push,onValue } from "firebase/database";
 import { getStorage, ref as storageRef, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import "./Employment.css";
-import staff from "../../assets/staff.jpg";
+import staff from "../../assets/staff.jpeg";
 
 const Employment = () => {
   const [teacherData, setTeacherData] = useState([]);
